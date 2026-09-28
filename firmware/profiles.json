@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "bytecodeVersion": 1,
+  "profiles": [
+    {
+      "id": "atmega328p",
+      "firmware": "avr-runtime.hex",
+      "flashByteOffset": 24576,
+      "bytesPerInstruction": 1,
+      "bytecodeLimit": 4096,
+      "variableLimit": 16,
+      "stackLimit": 32,
+      "traceAddress": 307,
+      "errorAddress": 309,
+      "clockHz": 16000000,
+      "gpio": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "pwm": [
+        5,
+        6
+      ],
+      "adc": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "pic16f877a",
+      "firmware": "pic-runtime.hex",
+      "flashByteOffset": 8192,
+      "bytesPerInstruction": 2,
+      "bytecodeLimit": 4096,
+      "variableLimit": 16,
+      "stackLimit": 32,
+      "traceAddress": 122,
+      "errorAddress": 124,
+      "clockHz": 4000000,
+      "gpio": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "pwm": [
+        16
+      ],
+      "adc": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

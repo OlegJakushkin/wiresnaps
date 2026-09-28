@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "catalogueVersion": "2026-09-27.1",
+  "templates": [
+    {
+      "id": "sun-chaser",
+      "name": "Sun Chaser",
+      "group": "Power",
+      "description": "Catch sunshine and make a light shine.",
+      "steps": [
+        "The circuit is already running: catch the sunshine.",
+        "Open Surroundings and move Sunshine down, then up.",
+        "Watch the LED change with the available energy."
+      ],
+      "expected": "Catch sunshine and make a light shine.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "battery-team",
+      "name": "Battery Team",
+      "group": "Power",
+      "description": "Two battery packs work together for a six-volt bulb.",
+      "steps": [
+        "Follow the connection between the two battery packs.",
+        "Watch the six-volt bulb.",
+        "Select each battery to compare its voltage."
+      ],
+      "expected": "Two battery packs work together for a six-volt bulb.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "rainbow-row",
+      "name": "Rainbow Row",
+      "group": "Lights",
+      "description": "Make three colours glow side by side.",
+      "steps": [
+        "Find all three colours.",
+        "Turn on Dark Night to see their light spill.",
+        "Select each LED and compare the current."
+      ],
+      "expected": "Make three colours glow side by side.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "firefly-jar",
+      "name": "Firefly Jar",
+      "group": "Lights",
+      "description": "Store a little energy and watch it fade into light.",
+      "steps": [
+        "Hold the yellow button for two seconds.",
+        "Release the button and watch the little light fade.",
+        "The capacitor is giving back its stored energy."
+      ],
+      "expected": "Store a little energy and watch it fade into light.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "reverse-fan",
+      "name": "Reverse the Fan",
+      "group": "Motion",
+      "description": "Change the connections to change the spin.",
+      "steps": [
+        "Watch the fan.",
+        "Select the motor and choose Swap the two ends. Its blue snap paths stay in place.",
+        "Watch the motor slow down and turn the other way."
+      ],
+      "expected": "Change the connections to change the spin.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "wind-watts",
+      "name": "Wind Makes Watts",
+      "group": "Motion",
+      "description": "Wind turns a generator into a tiny power station.",
+      "steps": [
+        "Watch the wind turn the fan.",
+        "Move Wind in Surroundings and watch the meter.",
+        "The moving motor is making electricity."
+      ],
+      "expected": "Wind turns a generator into a tiny power station.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "tap-secret",
+      "name": "Tap a Secret",
+      "group": "Controls",
+      "description": "Send a secret message with short and long flashes.",
+      "steps": [
+        "Hold and release the yellow button.",
+        "Try three short flashes, then one long flash.",
+        "Ask someone to repeat your message."
+      ],
+      "expected": "Send a secret message with short and long flashes.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "dimmer-detective",
+      "name": "Dimmer Detective",
+      "group": "Controls",
+      "description": "Turn the yellow dial to change a light.",
+      "steps": [
+        "Select the adjustable resistor.",
+        "Drag the yellow handle left or right.",
+        "A small change near the bright end makes a big difference."
+      ],
+      "expected": "Turn the yellow dial to change a light.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "one-way",
+      "name": "One-Way Gate",
+      "group": "Electronics",
+      "description": "Discover which way a diode lets current flow.",
+      "steps": [
+        "Watch current pass through the diode.",
+        "Select the diode and choose Swap the two ends. Its blue snap paths stay in place.",
+        "The one-way gate now stops the light."
+      ],
+      "expected": "Discover which way a diode lets current flow.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "tiny-switch",
+      "name": "Tiny Switch, Big Job",
+      "group": "Electronics",
+      "description": "A small button asks a transistor to run a motor.",
+      "steps": [
+        "Hold the yellow button.",
+        "Watch the motor turn while the transistor carries its current.",
+        "Release the button to stop asking for power."
+      ],
+      "expected": "A small button asks a transistor to run a motor.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "wire-flyover",
+      "name": "Wire Flyover",
+      "group": "Building",
+      "description": "Let two paths cross while their plastic keeps them apart.",
+      "steps": [
+        "Use Top view to find the crossing.",
+        "Use Exploded layers to see the gap between the paths.",
+        "Try the slide switch."
+      ],
+      "expected": "Let two paths cross while their plastic keeps them apart.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "lighthouse",
+      "name": "Lighthouse Tower",
+      "group": "Building",
+      "description": "Stack connector pairs to lift a beacon above the board.",
+      "steps": [
+        "Use Exploded layers to count the stacked connectors.",
+        "Return to normal view and watch the beacon.",
+        "Look at the beacon in Dark Night."
+      ],
+      "expected": "Stack connector pairs to lift a beacon above the board.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "traffic-code",
+      "name": "Traffic-Light Dance",
+      "group": "Computers",
+      "description": "An AVR follows your blocks to change three traffic lights.",
+      "code": true,
+      "steps": [
+        "Watch the lights take turns.",
+        "Open Code and change one waiting time.",
+        "Send your blocks to the controller, and watch your new dance."
+      ],
+      "expected": "The controller changes electrical pins and the connected light responds.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "dial-code",
+      "name": "Dial-a-Glow",
+      "group": "Computers",
+      "description": "A PIC reads a real button and dial, then drives its LED pin.",
+      "code": true,
+      "steps": [
+        "Hold the yellow button.",
+        "Release it, move the dial, then hold the button again. Compare the glow.",
+        "Open Code to see how the input controls the output."
+      ],
+      "expected": "The controller changes electrical pins and the connected light responds.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "gear-buddies",
+      "name": "Gear Buddies",
+      "group": "Motion",
+      "extra": true,
+      "description": "Two supported gears turn together: one slower, one faster.",
+      "hardware": {
+        "note": "Elenco lists 1-inch GEAR1 and 1.75-inch GEAR2 parts. Their outer sizes inform these models; tooth counts (12/22), axle adapters, bearing stand and friction are estimates. Use compatible shafts and your kit’s actual tooth counts for a physical build; do not assume the stand is a supplied Snap Circuits part.",
+        "sources": [
+          {
+            "title": "Elenco parts catalogue: gears and geared motor",
+            "url": "https://www.elenco.com/wp-content/uploads/2022/02/Snap-Circuits_Order-Form.pdf"
+          }
+        ]
+      },
+      "steps": [
+        "Click the green slide switch to stop and start the gears.",
+        "Follow the white marks: the bigger gear turns slower and the other way.",
+        "Select the big gear and hold it still. The motor’s current rises. Release it again."
+      ],
+      "expected": "Two supported gears turn together: one slower, one faster.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "relay-race",
+      "name": "Relay Light Swap",
+      "group": "Electronics",
+      "extra": true,
+      "description": "An electromagnet chooses between two lights on a separate battery.",
+      "hardware": {
+        "note": "S3 is a changeover relay: identify its coil, common, normally open and normally closed contacts from your manual. Use two separate 3 V supplies and a 100 Ω resistor for each LED. Our coil resistance, pickup threshold and snap layout are estimates, so this is a functional equivalent, not an exact S3 construction diagram.",
+        "sources": [
+          {
+            "title": "Elenco STEM: relay and separate coil/contact circuits",
+            "url": "https://elenco.com/wp-content/uploads/2017/05/SC_STEM1_manual_PRINT_Small.pdf"
+          }
+        ]
+      },
+      "steps": [
+        "Click the slide switch: green and red take turns.",
+        "The coil battery pulls a tiny switch inside the relay. The other battery powers the lights.",
+        "Hover over a blue connector or cable to follow its path. The two battery loops stay separate."
+      ],
+      "expected": "An electromagnet chooses between two lights on a separate battery.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "npn-lantern",
+      "name": "NPN Lantern",
+      "group": "Electronics",
+      "extra": true,
+      "description": "A tiny base current opens the light’s path back to the battery.",
+      "hardware": {
+        "note": "Functional build with B1 (3 V), S1, Q2, R1 (100 Ω), R2 (1 kΩ), R4 (10 kΩ) and D1. Znatok counterparts are shown in Real-life labels. Match B/C/E by label, not by body orientation. Keep the external LED resistor; kit LEDs may also contain protection.",
+        "sources": [
+          {
+            "title": "Elenco: NPN and PNP parts and circuits",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ]
+      },
+      "steps": [
+        "Click the slide switch to turn the lantern off and on.",
+        "Find B, C and E on the NPN. The little base signal lets current return through C to E.",
+        "The 1 kΩ resistor limits base current; the 10 kΩ resistor makes sure the transistor turns off."
+      ],
+      "expected": "A tiny base current opens the light’s path back to the battery.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "pnp-lantern",
+      "name": "PNP Lantern",
+      "group": "Electronics",
+      "extra": true,
+      "description": "This transistor switches the light from the battery’s plus side.",
+      "hardware": {
+        "note": "Uses the same values as NPN Lantern, with Q1 (PNP). Its emitter goes to battery +. Follow the labelled terminals: exchanging NPN and PNP without rewiring does not work.",
+        "sources": [
+          {
+            "title": "Elenco: NPN and PNP parts and circuits",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ]
+      },
+      "steps": [
+        "Click the slide switch to turn the lantern off and on.",
+        "The emitter E is at battery +. A base path towards − turns this PNP on.",
+        "Compare with NPN Lantern: the transistor is on the other side of the light."
+      ],
+      "expected": "This transistor switches the light from the battery’s plus side.",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "transistor-team",
+      "name": "NPN + PNP Team",
+      "group": "Electronics",
+      "extra": true,
+      "description": "The NPN asks the PNP to turn on a light. Follow the message!",
+      "hardware": {
+        "note": "Functional build with Q2 + Q1, a 3 V B1, S1, D1, one 100 Ω, two 1 kΩ and two 10 kΩ resistors. Some kits need extra resistors. Match B/C/E and use the terminal guide; this is an original circuit, not a numbered manufacturer project.",
+        "sources": [
+          {
+            "title": "Elenco: NPN and PNP parts and circuits",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ]
+      },
+      "steps": [
+        "Click the slide switch and watch the light.",
+        "Follow the NPN collector to the PNP base resistor: one transistor asks the other to switch.",
+        "Turn it off. Both 10 kΩ resistors help their transistors return to the off state."
+      ],
+      "expected": "The NPN asks the PNP to turn on a light. Follow the message!",
+      "variation": "Change one control or connection, predict the result, then try it."
+    },
+    {
+      "id": "break-bulb",
+      "name": "Filament Flash",
+      "group": "Lights",
+      "description": "Find out why a small bulb cannot take a big electrical push.",
+      "danger": true,
+      "steps": [
+        "This is a virtual experiment. Never copy it with real parts.",
+        "Press Run and watch the condition and current readings.",
+        "Select the broken part, replace it, then try Guided mode."
+      ],
+      "expected": "The intended part fails and stays broken until you replace it.",
+      "variation": "Compare the same circuit in Guided mode: it pauses before damage."
+    },
+    {
+      "id": "break-led",
+      "name": "The Missing Resistor",
+      "group": "Electronics",
+      "description": "Watch an unprotected LED fail, then discover its protector.",
+      "danger": true,
+      "steps": [
+        "This is a virtual experiment. Never copy it with real parts.",
+        "Press Run and watch the condition and current readings.",
+        "Select the broken part, replace it, then try Guided mode."
+      ],
+      "expected": "The intended part fails and stays broken until you replace it.",
+      "variation": "Compare the same circuit in Guided mode: it pauses before damage."
+    },
+    {
+      "id": "break-npn",
+      "name": "One Load Too Many",
+      "group": "Electronics",
+      "description": "Three loads ask an NPN for more current than it can carry.",
+      "danger": true,
+      "steps": [
+        "This is a virtual experiment. Never copy it with real parts.",
+        "Press Run and watch the condition and current readings.",
+        "Select the broken part, replace it, then try Guided mode."
+      ],
+      "expected": "The intended part fails and stays broken until you replace it.",
+      "variation": "Compare the same circuit in Guided mode: it pauses before damage."
+    },
+    {
+      "id": "break-motor",
+      "name": "The Stuck Motor",
+      "group": "Motion",
+      "description": "A blocked axle turns electrical energy into too much heat.",
+      "danger": true,
+      "steps": [
+        "This is a virtual experiment. Never copy it with real parts.",
+        "Press Run and watch the condition and current readings.",
+        "Select the broken part, replace it, then try Guided mode."
+      ],
+      "expected": "The intended part fails and stays broken until you replace it.",
+      "variation": "Compare the same circuit in Guided mode: it pauses before damage."
+    },
+    {
+      "id": "npn-sensor",
+      "name": "NPN Night Watch",
+      "group": "Electronics",
+      "extra": true,
+      "transistorType": "npn",
+      "description": "An automatic night light with just one NPN transistor.",
+      "steps": [
+        "It starts at night. Watch your automatic night light.",
+        "Press Dark Night to swap between night and day. The light sensor changes the signal at B.",
+        "In daylight, the sensor carries the base signal away to −. At night, the resistor lets the NPN turn on."
+      ],
+      "expected": "Darkness turns the LED on; daylight turns it off.",
+      "variation": "In daylight, change Sunshine under Surroundings to explore the point where the LED changes.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q2 NPN and no opposite-type transistor or computer. Use RP, R4 (10 kΩ), R1 (100 Ω), S1 and D1. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    },
+    {
+      "id": "npn-timer",
+      "name": "NPN Porch Timer",
+      "group": "Electronics",
+      "extra": true,
+      "transistorType": "npn",
+      "description": "A useful light that stays on briefly after you release the button. One NPN does the switching.",
+      "steps": [
+        "Hold the yellow button for one or two seconds to fill the capacitor with energy.",
+        "Let go. The transistor keeps the light on while the capacitor’s signal slowly fades.",
+        "The capacitor keeps B above the emitter for a while, then the light goes out."
+      ],
+      "expected": "The LED stays lit briefly after release, then fades out. A longer button press stores more energy.",
+      "variation": "Compare a short press with a long press. Predict which gives the longer glow.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q2 NPN and no opposite-type transistor or computer. Use S2, C5 (470 µF), R2 (1 kΩ), R4 (10 kΩ), R3 (5.1 kΩ), R1 (100 Ω) and D1. Keep the capacitor’s + end at the higher voltage. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    },
+    {
+      "id": "npn-fan",
+      "name": "NPN Desk Fan",
+      "group": "Motion",
+      "extra": true,
+      "transistorType": "npn",
+      "description": "Use a small dial to control a fan through one NPN transistor.",
+      "steps": [
+        "The fan starts running. Click the slide switch to stop and start it.",
+        "Select the dial and slide its handle. Compare a low setting near 0.05 with a setting near 0.6.",
+        "The dial sends a small signal to B. The NPN carries the motor current; the diode catches the motor’s switch-off pulse."
+      ],
+      "expected": "The dial changes the motor’s current and speed. The switch stops supplying energy and the fan coasts down.",
+      "variation": "Try turning the dial halfway, then almost all the way. Watch the motor’s current as well as its speed.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q2 NPN and no opposite-type transistor or computer. Use RV (50 kΩ), R2 (1 kΩ), R4 (10 kΩ), S1, M1 with fan, and D3. Check the diode band and motor current. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    },
+    {
+      "id": "pnp-sensor",
+      "name": "PNP Sunrise Beacon",
+      "group": "Electronics",
+      "extra": true,
+      "transistorType": "pnp",
+      "description": "A daylight signal with just one PNP transistor.",
+      "steps": [
+        "Sunshine turns on the beacon. It could tell you when it is time to open the curtains.",
+        "Press Dark Night to swap between night and day. The light sensor changes the signal at B.",
+        "In daylight, the sensor pulls the base below the emitter at +. That turns the PNP on. Darkness lets it turn off."
+      ],
+      "expected": "Daylight turns the LED on; darkness turns it off.",
+      "variation": "In daylight, change Sunshine under Surroundings to explore the point where the LED changes.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q1 PNP and no opposite-type transistor or computer. Use RP, R4 (10 kΩ), R1 (100 Ω), S1 and D1. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    },
+    {
+      "id": "pnp-timer",
+      "name": "PNP Courtesy Light",
+      "group": "Electronics",
+      "extra": true,
+      "transistorType": "pnp",
+      "description": "A useful light that stays on briefly after you release the button. One PNP does the switching.",
+      "steps": [
+        "Hold the yellow button for one or two seconds to fill the capacitor with energy.",
+        "Let go. The transistor keeps the light on while the capacitor’s signal slowly fades.",
+        "The capacitor keeps B below the emitter for a while, then the light goes out."
+      ],
+      "expected": "The LED stays lit briefly after release, then fades out. A longer button press stores more energy.",
+      "variation": "Compare a short press with a long press. Predict which gives the longer glow.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q1 PNP and no opposite-type transistor or computer. Use S2, C5 (470 µF), R2 (1 kΩ), R4 (10 kΩ), R3 (5.1 kΩ), R1 (100 Ω) and D1. Keep the capacitor’s + end at the higher voltage. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    },
+    {
+      "id": "pnp-fan",
+      "name": "PNP Breeze Dial",
+      "group": "Motion",
+      "extra": true,
+      "transistorType": "pnp",
+      "description": "Use a small dial to control a fan through one PNP transistor.",
+      "steps": [
+        "The fan starts running. Click the slide switch to stop and start it.",
+        "Select the dial and slide its handle. Compare a low setting near 0.05 with a setting near 0.6.",
+        "The dial sends a small signal to B. The PNP carries the motor current; the diode catches the motor’s switch-off pulse."
+      ],
+      "expected": "The dial changes the motor’s current and speed. The switch stops supplying energy and the fan coasts down.",
+      "variation": "Try turning the dial halfway, then almost all the way. Watch the motor’s current as well as its speed.",
+      "hardware": {
+        "sources": [
+          {
+            "title": "Elenco: Q2 NPN, Q1 PNP and component values",
+            "url": "https://www.elenco.com/wp-content/uploads/2017/10/753285-2.pdf"
+          }
+        ],
+        "note": "Original 3 V circuit using exactly one Q1 PNP and no opposite-type transistor or computer. Use RV (50 kΩ), R2 (1 kΩ), R4 (10 kΩ), S1, M1 with fan, and D3. Check the diode band and motor current. Follow B/C/E and the terminal guide. Kit values, sensor thresholds and timing vary; this is a functional circuit, not a copied manufacturer project or a verified physical layout."
+      }
+    }
+  ]
+}

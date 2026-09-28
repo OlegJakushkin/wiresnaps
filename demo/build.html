@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Make the circuit clear enough to explain."><title>Build &amp; rewire · WireSnaps</title><link rel="stylesheet" href="site.css"></head>
+<body><a class="skip" href="#content">Skip to content</a>
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">w<span>•</span></span><span>WireSnaps<small>BIG IDEAS. LITTLE CONNECTIONS.</small></span></a><a class="play" href="../#build" target="_blank" rel="noopener">Open playground ↗</a></header>
+<div class="layout"><aside><nav aria-label="Feature guide"><a href="index.html">Feature tour</a><a href="build.html" aria-current="page">Build &amp; rewire</a><a href="code.html">Program</a><a href="experiments.html">Experiment</a><a href="projects.html">29 projects</a><a href="inside.html">Inside the engine</a><a href="rights.html">Names &amp; rights</a><a href="review.html">IP review</a></nav><p class="small-note">Independent browser playground.<br>Development milestone.</p></aside>
+<main id="content"><div class="hero"><p class="eyebrow">THE WIRESNAPS FIELD GUIDE</p><h1>Build, connect, change your mind</h1><p>Make the circuit clear enough to explain.</p></div>
+<nav class="on-page" aria-label="On this page"><b>On this page</b><a href="#start-with-three-moves">Start with three moves</a><a href="#wiring-you-can-follow">Wiring you can follow</a><a href="#rewire-a-flexible-cable">Rewire a flexible cable</a><a href="#space-is-part-of-the-lesson">Space is part of the lesson</a><a href="#markings-tell-a-story">Markings tell a story</a><a href="#small-conveniences-that-keep-the-idea-moving">Small conveniences that keep the idea moving</a><a href="#keep-your-invention">Keep your invention</a><a href="#compare-with-parts-you-own">Compare with parts you own</a></nav><article><p>The workbench treats a circuit as a collection of <strong>bodies, terminals and
+connections</strong>. A wire touching a part in the picture is not enough: compatible
+snaps must engage, or a flexible wire must explicitly join the terminals.</p>
+<p><a href="../?demo=wire-flyover#build" class="demo-launch" target="_blank" rel="noopener">Try Wire Flyover</a> · <a href="../?demo=lighthouse#build" class="demo-launch" target="_blank" rel="noopener">Try Lighthouse Tower</a></p>
+<h2 id="start-with-three-moves">Start with three moves</h2>
+<ol>
+<li>Open a project or choose a part from the left library. Move it over the board
+and look for the placement preview.</li>
+<li>Choose a valid position and layer. Rotate in quarter turns when needed.
+Battery cells, lamps, housings and rotor clearance all count as occupied space.</li>
+<li>Operate the circuit directly: click a slide switch, hold a push button or move
+a dial. Normal projects run as soon as startup preparation finishes.</li>
+</ol>
+<p>You can still Pause and advance a small simulation step. Invalid construction
+and Guided protection also pause operation rather than showing invented results.</p>
+<h2 id="wiring-you-can-follow">Wiring you can follow</h2>
+<p><strong>Snap connectors first.</strong> Demo layouts use rigid snap connectors where practical.
+Long paths avoid covering the bodies of parts; complex routes may use flexible
+cables to keep the circuit readable.</p>
+<p><strong>Point to point.</strong> Choose Join snaps, then choose the two terminals. The router
+looks for a clear path. Flexible-wire mode draws a cable around solid bodies.
+The tidy-wiring action can replace covering routes while keeping the circuit's
+electrical connections; Undo restores the previous layout.</p>
+<p><strong>Follow the whole path.</strong> Hover over or select a connector or cable to highlight
+its route to the nearest connected components. The terminal guide names the
+connections so a long wire is easier to understand.</p>
+<h2 id="rewire-a-flexible-cable">Rewire a flexible cable</h2>
+<ol>
+<li>Click the cable once to select it. Its two coloured ends become handles.</li>
+<li>Drag a handle to another compatible metal snap. The cable bends smoothly as
+you move it; the component underneath stays in place.</li>
+<li>Release on the new snap. The circuit updates while it runs. Escape, a
+cancelled gesture or an invalid drop restores the previous connection.</li>
+</ol>
+<p>During the drag, that cable end is electrically unplugged. Existing heat,
+damage, capacitor state and matching MCU execution state are preserved when the
+topology is rebuilt. You can also select endpoints from the accessible lists in
+the guide. Each completed rewire is undoable.</p>
+<h2 id="space-is-part-of-the-lesson">Space is part of the lesson</h2>
+<p>Use top view to inspect connections and exploded layers to understand a stack.
+Mechanical attachments move with their parent assembly. Fan and wheel clearance
+prevents other bodies from occupying a spinning part's space. Imported older
+projects with overlaps are kept for repair and highlighted instead of silently
+moving their parts.</p>
+<p>The current board uses layers and quarter-turn rotations. Fully free 3D boards,
+every vertical connector and arbitrary mechanical machines remain future work.</p>
+<h2 id="markings-tell-a-story">Markings tell a story</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Marking</th>
+<th>What to notice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Battery + and −</td>
+<td>A source provides an electrical push between two ends.</td>
+</tr>
+<tr>
+<td>LED A/K and polarity</td>
+<td>Direction matters, and current still needs limiting.</td>
+</tr>
+<tr>
+<td>Diode band</td>
+<td>The band identifies the cathode; reversing a diode changes its behavior.</td>
+</tr>
+<tr>
+<td>Transistor B, C, E</td>
+<td>A base signal controls a collector-to-emitter path; NPN and PNP need different polarity.</td>
+</tr>
+<tr>
+<td>Capacitor polarity</td>
+<td>Larger polarised capacitors have a preferred orientation.</td>
+</tr>
+<tr>
+<td>Values and ratings</td>
+<td>Compare resistance, voltage and current limits with the live readings.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ordinary resistors, wires and switches have no invented positive and negative
+ends. Selecting a part enlarges its markings and shows what it does and needs.</p>
+<h2 id="small-conveniences-that-keep-the-idea-moving">Small conveniences that keep the idea moving</h2>
+<ul>
+<li><strong>Undo / redo</strong>, duplicate, rotate and zoom to the selected part.</li>
+<li><strong>Drag to delete:</strong> throw a placed part into the left library. Its attachments,
+dependent connections and owned program are removed together and can be undone.</li>
+<li><strong>Next-part suggestions:</strong> up to four useful candidates with a reason for each.</li>
+<li><strong>Keyboard:</strong> R rotates, Delete removes, Space operates a selected switch or
+button, Ctrl/Cmd+Z undoes, Ctrl/Cmd+Shift+Z redoes, and Escape cancels a gesture.</li>
+<li><strong>Touch:</strong> use the same direct controls; open Help &amp; part controls for the
+smaller-screen guide.</li>
+</ul>
+<h2 id="keep-your-invention">Keep your invention</h2>
+<p>My Projects lists saved inventions with thumbnails and dates. Open, rename,
+duplicate or delete them; Save a Copy starts another version. Autosave includes
+the circuit, controls, code, firmware, lesson progress, presentation and damage.
+Conflicting writes from another tab create a separate copy instead of silently
+overwriting work. Export/import JSON to move a project between devices.</p>
+<p>Browser storage can be cleared by the browser or user. A JSON export is your
+portable backup; storage errors are shown explicitly.</p>
+<h2 id="compare-with-parts-you-own">Compare with parts you own</h2>
+<p>Optional Snap Circuits and Znatok labels show reference codes and terminal
+identification. The default uses original WireSnaps labels. Naming never changes
+the electrical model. Reference mappings are functional comparisons, with
+estimates and unverified details called out; they are not certified physical
+construction instructions. Znatok numbering currently relies on a secondary
+manual reference. <a href="rights.html">Read the naming and rights notes</a>.</p>
+</article>
+<section class="next"><h2>Ready to try an idea?</h2><p>Demos open in a new tab as a personal copy. Your existing saved projects stay available.</p><a href="projects.html">Choose a project →</a></section></main></div>
+<footer><span>Original WireSnaps content · GPL-3.0-or-later</span><a href="rights.html">Names & rights</a><a href="../source/THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="../source/wiresnaps-source.tar.gz">Corresponding source</a></footer></body></html>

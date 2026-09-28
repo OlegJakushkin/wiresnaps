@@ -1,0 +1,16 @@
+[
+  {
+    "name": "blockly",
+    "version": "12.3.1",
+    "file": "blockly-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/google/blockly/blockly-v12.3.1/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "name": "@dimforge/rapier3d-compat",
+    "version": "0.19.0",
+    "file": "@dimforge_rapier3d-compat-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/dimforge/rapier.js/v0.19.0/LICENSE",
+    "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+  }
+]

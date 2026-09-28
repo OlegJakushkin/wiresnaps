@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Preliminary review · 28 September 2026"><title>IP review · WireSnaps</title><link rel="stylesheet" href="site.css"></head>
+<body><a class="skip" href="#content">Skip to content</a>
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">w<span>•</span></span><span>WireSnaps<small>BIG IDEAS. LITTLE CONNECTIONS.</small></span></a><a class="play" href="../#build" target="_blank" rel="noopener">Open playground ↗</a></header>
+<div class="layout"><aside><nav aria-label="Feature guide"><a href="index.html">Feature tour</a><a href="build.html">Build &amp; rewire</a><a href="code.html">Program</a><a href="experiments.html">Experiment</a><a href="projects.html">29 projects</a><a href="inside.html">Inside the engine</a><a href="rights.html">Names &amp; rights</a><a href="review.html" aria-current="page">IP review</a></nav><p class="small-note">Independent browser playground.<br>Development milestone.</p></aside>
+<main id="content"><div class="hero"><p class="eyebrow">THE WIRESNAPS FIELD GUIDE</p><h1>Preliminary intellectual-property review</h1><p>Preliminary review · 28 September 2026</p></div>
+<nav class="on-page" aria-label="On this page"><b>On this page</b><a href="#findings-and-changes">Findings and changes</a><a href="#patent-screen-documents-and-technical-comparison">Patent screen: documents and technical comparison</a><a href="#trademark-screen">Trademark screen</a><a href="#copyright-trade-dress-and-catalogue-database-rights">Copyright, trade dress and catalogue/database rights</a><a href="#follow-up-required-for-legal-clearance">Follow-up required for legal clearance</a></nav><article><p><strong>Review date: 2026-09-28. Scope: current WireSnaps browser software, source,
+assets, labels and catalogue data; US, UK and EU focus.</strong> This is a technical
+screening with public-source research, not a legal opinion or freedom-to-operate
+clearance. A qualified IP lawyer must assess applicable claims, territories and
+intended commercial use before this can be treated as clearance.</p>
+<h2 id="findings-and-changes">Findings and changes</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Finding</th>
+<th>Applied change / remaining issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Default branding</td>
+<td>The code editor called the virtual AVR board Snapino even with original naming selected.</td>
+<td>Changed it to AVR controller. Manufacturer names remain referential, opt-in comparisons.</td>
+</tr>
+<tr>
+<td>Reference transparency</td>
+<td>Brand mapping notes were present in metadata but not shown in the parts guide; the Znatok reference is a third-party manual copy.</td>
+<td>Display the notes, mark Znatok numbering provisional, and add an independence notice when reference names are selected.</td>
+</tr>
+<tr>
+<td>Catalogue text</td>
+<td>The 329-candidate inventory contained 4,852 copied <code>label</code>/<code>context</code> fields, including surrounding catalogue prose and prices.</td>
+<td>Removed those fields; use original component names or neutral identifiers. Keep every candidate, status, component link and source location/hash. The inventory extractor now produces this minimal form.</td>
+</tr>
+<tr>
+<td>Visual content</td>
+<td>Current parts and UI are procedural artwork; the source export excludes cached manuals and their extracted text.</td>
+<td>Retain original visuals and screenshots. Do not add manufacturer logos, copied diagrams or product photographs without appropriate rights. Trade-dress/design clearance is still open.</td>
+</tr>
+<tr>
+<td>Open-source licensing</td>
+<td>GPL-3.0-or-later, inherited file notices, dependency notices and a source archive exist.</td>
+<td>Keep all of them, include the new build dependency's notices, and add automatic checks against redistributing reference PDFs/text caches.</td>
+</tr>
+<tr>
+<td>Missing licence texts</td>
+<td>Installed Blockly and Rapier packages omit their Apache licence files; the collector also missed hyphenated names such as <code>LICENSE-MIT.txt</code>.</td>
+<td>Include versioned upstream licence texts with recorded hashes, fix filename detection, and require text for all direct runtime dependencies. Some build-only packages supply only package declarations; that limitation remains explicit in the notice manifest.</td>
+</tr>
+<tr>
+<td>Patents</td>
+<td>Relevant hardware and simulation patent publications were found.</td>
+<td>No definite claim overlap requiring a specific engineering redesign was established by this limited review. This is <strong>not</strong> a finding of non-infringement. See the claim comparison below.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="patent-screen-documents-and-technical-comparison">Patent screen: documents and technical comparison</h2>
+<p>Search terms included <code>Elenco Electronics patents</code>, <code>Elenco patent circuit</code>,
+<code>Elenco patent simulation</code>, <code>snap circuit simulator patent virtual</code>, and
+<code>virtual electronic educational circuit simulator</code>. Assignee searches included
+Elenco Electronics, Inc. and LLC. The following are leads, not an exhaustive
+family, continuation, design-patent or landscape search.</p>
+<p>Status labels below are those shown by the named public source when inspected;
+they have not been independently confirmed in every official national register.
+Expiration, maintenance, ownership and family status must not be inferred solely
+from a filing date or a search aggregator's label.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Reviewed subject matter</th>
+<th>Comparison with the current implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://patents.google.com/patent/US7144255B2/en">US7144255B2</a></td>
+<td>Quick-connect physical circuit modules, snap-fitting connectors and safety arrangements. The source labels it expired.</td>
+<td>WireSnaps supplies a software model and generic protection behavior, not manufactured connectors or the patented safety product. Do not describe the simulation as CircuitSafe technology. Physical module manufacture would need a separate review.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US7273377B2/en">US7273377B2</a></td>
+<td>A physical breadboard/stackable-connector module; source labels it expired.</td>
+<td>No physical converter is made or supplied. Similar-looking interaction alone is not a claim analysis; hardware additions require reassessment.</td>
+</tr>
+<tr>
+<td><a href="https://patents.justia.com/patent/10252176">US10252176B2</a> and <a href="https://patents.google.com/patent/EP3681611B1/en">EP3681611B1</a></td>
+<td>Building-block adapters joining a physical construction toy and snap-connected electronic toy. EP claim 1 specifies mating and snap-fitting members; the EP source labels the grant active.</td>
+<td>The current software has no physical brick adapter. The European granted text is also available from the <a href="https://data.epo.org/publication-server/rest/v1.2/publication-dates/20230510/patents/EP3681611NWB1/document.pdf">EPO publication server</a>. National validations, including any UK position, remain unverified.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US12029996B2/en">US12029996B2</a></td>
+<td>An illuminated physical toy brick with walls, conductive nodes and an internal light device; source labels it active.</td>
+<td>No such physical brick is supplied, and the current exposed catalogue does not implement that full brick construction. Future catalogue expansion needs review.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US11931659B1/en">US11931659B1</a></td>
+<td>Electrical board-game structure including game cards and competing paths; source labels it active.</td>
+<td>WireSnaps has no card deck, competing-player circuit race or the claimed board arrangement. A project-selection card in the UI is not used as a turn-taking game piece.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US12048883B1/en">US12048883B1</a></td>
+<td>A turn-taking, card-driven electrical board-game method; source labels it active.</td>
+<td>The current lessons do not implement the reviewed card-drawing and competitive turn sequence. Do not add such a game without a new claim review.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US20250018277A1/en">US20250018277A1</a></td>
+<td>A related electrical-game application with game cards and board paths for different skill levels.</td>
+<td>Treat as a pending/family follow-up lead, not as a confirmed enforceable grant. Prosecution and any issued claims remain to be checked.</td>
+</tr>
+<tr>
+<td><a href="https://patents.google.com/patent/US20140178845A1/en">US20140178845A1</a></td>
+<td>Computer-based electrical teaching simulator: simulated components, supply, test equipment and user configuration. The source labels it abandoned.</td>
+<td>This is closer to the software's function than the physical-toy documents. Confirm abandonment, family members and any surviving claims; do not assume that a graphical circuit simulator is automatically outside patent scope.</td>
+</tr>
+</tbody>
+</table></div>
+<p>These comparisons are engineering observations, <strong>not claim-construction
+conclusions</strong>. Software distribution does not automatically avoid all patent
+claims; method claims, equivalents, indirect infringement and other owners'
+patents require assessment. No exhaustive search of circuit-solving, emulation,
+visual programming, routing or simulation algorithms was performed.</p>
+<h2 id="trademark-screen">Trademark screen</h2>
+<p>Exact web searches for <code>WireSnaps</code>, <code>Wire Snaps software trademark</code> and
+<code>WireSnaps trademark patent</code> did not identify a clear competing electronics
+software brand in the results inspected. An unrelated printer manual used
+“wiresnaps” descriptively. <strong>This is not availability clearance</strong>: phonetic,
+visual and conceptual similarity and common-law use still matter.</p>
+<p>The following public-interface searches were completed in a Docker browser on
+the review date. These record the returned results, not the availability of a
+name in a market. Minimal query details are retained in
+<a href="../source/ip-searches.json">the search log</a>.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Source and query</th>
+<th>Observed result</th>
+<th>Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://tmsearch.uspto.gov/">USPTO trademark search</a>, Wordmark: <code>WireSnaps</code></td>
+<td>No results found.</td>
+<td>Does not cover every similar mark or common-law use.</td>
+</tr>
+<tr>
+<td><a href="https://tmsearch.uspto.gov/search/search-results/75910403">USPTO: WIRESNAP, serial 75910403</a>, Wordmark: <code>WireSnap</code></td>
+<td>One result: WIRESNAP, filed 28 January 2000, shown as abandoned with status date 17 July 2001. No registration number. The listed services concern wireless digital messaging and internet broadcasting, class 038; the listed owner is WireSnap Partners.</td>
+<td>The singular name is a similarity lead. An abandoned application does not prove that use stopped or that no unregistered rights exist.</td>
+</tr>
+<tr>
+<td><a href="https://tmsearch.uspto.gov/">USPTO trademark search</a>, Wordmark: <code>&quot;Wire Snaps&quot;</code></td>
+<td>The interface returned 2,567 broad results, including marks containing individual tokens.</td>
+<td>This did not behave as a strict phrase search; the result set was not reviewed for clearance.</td>
+</tr>
+<tr>
+<td><a href="https://www.tmdn.org/tmview/#/tmview/results?page=1&amp;pageSize=30&amp;criteria=C&amp;basicSearch=WireSnaps">EUIPO-coordinated TMview</a>, trade mark name Contains: <code>WireSnaps</code></td>
+<td>No rows found under the interface's default office/territory settings.</td>
+<td>TMview states that it is not an official register and its data has no legal effect. No fuzzy or full territory-by-territory search was completed.</td>
+</tr>
+<tr>
+<td><a href="https://trademarks.ipo.gov.uk/ipo-tmtext/start">UK IPO keyword search</a></td>
+<td>A security check prevented the registry query; it was not bypassed.</td>
+<td>UK registry screening remains incomplete.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The <a href="https://www.uspto.gov/trademarks/search/federal-trademark-searching">USPTO search guidance</a>
+calls for searching similar marks and related goods or services, beyond identical
+words. No completed US/UK/EU clearance is claimed. Follow-up should cover related
+software, education and toys (including relevant classes 9, 28, 41 and 42), name
+variants, actual market use of WIRESNAP and common-law sources. Class numbers
+alone do not settle similarity. <a href="https://www.euipo.europa.eu/en/trade-marks/before-applying/availability">EUIPO availability guidance</a>
+and the <a href="https://www.gov.uk/search-for-trademark">UK search entry</a> provide starting
+points for completing the remaining searches.</p>
+<p>Elenco's <a href="https://elenco.com/">own website</a> identifies Snap Circuits as its brand
+and markets CircuitSafe as patented technology. A <a href="https://ised-isde.canada.ca/cipo/trademark-search/pdf/1448164?lang=eng">Canadian official Snap Circuits record</a>
+identifies Elenco Electronics, LLC as owner; this confirms a referential brand
+lead, not US/UK/EU registration status. The US lead is serial 85113281 / registration
+3940898; <a href="https://tsdr.uspto.gov/#caseNumber=85113281&amp;caseSearchType=US_APPLICATION&amp;caseType=DEFAULT&amp;searchType=statusSearch">TSDR</a>
+did not return case-specific data through text retrieval, so its current status
+was not independently verified here.</p>
+<p>Arduino's <a href="https://www.arduino.cc/en/trademark">trademark policy</a> separates code
+licensing from permission to use the brand and requires an acknowledgement for
+referential use. WireSnaps uses original controller labels, no Arduino logo and
+no claim of certification. Internal legacy IDs such as <code>snapino</code> remain for
+project compatibility; they do not rename the product.</p>
+<p>Znatok / Знаток ownership, registration territories and the authenticity of the
+linked secondary manual copy were not verified. References are marked
+provisional. No claim of official affiliation or verified physical compatibility
+is made. The product name WireSnaps itself still needs a similarity search;
+an independence disclaimer cannot cure a confusing name or visual appearance.</p>
+<h2 id="copyright-trade-dress-and-catalogue-database-rights">Copyright, trade dress and catalogue/database rights</h2>
+<p>The application does not distribute the original manuals, their photos or
+project drawings. Its current model geometry, explanations and demo circuits
+are original code/content. This source inspection cannot establish independent
+creation of every historical contribution or exclude all design/trade-dress
+similarity. Rounded snap bodies and functional colours are retained; no finding
+in this review justifies asserting that this is a cleared replica of any kit.</p>
+<p>Copied catalogue excerpts were unnecessary and have been removed from the
+current inventory and rebuilt export. The replacement data retains factual
+part identifiers and source URLs/pages/hashes. Automated checks also inspect
+the corresponding-source archive for reference caches, PDFs and quoted evidence
+fields. Prior local build commits are not rewritten by this change and can
+contain older artifacts; this is not a history-wide data removal claim.</p>
+<p>The <a href="https://www.gov.uk/guidance/sui-generis-database-rights">UK government's database-rights guidance</a>
+distinguishes copyright from the separate protection potentially applying to
+database investment. A minimal factual schema does <strong>not</strong> resolve whether
+systematically extracting a substantial part of a catalogue is permitted.
+Permission, applicable exceptions, terms and UK/EU database eligibility have not
+been resolved. Keep this question open before substantially expanding or
+commercially republishing the catalogue. The full inventory is preserved to
+avoid silently weakening the requested completion gate.</p>
+<p>GPLv3+ applies to the derived software and original contributions, not to third
+parties' trademarks, patents or reference materials. Upstream notices and
+file-hash provenance remain intact. Dependency licence collection includes
+versioned notice files; legal compatibility is not established merely by an
+automated scanner finding a licence identifier.</p>
+<h2 id="follow-up-required-for-legal-clearance">Follow-up required for legal clearance</h2>
+<ol>
+<li>Confirm intended countries, commercial distribution and whether physical
+parts, print-ready models or manufacturer project reproductions are planned.</li>
+<li>Complete official-register and common-law trademark similarity searches;
+assess WireSnaps branding and the visual presentation.</li>
+<li>Have patent counsel review the relevant families, actual current claims,
+prosecution and national status against the product's specific features.</li>
+<li>Resolve catalogue/database reuse permissions and any new asset licences.</li>
+<li>Reassess when new proprietary modules, brick adapters, game mechanics,
+firmware backends or hardware deliverables are introduced.</li>
+</ol>
+<p><strong>Result:</strong> practical reductions in labelling and copied-content risk were
+implemented. Patent, trademark, design and database clearance remains open.</p>
+</article>
+<section class="next"><h2>Ready to try an idea?</h2><p>Demos open in a new tab as a personal copy. Your existing saved projects stay available.</p><a href="projects.html">Choose a project →</a></section></main></div>
+<footer><span>Original WireSnaps content · GPL-3.0-or-later</span><a href="rights.html">Names & rights</a><a href="../source/THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="../source/wiresnaps-source.tar.gz">Corresponding source</a></footer></body></html>

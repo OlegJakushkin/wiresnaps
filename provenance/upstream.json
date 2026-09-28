@@ -1,0 +1,2858 @@
+{
+  "repository": "https://github.com/SimulIDE/SimulIDE",
+  "revision": "4bf26bc839147551a00938aa2949012681a3e046",
+  "archiveUrl": "https://codeload.github.com/SimulIDE/SimulIDE/tar.gz/4bf26bc839147551a00938aa2949012681a3e046",
+  "archiveSha256": "bf084296fc7e8102336b81375f7d9bfe8d506e01f254c854f9d26d3ea82fe8df",
+  "files": [
+    {
+      "path": "src/gpsim/.clang-format",
+      "sha256": "d753a3fc83c62dd61e25d13834703a4a6d25afa8616b61639a73462a4d87c8b0",
+      "bytes": 57
+    },
+    {
+      "path": "src/gpsim/12bit-hexdecode.cc",
+      "sha256": "20f54d6eb8a0731bf43a174e7a8a206314a001c7d75f705cbaa17ac30833f33f",
+      "bytes": 3662
+    },
+    {
+      "path": "src/gpsim/12bit-instructions.h",
+      "sha256": "3f55f1972df997effb6da3ebaba57bdd903c2ae33a3b3e59522426a0b88cc0ff",
+      "bytes": 12277
+    },
+    {
+      "path": "src/gpsim/12bit-processors.cc",
+      "sha256": "524dbd842ce26e5a70495e20c392d4e184d71d37f51188300f7e5c4803aba9b1",
+      "bytes": 3538
+    },
+    {
+      "path": "src/gpsim/12bit-processors.h",
+      "sha256": "3c1c0824e463891e70d1c921545965a3e63b95f3579850d005826b8654a36b99",
+      "bytes": 4030
+    },
+    {
+      "path": "src/gpsim/14bit-hexdecode.cc",
+      "sha256": "bf9c5d5254bcd0ada4a16375c09c3c1e48606fcbcc8ad3348730fc6e9fe464b8",
+      "bytes": 5044
+    },
+    {
+      "path": "src/gpsim/14bit-instructions.cc",
+      "sha256": "abbb9421daf8c340a878de8e37511470979e741771bac3d8b6b5a26e3cc1dd6e",
+      "bytes": 8288
+    },
+    {
+      "path": "src/gpsim/14bit-instructions.h",
+      "sha256": "f1371688c0ff4bcf041757d73da2cecff347773fd5c09b8b261752531098c4d0",
+      "bytes": 8204
+    },
+    {
+      "path": "src/gpsim/14bit-processors.cc",
+      "sha256": "4aaa811eb4f23f82e7d798f26b950fcab5b030d21f0441fe02ad0797cefb0c0c",
+      "bytes": 17388
+    },
+    {
+      "path": "src/gpsim/14bit-processors.h",
+      "sha256": "df747fa60c7559086591bad70191db1f79f331b61a0c483c33c8aef3539ddd81",
+      "bytes": 6916
+    },
+    {
+      "path": "src/gpsim/16bit-hexdecode.cc",
+      "sha256": "f7f6eb1e5932247dff1bc337954a992f1a9183b04e915bf1d9fee033e653e493",
+      "bytes": 7608
+    },
+    {
+      "path": "src/gpsim/16bit-instructions.cc",
+      "sha256": "e4be6fe19a7f4d516c95b395c53c553ec774125c7c91c80fbbbcce0568b04837",
+      "bytes": 52785
+    },
+    {
+      "path": "src/gpsim/16bit-instructions.h",
+      "sha256": "de6c36e3e0e90fab202c9e62acaaee52eac2bfa849c4b2ca417dec3b3d282d72",
+      "bytes": 31485
+    },
+    {
+      "path": "src/gpsim/16bit-processors.cc",
+      "sha256": "26f1b3daada3aae9b6240d3cfaf79c38dea17293bd95bf31d49ed283ae685f3c",
+      "bytes": 31762
+    },
+    {
+      "path": "src/gpsim/16bit-processors.h",
+      "sha256": "acc0117025051146ec1b64f49988d1d99659b5a6b2536e3a8409805fa706e176",
+      "bytes": 9239
+    },
+    {
+      "path": "src/gpsim/breakpoints.cc",
+      "sha256": "d0ca09028c5a8cd10fded11bd0ae48322df535f0e247167eb475516a8f21aee3",
+      "bytes": 9574
+    },
+    {
+      "path": "src/gpsim/breakpoints.h",
+      "sha256": "5a10b67b8873e14fb6d4dd4c0b2106834471841a6f011965a8186dd7532efa98",
+      "bytes": 6353
+    },
+    {
+      "path": "src/gpsim/clock_phase.cc",
+      "sha256": "5d9e6a6d2262224f49d399477a5bbe1319c1a22f6043a226dcbf0c1ccdc66333",
+      "bytes": 3726
+    },
+    {
+      "path": "src/gpsim/clock_phase.h",
+      "sha256": "f4ff3ced8cbc4ff3da38acac73193bee6c53e4e0a6575efcda4110954d1c2c6a",
+      "bytes": 3101
+    },
+    {
+      "path": "src/gpsim/config.h",
+      "sha256": "f1375135d9c3954f071cc73f0538a6bb23d50c3fe6ef428f2266792343edb9aa",
+      "bytes": 218
+    },
+    {
+      "path": "src/gpsim/devices/p12f6xx.cc",
+      "sha256": "cdc9341da097def50561f324586b8bfc66d7e4820d91ac29a8e8189764960781",
+      "bytes": 29265
+    },
+    {
+      "path": "src/gpsim/devices/p12f6xx.h",
+      "sha256": "18e53d4fdaf183d7744ea26a90044fad0826e7fbe8bd7e26173e97db1ce73d24",
+      "bytes": 6220
+    },
+    {
+      "path": "src/gpsim/devices/p12x.cc",
+      "sha256": "782b249827579c4f866f6a139d21ff0852d5bb4cabd096911cf31cba79efe608",
+      "bytes": 37040
+    },
+    {
+      "path": "src/gpsim/devices/p12x.h",
+      "sha256": "81be32ef30e67588d5cb6989938045c2a3db66922e4c008a9779354b6bfb0c41",
+      "bytes": 10180
+    },
+    {
+      "path": "src/gpsim/devices/p16f1503.cc",
+      "sha256": "866411544b9b77c495dce854715501963db4e0eafb2f7af064b9927e5af65ab3",
+      "bytes": 28139
+    },
+    {
+      "path": "src/gpsim/devices/p16f1503.h",
+      "sha256": "c197b89898499a6e39b5622682cd80cc59b7c0d80f0db9752125ac59ed2c5e17",
+      "bytes": 4429
+    },
+    {
+      "path": "src/gpsim/devices/p16f178x.cc",
+      "sha256": "c213877af6597ed5eb186c1f59c6387d7247e85c543e9fb9bb76b6f2e10f879f",
+      "bytes": 34146
+    },
+    {
+      "path": "src/gpsim/devices/p16f178x.h",
+      "sha256": "d819b3e2a6ad2265c778867e45222d411fc3c00c1c311183579de14913cba73b",
+      "bytes": 5306
+    },
+    {
+      "path": "src/gpsim/devices/p16f62x.cc",
+      "sha256": "9d127800717635161ce958ee9d92b7d343b5f5c83b3ce65e460527165fc88e2f",
+      "bytes": 10546
+    },
+    {
+      "path": "src/gpsim/devices/p16f62x.h",
+      "sha256": "fa7de5f0bc32ca9ab8f0da3899309069bcd79b896e1924946f6c6ce6927f2416",
+      "bytes": 2991
+    },
+    {
+      "path": "src/gpsim/devices/p16f87x.cc",
+      "sha256": "bd68061a1374be80889f2dfb2b5ad8bcb6462c7b255d8cfa0d7381a06b47a492",
+      "bytes": 27529
+    },
+    {
+      "path": "src/gpsim/devices/p16f87x.h",
+      "sha256": "a2163b8ce12c99d52a140913639545dcaff73b2ab43239ab9de8fd442d88385d",
+      "bytes": 6757
+    },
+    {
+      "path": "src/gpsim/devices/p16f88x.cc",
+      "sha256": "5fcfdd4a6e26a22cca8518e010b949c0c2a860bfe0d3ade6823b2a4d79f9683a",
+      "bytes": 69856
+    },
+    {
+      "path": "src/gpsim/devices/p16f88x.h",
+      "sha256": "bce6574c83ed8d0fc5783fda6926522ff7f46019ea8a19323eae214b4d4c1d9e",
+      "bytes": 11478
+    },
+    {
+      "path": "src/gpsim/devices/p16f8x.cc",
+      "sha256": "c8c1fbc86eaf1b4ae57f9cf69362ea3acaaea2af50bda9e6ae9bce7e335e1af9",
+      "bytes": 27146
+    },
+    {
+      "path": "src/gpsim/devices/p16f8x.h",
+      "sha256": "6cd1b1f5d566f9afaad13e2ef5bb10fa5a87707c70cc9d9797b8e10eb96ed998",
+      "bytes": 5169
+    },
+    {
+      "path": "src/gpsim/devices/p16f91x.cc",
+      "sha256": "0f7bdd0830d725f497d6cae52b52808e6ed8bc192de875b09efdf67d247f1631",
+      "bytes": 29511
+    },
+    {
+      "path": "src/gpsim/devices/p16f91x.h",
+      "sha256": "765f62dad591a48a865a067eeb5652ad4426fd62cb35e1ddbe09749274263eab",
+      "bytes": 5126
+    },
+    {
+      "path": "src/gpsim/devices/p16x5x.cc",
+      "sha256": "727c1f7df4bb3933577f37c00e0408998269adad64a1ae1bcb522aeaf463846d",
+      "bytes": 9051
+    },
+    {
+      "path": "src/gpsim/devices/p16x5x.h",
+      "sha256": "c3a0d394ba2e8b93686d9a96b86672dd4bfb5f9d0769a387edbd09fd80ae5cd1",
+      "bytes": 3102
+    },
+    {
+      "path": "src/gpsim/devices/p16x6x.cc",
+      "sha256": "75f96868cb5b6e9e6adfe6fe8634fb292800c015d36f67a6ba0f848b7a71442f",
+      "bytes": 33307
+    },
+    {
+      "path": "src/gpsim/devices/p16x6x.h",
+      "sha256": "3fac1e996d4ef76ad1094ece98f049474783e5f35a1d5402e8f671540f2d3f0e",
+      "bytes": 6796
+    },
+    {
+      "path": "src/gpsim/devices/p16x7x.cc",
+      "sha256": "5b4ef9d2f0437e2750cf95895d4455a0f9078ecd63cfb240a116ae51e6f7f9b9",
+      "bytes": 23513
+    },
+    {
+      "path": "src/gpsim/devices/p16x7x.h",
+      "sha256": "4cac7bae00d37a3452d59e31aea3487f2c3109328c12f61602fbc6af10b4bc22",
+      "bytes": 6815
+    },
+    {
+      "path": "src/gpsim/devices/p16x8x.cc",
+      "sha256": "1dd60627d380bbc895a211e98c15f747b92bd07f544b4ecc7382e3fdf7457521",
+      "bytes": 5553
+    },
+    {
+      "path": "src/gpsim/devices/p16x8x.h",
+      "sha256": "faa3edd498d2c141325f2203c113f79b1b0b5b748375e97f79edac14fbf0cdfa",
+      "bytes": 2494
+    },
+    {
+      "path": "src/gpsim/devices/p17c75x.cc",
+      "sha256": "38d662c034b9767cb5bb559cfd8747d2f737132da25737296e0b428d9899678f",
+      "bytes": 15993
+    },
+    {
+      "path": "src/gpsim/devices/p17c75x.h",
+      "sha256": "f9fc7500690ffb376bb062676ad873af6e3c67cbf0c2cdc6f5ef53f8a456cc61",
+      "bytes": 3350
+    },
+    {
+      "path": "src/gpsim/devices/p18fk.cc",
+      "sha256": "8f4c6e24e47ed79e717f0b00e97b86b006a6246f598b03fd9657f88eef4e8b25",
+      "bytes": 45509
+    },
+    {
+      "path": "src/gpsim/devices/p18fk.h",
+      "sha256": "d5e84c62b5e1fb609e86eb2e094ec0810957aa7d9d64440b4160ed3092942563",
+      "bytes": 5808
+    },
+    {
+      "path": "src/gpsim/devices/p18x.cc",
+      "sha256": "7714dbc7539e7ead8b4a3b0c7ce6030b5c1145f957debbbd5f495e299edd3cb4",
+      "bytes": 81633
+    },
+    {
+      "path": "src/gpsim/devices/p18x.h",
+      "sha256": "a36f5ed37fdfa6ef567a6aca6880e5ef23193e267f3ed46d9770e7081030b262",
+      "bytes": 20045
+    },
+    {
+      "path": "src/gpsim/devices/p1xf1xxx.cc",
+      "sha256": "803ffad7b2d5556b96a847c0e1795fa7e1840443e1af18222334d905d22f881e",
+      "bytes": 38231
+    },
+    {
+      "path": "src/gpsim/devices/p1xf1xxx.h",
+      "sha256": "f99ef68f42849ab0c10cb3803eb1f51bc4b4d53883abd498df550fe2d382402a",
+      "bytes": 7182
+    },
+    {
+      "path": "src/gpsim/errors.cc",
+      "sha256": "79d64950426ad36bc26163acc40bc52b3a160c21b797340a7806cc2a04cf1110",
+      "bytes": 1727
+    },
+    {
+      "path": "src/gpsim/errors.h",
+      "sha256": "248eb2feec64a9e3331f03a07964afa52230f0ce72494cba9f970677a5646b1b",
+      "bytes": 1163
+    },
+    {
+      "path": "src/gpsim/gpsim_classes.h",
+      "sha256": "79868b6d031c11a094c81633e5086d2e51d4c072988e69365a4a98593a3dadac",
+      "bytes": 1999
+    },
+    {
+      "path": "src/gpsim/gpsim_object.cc",
+      "sha256": "2f4ec3cbcb050161a2c1b48f8540907dd4f796bd9bdf35a7996faa3dbf57e81c",
+      "bytes": 3968
+    },
+    {
+      "path": "src/gpsim/gpsim_object.h",
+      "sha256": "72c0dce1ba237903c49fb0e95367cb7e1efd2845dcb3e5d55c75e6ed13d9a133",
+      "bytes": 3421
+    },
+    {
+      "path": "src/gpsim/gpsim_time.cc",
+      "sha256": "2a78f0d4d2bfae3597d038acc8836009f3d7018475d20dcfe81af410d030af5a",
+      "bytes": 22298
+    },
+    {
+      "path": "src/gpsim/gpsim_time.h",
+      "sha256": "55e5c865c58d7791a6148373517d99f1d3faa3e3814f76efed7da4581fde5f69",
+      "bytes": 5833
+    },
+    {
+      "path": "src/gpsim/hexutils.cc",
+      "sha256": "7144e0a0d53d7deadd1d15160312cc501fd71dee9eb0257857d9e280e0201d2c",
+      "bytes": 11659
+    },
+    {
+      "path": "src/gpsim/hexutils.h",
+      "sha256": "232e34899a78ad2b3f89dd77477f879124df9affe580b5a8a602b65946a71539",
+      "bytes": 3317
+    },
+    {
+      "path": "src/gpsim/ioports.cc",
+      "sha256": "e6356c365fa764884a5ba6c700ba918e6ac0d026d20f28407ca04a7b4799d20d",
+      "bytes": 19794
+    },
+    {
+      "path": "src/gpsim/ioports.h",
+      "sha256": "b9bc5515cee50194271393a13d0a446875a7feccca8d78135aa318db9a495b97",
+      "bytes": 12969
+    },
+    {
+      "path": "src/gpsim/modules.cc",
+      "sha256": "5157f849d635baae61067cfbf1da78809e257bbc2807af8ba0585124fc3b71c3",
+      "bytes": 3141
+    },
+    {
+      "path": "src/gpsim/modules.h",
+      "sha256": "3f68df9534564c1afaa1cd44ff680d4ccbe3b76685553925e0c909f89381d08e",
+      "bytes": 3143
+    },
+    {
+      "path": "src/gpsim/modules/14bit-tmrs.cc",
+      "sha256": "d27071d24705eccc95c20a5fb0e7592ae8ec521c71ab0c0604cb26291e1dcd65",
+      "bytes": 78623
+    },
+    {
+      "path": "src/gpsim/modules/14bit-tmrs.h",
+      "sha256": "b450b096665346cf4f8035b62f269054069ef6d94387ee3b44c288de507194a4",
+      "bytes": 23019
+    },
+    {
+      "path": "src/gpsim/modules/16bit-tmrs.cc",
+      "sha256": "ffbae0f4153033d160052e51755f542f5afc81412852dc506891071bbec79cb0",
+      "bytes": 4071
+    },
+    {
+      "path": "src/gpsim/modules/16bit-tmrs.h",
+      "sha256": "b7888f57539ec11c7d18ccc5b5d11a622ca931a4000a3d7162856519d1c68186",
+      "bytes": 3508
+    },
+    {
+      "path": "src/gpsim/modules/a2d_v2.cc",
+      "sha256": "26e7de071c80dabb2dbc31ba1e857274f6006ec71a7c512d88e738065e1c5484",
+      "bytes": 23382
+    },
+    {
+      "path": "src/gpsim/modules/a2d_v2.h",
+      "sha256": "6229367195500b2834883b8606df43f7ac7f9c337739223c5af510611c13adc9",
+      "bytes": 7956
+    },
+    {
+      "path": "src/gpsim/modules/a2dconverter.cc",
+      "sha256": "f2c6d6c323416c897910bf62d71add49b7ccdbd309affe3d7a4a2a2eb4c0da6d",
+      "bytes": 36814
+    },
+    {
+      "path": "src/gpsim/modules/a2dconverter.h",
+      "sha256": "2666e6b5ab13dc1acca1f409a88deed6009a7f38319f78263e35f974990b9c08",
+      "bytes": 16286
+    },
+    {
+      "path": "src/gpsim/modules/clc.cc",
+      "sha256": "a939781d206303ba0e9b54b36099a7886d91e70e1c05648bda1ab9c31db3acf2",
+      "bytes": 31528
+    },
+    {
+      "path": "src/gpsim/modules/clc.h",
+      "sha256": "cb696a15580d4d5a7d8fda2f657fd949d69295b99e96653bf250b529868dd970",
+      "bytes": 7480
+    },
+    {
+      "path": "src/gpsim/modules/comparator.cc",
+      "sha256": "252999aeb268ad78af4e71b44754a817171e9ac95ebaed48d3493554d2efad33",
+      "bytes": 39126
+    },
+    {
+      "path": "src/gpsim/modules/comparator.h",
+      "sha256": "a1410415698aa74fbf8b2e0d51cc4c31f5153c7994c1457e9e9c5b7f11be68da",
+      "bytes": 16863
+    },
+    {
+      "path": "src/gpsim/modules/ctmu.cc",
+      "sha256": "940f2d29479a14532d00730ead3b887c75f49790bea178fb1f3ace36ae05cd2c",
+      "bytes": 8809
+    },
+    {
+      "path": "src/gpsim/modules/ctmu.h",
+      "sha256": "594416a1a3c9ee28fe08101cdacb7338f07b5a035302bf6c30820d0c3824f59a",
+      "bytes": 4381
+    },
+    {
+      "path": "src/gpsim/modules/cwg.cc",
+      "sha256": "8b9c5aa717e2a856f31d609094212e3d267fe68d0c8c5b1e5ad04632ca7e0069",
+      "bytes": 16356
+    },
+    {
+      "path": "src/gpsim/modules/cwg.h",
+      "sha256": "0c5e99d894bc88e188f22e6afb74272bf4ff6b0bd738bce1e4ede30009482d47",
+      "bytes": 4598
+    },
+    {
+      "path": "src/gpsim/modules/dsm_module.cc",
+      "sha256": "c7a55daa89e29e1679434c39bcff5aeeac738f8090bb5ddb89bec89f1f9fef6c",
+      "bytes": 12757
+    },
+    {
+      "path": "src/gpsim/modules/dsm_module.h",
+      "sha256": "ca8003f789506272f30dfd54f89647c937d8fd5a13f74ffbd78187cd46c4a96a",
+      "bytes": 3877
+    },
+    {
+      "path": "src/gpsim/modules/eeprom.cc",
+      "sha256": "e96427d75630dcc99a661db9fe0c6fd4875071d9109b26c61e49eaaaded38da2",
+      "bytes": 24015
+    },
+    {
+      "path": "src/gpsim/modules/eeprom.h",
+      "sha256": "2ca6cb5d10a9e60b306b867442a89ec6ec9d7eda8a9c1483662ea7d96ef6f307",
+      "bytes": 8741
+    },
+    {
+      "path": "src/gpsim/modules/i2c-ee.cc",
+      "sha256": "c0bbe5c51b8db8ab40fb694ecdb4808dcdb52c1c04bd6d9d7b92701123947c7d",
+      "bytes": 15769
+    },
+    {
+      "path": "src/gpsim/modules/i2c-ee.h",
+      "sha256": "5738a1fdcdf6315b768a2d5c3e4dc75e6e3d691ef44ba752d12621fc1f915e6b",
+      "bytes": 4737
+    },
+    {
+      "path": "src/gpsim/modules/lcd_module.cc",
+      "sha256": "0b295ab9a05810628b5ea678250ad29327aa9cd7178445fb815729631a3c1457",
+      "bytes": 16841
+    },
+    {
+      "path": "src/gpsim/modules/lcd_module.h",
+      "sha256": "c68b735d6074719ac0e26086b0cab63bde9b6426d031684f826e2e5999ba76a7",
+      "bytes": 4527
+    },
+    {
+      "path": "src/gpsim/modules/nco.cc",
+      "sha256": "6e3e7bb98b5d3aeac73ba62ef4c7a51dcdced46f38caa202791a32586e338e2d",
+      "bytes": 19012
+    },
+    {
+      "path": "src/gpsim/modules/nco.h",
+      "sha256": "9540444eff32a7cf8b5866d17a1c80fc083195fb5aa9ddfabc0ef2758c49018f",
+      "bytes": 5653
+    },
+    {
+      "path": "src/gpsim/modules/spp.cc",
+      "sha256": "676b3a8af9c9f8273f081314283c95fb5b536a3bef9bb00b48885ec904bea2a9",
+      "bytes": 11603
+    },
+    {
+      "path": "src/gpsim/modules/spp.h",
+      "sha256": "32a1ca681a755d61c99ae2932735f39d6db9b3aae5120ad97b67494aad9ea859",
+      "bytes": 4745
+    },
+    {
+      "path": "src/gpsim/modules/ssp.cc",
+      "sha256": "55370425c3b3b0e237a1552e681eb12b392b3e1fea4c2e6b611f805f81199ba4",
+      "bytes": 72024
+    },
+    {
+      "path": "src/gpsim/modules/ssp.h",
+      "sha256": "9fdda5e5104cf952924b5f958c283311306a4ee1ad14aba8c8675855c9f1f40c",
+      "bytes": 12557
+    },
+    {
+      "path": "src/gpsim/modules/tmr0.cc",
+      "sha256": "f722836c10812e94ce920a6721706e80acc067f2abc020dc1220680e7b3ab619",
+      "bytes": 10825
+    },
+    {
+      "path": "src/gpsim/modules/tmr0.h",
+      "sha256": "e61920f99959580a5d9910a3582d714ccd5f154a34fbcb5fc31ffb2bf87e1df3",
+      "bytes": 2787
+    },
+    {
+      "path": "src/gpsim/modules/uart.cc",
+      "sha256": "9f7d8beb2d3316a03913258b8fe428879d6ec0978f27b5269bf7629cef036014",
+      "bytes": 43998
+    },
+    {
+      "path": "src/gpsim/modules/uart.h",
+      "sha256": "4d51da4af1c7e8719d1dc2f509e49a9c1cdf951f349f2477aff34459a3971e36",
+      "bytes": 11345
+    },
+    {
+      "path": "src/gpsim/packages.cc",
+      "sha256": "5a3bcf7f08f0690b312995733845a8368f7ff6c7a1180daad9242efc9e44a37d",
+      "bytes": 3029
+    },
+    {
+      "path": "src/gpsim/packages.h",
+      "sha256": "0feb029784e9a994e7fda2fc52cccf2cd759f9ae489a267d750f5771f3a2a8a4",
+      "bytes": 1632
+    },
+    {
+      "path": "src/gpsim/pic-instructions.cc",
+      "sha256": "0556821f7ff3ee566f5b2492f31ab268e5aaab01ed6a91eea3830c25e6079f43",
+      "bytes": 35698
+    },
+    {
+      "path": "src/gpsim/pic-instructions.h",
+      "sha256": "923ca194ff93c8e0b6f115da2495230e0bb488bfcc54a00bbf6436a12148490a",
+      "bytes": 7043
+    },
+    {
+      "path": "src/gpsim/pic-ioports.cc",
+      "sha256": "b9919b65e7956fce9aa039bab2abd0c1ebc31d9c0e6d4912dbbd83d7f75c618d",
+      "bytes": 16401
+    },
+    {
+      "path": "src/gpsim/pic-ioports.h",
+      "sha256": "352eae9c0fc5cde2b0c65513e9b38cc7ba400d5092e2084c3c8d33e344d011a8",
+      "bytes": 5812
+    },
+    {
+      "path": "src/gpsim/pic-processor.cc",
+      "sha256": "864418d83a7a63bf91901e6563dd695c14b17dfc6258b3593c0a8c336da8b9fc",
+      "bytes": 43712
+    },
+    {
+      "path": "src/gpsim/pic-processor.h",
+      "sha256": "3264951c481251fa3a667a1bb71be4f5f4623220377712ed5d828ede6a7b56e6",
+      "bytes": 15838
+    },
+    {
+      "path": "src/gpsim/processor.cc",
+      "sha256": "f5da10c7c2404b4c795f11e776a102ed300936f152f40ecf9c5f21599737eb48",
+      "bytes": 32848
+    },
+    {
+      "path": "src/gpsim/processor.h",
+      "sha256": "0a2d4cddd51b53e9eebbf0c4f2499b87d3b31d3dbf5a70421a85b40b322f543a",
+      "bytes": 12978
+    },
+    {
+      "path": "src/gpsim/protocol.cc",
+      "sha256": "504f9aaf19b5eedef6894814c929aea872ad1c6b2c9dfce7ea6097534deb025c",
+      "bytes": 6203
+    },
+    {
+      "path": "src/gpsim/protocol.h",
+      "sha256": "77e4b496cf758d1f15ddc586f69236c6167e093c16c17f591714b700294a5dda",
+      "bytes": 4043
+    },
+    {
+      "path": "src/gpsim/registers.cc",
+      "sha256": "690dc7c8fa83b748fd32c088d30d30f42ccc91e778c7dd49aa562b3840e7cafe",
+      "bytes": 12910
+    },
+    {
+      "path": "src/gpsim/registers.h",
+      "sha256": "7e0d2c99ea033a156783fb2dafed9c8ecface63b04d0f7877ad7cf7450bbf744",
+      "bytes": 11948
+    },
+    {
+      "path": "src/gpsim/registers/14bit-registers.cc",
+      "sha256": "590c0ad5d9d7d5f877c83f423716d760941b15865a18e86802103af5b28fe424",
+      "bytes": 66508
+    },
+    {
+      "path": "src/gpsim/registers/14bit-registers.h",
+      "sha256": "0d442706bfca38b013b6495724de542e2023c0977ad9f5dbdd88402b08f7f710",
+      "bytes": 31921
+    },
+    {
+      "path": "src/gpsim/registers/16bit-registers.cc",
+      "sha256": "5f288a7ddb2478e207d6de1eac84610cbcbd39cd25f4c17ada1200ed6ddb96ed",
+      "bytes": 30608
+    },
+    {
+      "path": "src/gpsim/registers/16bit-registers.h",
+      "sha256": "f37590a583f8d68c5a5583a3fa7397a94957fcb027c2fbea5ae01217c6d9a27f",
+      "bytes": 13636
+    },
+    {
+      "path": "src/gpsim/registers/apfcon.cc",
+      "sha256": "4c7c512444ffed0f356d35c634c8bc40b515ba42a0fe497551c5cb099825658e",
+      "bytes": 2180
+    },
+    {
+      "path": "src/gpsim/registers/apfcon.h",
+      "sha256": "745467f168aec80a843802ab11f1f85a10320c1bf1e53ea04a15cffcdb9b3241",
+      "bytes": 2088
+    },
+    {
+      "path": "src/gpsim/registers/intcon.cc",
+      "sha256": "e6c3d903c3f8533a13c728f49971f092092671c198f7e59f3754a6e39edd32e7",
+      "bytes": 13853
+    },
+    {
+      "path": "src/gpsim/registers/intcon.h",
+      "sha256": "a9c6861dbe0332327b30a7efef29bc45a75fcd1d25a5f42a24f0528eda3945a7",
+      "bytes": 7062
+    },
+    {
+      "path": "src/gpsim/registers/pic-registers.cc",
+      "sha256": "581cc3c72b5113f60755b9cf2383dac570c6fe4e632b6d8b66f3cab5f3a00348",
+      "bytes": 12617
+    },
+    {
+      "path": "src/gpsim/registers/pic-registers.h",
+      "sha256": "fe7f11b480bf37217924a0b6b8812e3aa4f69e86aa9bb9be3fb6caef90d4f886",
+      "bytes": 2547
+    },
+    {
+      "path": "src/gpsim/registers/pie.cc",
+      "sha256": "ea2934dbd62beff9db957317085253db7205e7d1869b8924df8de78a0d300643",
+      "bytes": 449
+    },
+    {
+      "path": "src/gpsim/registers/pie.h",
+      "sha256": "342ba82154c3a0828281237e13ddddbf72799ce1300a4dc7466097d5711332b1",
+      "bytes": 406
+    },
+    {
+      "path": "src/gpsim/registers/pir.cc",
+      "sha256": "8c9121c48525b5c791d7562af46a2f6b3067e7f2d7c21703a2280c9f197f1293",
+      "bytes": 12595
+    },
+    {
+      "path": "src/gpsim/registers/pir.h",
+      "sha256": "db620604a8688108c1a453d81fd5d51d87aba1bfbbf8d36b451ceadb977893cb",
+      "bytes": 29040
+    },
+    {
+      "path": "src/gpsim/registers/pm_rd.cc",
+      "sha256": "511fa6e7b68d6f55854d6c44616951193dee52a270ca7fa2da948fd4862c18d9",
+      "bytes": 6490
+    },
+    {
+      "path": "src/gpsim/registers/pm_rd.h",
+      "sha256": "09933d687482fdb12996bbe7a5ce86f8e12210ff124afb42fc7cec2958105400",
+      "bytes": 4655
+    },
+    {
+      "path": "src/gpsim/registers/psp.cc",
+      "sha256": "6b29ee851f06e849b1fa3785c7bdfd96e9732fffe0272dfe0a0f7e1500213a3e",
+      "bytes": 5287
+    },
+    {
+      "path": "src/gpsim/registers/psp.h",
+      "sha256": "77c7b5775ff3f14368b565eeae0e9834c3572620910ec3ecdfb563eb7827148a",
+      "bytes": 2615
+    },
+    {
+      "path": "src/gpsim/registers/rcon.h",
+      "sha256": "7b50c79bf0fb22b76fae72f5d120d02083f810fc0b2042c794b6813999cefc37",
+      "bytes": 1581
+    },
+    {
+      "path": "src/gpsim/stimuli.cc",
+      "sha256": "5159254a6fe3711ab706d574c5c8d0d6fabcf560daaf1f30369fdce004990fdc",
+      "bytes": 26177
+    },
+    {
+      "path": "src/gpsim/stimuli.h",
+      "sha256": "90b8a3b9c1da7f6aa2eb56d836f76d0b2b2860172bf8e55e93f4b6f3da7ddf06",
+      "bytes": 16096
+    },
+    {
+      "path": "src/gpsim/trigger.cc",
+      "sha256": "abfb8437a69ef3d31c6a402dff4db141ce5d048b14f7cf81d03be51c9b3173f4",
+      "bytes": 3011
+    },
+    {
+      "path": "src/gpsim/trigger.h",
+      "sha256": "d8c65bf20edf73cf63f402d8cfb420184bf54e9fb0f694f9bf06c89a11307d3b",
+      "bytes": 4498
+    },
+    {
+      "path": "src/gpsim/value.cc",
+      "sha256": "d785f151cdab48b773fbcf04b8252148aeda32d2a66bf722776f426013cc13b5",
+      "bytes": 18321
+    },
+    {
+      "path": "src/gpsim/value.h",
+      "sha256": "979cff89fb64126987addedf1b624dd5fb36b7a7fe29b0747641eb3283fdca2c",
+      "bytes": 13993
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/bjt.cpp",
+      "sha256": "091ddf5b426e3ae2cc23c60890e43cbe4fb62526e023048c8fb9cb5323f4610b",
+      "bytes": 4314
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/bjt.h",
+      "sha256": "5f1d98431237978c1f7dd71fd7262b5796493d421d27c28117a6942a7df39ec8",
+      "bytes": 2353
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/diode.cpp",
+      "sha256": "10c6de9276edce10c718f63d6488deb113165c61e90e345e2963e922644678c7",
+      "bytes": 3081
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/diode.h",
+      "sha256": "41d1eddc6938dcc200bec3dda9f3e820a6bf4d873e5c4811c0d5ab022308efd8",
+      "bytes": 2074
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/mosfet.cpp",
+      "sha256": "70d9a60cb916e8425aa21bdc18e450083655213a347f9a5a58695fe470ae16fb",
+      "bytes": 4967
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/mosfet.h",
+      "sha256": "2eab1c3a1db529f66afe3cd332c78ca0a5cce6cf5869d48109aa0848969143e3",
+      "bytes": 2471
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/mux_analog.cpp",
+      "sha256": "70f619b299a642e3d0b837cddb9df092d6be976e9f17641c59b88eb733a6167c",
+      "bytes": 6526
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/mux_analog.h",
+      "sha256": "e3e8910434efe4d6e9b78914345f8c2f8531bfaacaa0c290173a137bf6c0e57e",
+      "bytes": 2482
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/op_amp.cpp",
+      "sha256": "872e2b9a2c83b1c0c4b966ce8db18ea4efc50e010fe5a6d3fc8de1cb8cd736f7",
+      "bytes": 4669
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/op_amp.h",
+      "sha256": "11022ff0e4793b3bd510a3646cf6acd0f4f5a570e58216fabd98c075ee2d8479",
+      "bytes": 2375
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/volt_reg.cpp",
+      "sha256": "061f7597ab3eebb69f51743a662b4f84e3c30d11b279164333ec1bbed144870d",
+      "bytes": 3466
+    },
+    {
+      "path": "src/gui/circuitwidget/components/active/volt_reg.h",
+      "sha256": "68767c22e2b3955fb83d7fe150c43fc67a20424d000040030ea61c15819d8016",
+      "bytes": 2049
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/adc.cpp",
+      "sha256": "6e967eb19befb6e328e30ada653bd3e727b0c5dd7b4ecb0462d9f6644028a082",
+      "bytes": 3136
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/adc.h",
+      "sha256": "bbdedc9a382c4d7bf7158a45fbf62d44cf222d848ca3428a5be07a039ce0ae0d",
+      "bytes": 2341
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bcdto7s.cpp",
+      "sha256": "1c1e742bbbcd0b3270c3e5437cc02a539f62a173c7748a5b8567b10762bf1fe4",
+      "bytes": 2982
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bcdto7s.h",
+      "sha256": "d7c000d533300dc076c786d0b804a1c8b005f51a316de9bf09c148836c62403e",
+      "bytes": 2661
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bcdtodec.cpp",
+      "sha256": "2eb504a2919529ed23d4a15ef4212cfbf64df731f0de23c6b9ee69b20542d12a",
+      "bytes": 3677
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bcdtodec.h",
+      "sha256": "574bff2a9b7f612945c1ab65035557f474000a353aba4c8e253dc181f4e1a03d",
+      "bytes": 2821
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bincounter.cpp",
+      "sha256": "9448226da9caa0020e89e9ce82fdcf2acdf379acb8debdb99662f14bc7e41d5e",
+      "bytes": 2589
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bincounter.h",
+      "sha256": "d196a0fa62e6221e762b9dfd82aa7254582a29c22152366efa7955042b2a060a",
+      "bytes": 2745
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/buffer.cpp",
+      "sha256": "1daa6aeb9806872a241a5d5c0c8774e9653db003f6f8a2030c0ca172e36961f1",
+      "bytes": 3199
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/buffer.h",
+      "sha256": "bd0031cfdef466d7f4533fe36f6100693c4b1a60dfae4742f80549c94325a96f",
+      "bytes": 2229
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bus.cpp",
+      "sha256": "3f1e7d09335333bc8536d16a673b4217ebef87ad60b31c1d793abeac41fe04f0",
+      "bytes": 6100
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/bus.h",
+      "sha256": "45896cb5845027a82466cd807059f6a3520c87b650ca224f3d62f556722bcfa7",
+      "bytes": 2396
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/dac.cpp",
+      "sha256": "6c2a09a7a3412419988335a4f573f515712886dcc7b52ec037f19b0fc483b7f8",
+      "bytes": 2981
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/dac.h",
+      "sha256": "83228e0e84ca34d5d9f7fec2b970103d015031863a85679377aaf7d7d203d3b0",
+      "bytes": 2375
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/dectobcd.cpp",
+      "sha256": "872a307157d5c0d7a0b21999799d57e974480074f5a28c41444437d6a0ff950f",
+      "bytes": 3601
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/dectobcd.h",
+      "sha256": "4a53c0e56c952d60c8dea90f082a152a6b136491e3919a4572a44d3f6436992e",
+      "bytes": 2814
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/demux.cpp",
+      "sha256": "de9195a2b2f8df8e2fa9de30a37104f5390497528304833930b22fad8ae47b8b",
+      "bytes": 3609
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/demux.h",
+      "sha256": "69958eb2b73ba096ea53e0420477badeede31ca145846e9f2ebe1ab4385edc21",
+      "bytes": 2777
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/flipflopd.cpp",
+      "sha256": "a8510d101b41b2b6ced2b5e96b9b05186bdde5d66da3c7f766b0c0601cfffa58",
+      "bytes": 2887
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/flipflopd.h",
+      "sha256": "c34b7d8931180255e63c57a4437786ac8c69e1309c7af2be3390bd3bfbf10efc",
+      "bytes": 2639
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/flipflopjk.cpp",
+      "sha256": "d2cff829a41972e17a8b0adbe8bd9c35c84297d42d3b3f7fbff05781b1d4deda",
+      "bytes": 3002
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/flipflopjk.h",
+      "sha256": "b3b9e2bd14620f5ede8d39d8de129966271ed541fdb8cd117667c97e8f0b69b2",
+      "bytes": 2646
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/fulladder.cpp",
+      "sha256": "76f7b5f98f47df57de5990e7090f75c9fed612847b2e088910bab9f1c530ddff",
+      "bytes": 2380
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/fulladder.h",
+      "sha256": "cfc2a9ddd24664270e25a4ca1acd24d28fa9607b16af3c682ddd1b3129e30725",
+      "bytes": 2437
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/function.cpp",
+      "sha256": "5f81f00c8646f927e707fdb8970d2804c1026148f9377a7576f0075f280adbb0",
+      "bytes": 6062
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/function.h",
+      "sha256": "3c62359158db625a66f17381969c59ba33255e05d254c1385eb43602181f9fbe",
+      "bytes": 3116
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate.cpp",
+      "sha256": "3cbd84a1e7442d4f97dcc5bbaaba27a9a25a24cd63642e1ac607296fc12a20f6",
+      "bytes": 3049
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate.h",
+      "sha256": "3b719ee7952c49c3d16ffa9e438bb19977aee5779905bd1b6e8c68397b0dbbac",
+      "bytes": 2811
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_and.cpp",
+      "sha256": "c70600a436001112b70a8af3850e5f3556c59695044fd37b0aaeaddc45db5349",
+      "bytes": 2578
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_and.h",
+      "sha256": "4a1e867a546290560bfc088bcc0f5f33f59f4999873cec1d65e4ee53ce8a25f5",
+      "bytes": 2067
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_or.cpp",
+      "sha256": "d8026c8c809055d78ba86d267cee763bf3aaa628840afee667a6a060226e97c4",
+      "bytes": 3288
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_or.h",
+      "sha256": "888285727a7a11d48b6b493d38e82151870fc96f07421455f80995209831e1cd",
+      "bytes": 2114
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_xor.cpp",
+      "sha256": "224925121f63e62d65476eaf1451d9c538f15bc56a80f41f33b6399105654aca",
+      "bytes": 3411
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/gate_xor.h",
+      "sha256": "025cb9f6cebcfa305966c16244fbd5abb4bd58c9b117c7e8ff5304e61e2cbb39",
+      "bytes": 2015
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/i2cram.cpp",
+      "sha256": "32cbb683a457f9af41ee8a43cf577153ba262fbeb8793f69aad7977f44350e0b",
+      "bytes": 6686
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/i2cram.h",
+      "sha256": "1b406d27624267551ed6faafaf4c80fa12f7ecf061b2defa7b2640ae142d0c52",
+      "bytes": 3081
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/i2ctoparallel.cpp",
+      "sha256": "c107c45d26555534f72075d676f3e0d5dbe6c403ecca5587987f6e6d5bb27438",
+      "bytes": 5186
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/i2ctoparallel.h",
+      "sha256": "0b9ea7234c86b9d3248c2400a708d10fb954feac16eb1bf0bc3ed021b3abdc87",
+      "bytes": 2208
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/latchd.cpp",
+      "sha256": "2026e45deec03df686534a8c0832545f9516b8ff948248bfcea868eb3ea83d6c",
+      "bytes": 7190
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/latchd.h",
+      "sha256": "65300902acdf25d761ecf8df321f186deb4e4b366063cc0705b733c50fb445b3",
+      "bytes": 3578
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/lm555.cpp",
+      "sha256": "d381c46d95bd225da3361c115ff94a91ddea17f10c8827d30013f710bdecd859",
+      "bytes": 4487
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/lm555.h",
+      "sha256": "0239e638cf38dcbd700e8e6ad16578b8732941270cb8b2bdad0d1d1130b30a2f",
+      "bytes": 2086
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/memory.cpp",
+      "sha256": "1e1ed0c9b0100f698762ba8262b8b5362a5d4c53e02d58d9aa4b74a159cd7b6d",
+      "bytes": 7639
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/memory.h",
+      "sha256": "6b91b5abf9ca1cfea477b46e45fb917fad93e33f86e515ce73c051617f845876",
+      "bytes": 2850
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/mux.cpp",
+      "sha256": "8b438f0d44f3d5d69d05ae673e20e182da32f14c018390acfc693725b5f5607f",
+      "bytes": 3785
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/mux.h",
+      "sha256": "deafd73627c4cc386c5ea35e0361fe29432e800068225955c9503a20a07314bc",
+      "bytes": 2861
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/sevensegment_bcd.cpp",
+      "sha256": "911ce68c773e3c92bbd0f5b98c69636ba78840418a2fd9c17e08dcdbd27c53b1",
+      "bytes": 4449
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/sevensegment_bcd.h",
+      "sha256": "dc5587025ed6a885d99dd9144dd292bfea88cfc066c5b4a183109c9367454723",
+      "bytes": 2123
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/shiftreg.cpp",
+      "sha256": "d91234bafce8539edcb8a3d73206638ba6b8b2ae919a6a12b9bbc70d46fca086",
+      "bytes": 2893
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logic/shiftreg.h",
+      "sha256": "199fbb9670709dcb2c29937a638e64d0aaaf83e3a08f2336bf9212b6f5119df9",
+      "bytes": 2774
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logiccomponent.cpp",
+      "sha256": "54f77825bedb467b72a6ddf0b517ee1a5b1586c6d60ec96a532069b9ea3c0433",
+      "bytes": 7716
+    },
+    {
+      "path": "src/gui/circuitwidget/components/logiccomponent.h",
+      "sha256": "1cab1a39522ee6c558c826b790e5a686736a1d180770fec47789ec25e0a29934",
+      "bytes": 2341
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/arduino.cpp",
+      "sha256": "d280cae24024b3e0ef2fff3c82aa7211d94465d0db836434ba84c93c6bac350e",
+      "bytes": 7121
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/arduino.h",
+      "sha256": "676501c2d0bfe4d8a5ca019055cd888e306024ba527a91526b2c75603f9d5673",
+      "bytes": 2234
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcompbase.cpp",
+      "sha256": "17cec36dc14786a69858504e7f4ed943a9c30bd2ffb3b851df4a515b816c52d9",
+      "bytes": 7234
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcompbase.h",
+      "sha256": "3c21376a6c9c20a7b30e6133015843dd0aa39ed0709a35d063fbd9ac35cbc530",
+      "bytes": 3327
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcomponent.cpp",
+      "sha256": "0d2a0238d7d718f114021f33a86db70aff8411dcc70e5933443cb80bf9f19040",
+      "bytes": 2648
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcomponent.h",
+      "sha256": "ae4f12bf3fc20f26c5d532ce72e63ee5535dc416bc04246ca7ac11c763bacbfe",
+      "bytes": 1780
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcomponentpin.cpp",
+      "sha256": "f9ec42e14c44ea50e3dc2b74013e182acc1b5b0c3bccd345e05c113b6ebd2bcb",
+      "bytes": 6636
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/avrcomponentpin.h",
+      "sha256": "5ff9556309473304202e50feed48584a7e55f1ff35467e8611779862b47e9882",
+      "bytes": 3573
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/mcucomponent.cpp",
+      "sha256": "505281a27ea8b4b4e091d1d66f51560c49acd99a1a326afa4d9baf5fca9f147f",
+      "bytes": 13249
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/mcucomponent.h",
+      "sha256": "57ed375fb133a60270095b83b32b150bce811753d8761f8a401ad5feb31178fc",
+      "bytes": 4358
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/mcucomponentpin.cpp",
+      "sha256": "d301d233e9b3ea275a992cdb1149aa7c61de09fd291de17ca45ea608284cadca",
+      "bytes": 5454
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/mcucomponentpin.h",
+      "sha256": "c2f2a17ae66763151a08e386e7e51fb10e548d26fdd505488080eb85670a52d8",
+      "bytes": 2897
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/piccomponent.cpp",
+      "sha256": "2be93dc4020ef03aa3fcc5de00ba2a4eb00b87a8043634bff1ce54517ab6a450",
+      "bytes": 3265
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/piccomponent.h",
+      "sha256": "4835d250dea1ee85bd044dc887a4fed3cce5c71dbd82679b3051d661e08fe71c",
+      "bytes": 2025
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/piccomponentpin.cpp",
+      "sha256": "adfae2fba9fee46d71844193a444c7b4a92c351b04bb64271a7b244e6bcf8223",
+      "bytes": 3558
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/piccomponentpin.h",
+      "sha256": "128a904911a1218d4ddf9527190b171ba03148fde0a8e58d1875a44086f6f686",
+      "bytes": 2030
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/serialport.cpp",
+      "sha256": "04ac0349dd94d0d224e25e3c975ae1b5e442538fa1f99649e930054bc46e48da",
+      "bytes": 6627
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/serialport.h",
+      "sha256": "64574f71a40b1518512cd74a73c41fc32eb30beaccddb2a8cde995b24574b27a",
+      "bytes": 4500
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/serialterm.cpp",
+      "sha256": "a3f29973bf0253a57444be0b0743872af6b159f9d85960be67908afdc57f6f35",
+      "bytes": 3159
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/serialterm.h",
+      "sha256": "215fffcb8e0570596932aa38826dce095da34e65ec6603d7eca1d1957cebc159",
+      "bytes": 3030
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/shield.cpp",
+      "sha256": "eef090f1c2d9c90829987eb9f479133e77080c89b10ea625640a6ba38ba62334",
+      "bytes": 2780
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/shield.h",
+      "sha256": "a7cad1fa585838706519898000270432ae5e0a48a1183d018a6008a803d843b1",
+      "bytes": 2147
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/sr04.cpp",
+      "sha256": "fae9dafc77060c1da429f06d32ff9887f472335160c194820c17fd45e9d9271e",
+      "bytes": 5588
+    },
+    {
+      "path": "src/gui/circuitwidget/components/mcu/sr04.h",
+      "sha256": "87c184f20cc34f49261a0150282fad6ad6866c9d753a40c2d74056e9c2ad5b6c",
+      "bytes": 2350
+    },
+    {
+      "path": "src/gui/circuitwidget/components/memdata.cpp",
+      "sha256": "fd5679c314930b9b6fe84e3994ad0ca4bda4a1cbfdc9794dc7117bb427042ad7",
+      "bytes": 6569
+    },
+    {
+      "path": "src/gui/circuitwidget/components/memdata.h",
+      "sha256": "71dc6122e2b264541ad42de2237f6a4c8d33bea916dc744429cdb0964e42a150",
+      "bytes": 1675
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/amperimeter.cpp",
+      "sha256": "6833e12dd3d3f056cd1214651e864f7134c60c55a6a0939ee8b7dc8ccf7e220e",
+      "bytes": 2246
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/amperimeter.h",
+      "sha256": "bc4568043f4382f39fcf00d2bd93ae27595cb7d84eff6f68d52375a27547e670",
+      "bytes": 1815
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/frequencimeter.cpp",
+      "sha256": "77e209414eef2b404c0c723881ddc84b114b50ba124b0c6676dc3f5829600efd",
+      "bytes": 5119
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/frequencimeter.h",
+      "sha256": "ff9a43489b4741ef11179c929173b9caee0da5e388fe3ac0056451418d5790b5",
+      "bytes": 2412
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/meter.cpp",
+      "sha256": "e5325ebf39c2804e388a64580b227f1b6d33c319a7da952f949986dcc2f61432",
+      "bytes": 4113
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/meter.h",
+      "sha256": "0c7d9ed9515841f0175d42e9e433fabcf362a601eb14986aa6cf409ff77c3fa6",
+      "bytes": 1993
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/oscope.cpp",
+      "sha256": "c07cd31e7f96045a3d5a3ab466c5fe22448fe92e2d09715e6dfb2a5892c0e305",
+      "bytes": 4016
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/oscope.h",
+      "sha256": "28dc6d9333c2464be4ca455676c8d8f3915c3594cb2c5882e043547882c788a5",
+      "bytes": 2461
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/probe.cpp",
+      "sha256": "daefbcfc958b42f4e47b95e3a347aab62ac853b2afbc3fa10ddcf0c8d0d8ed6d",
+      "bytes": 8795
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/probe.h",
+      "sha256": "a7f236ae28abae9672bc73912f0e39c7bdc98e01aa19520be35cc22e2b40a625",
+      "bytes": 3073
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/voltimeter.cpp",
+      "sha256": "6d2ddd28564c49320f1959059302f81f67f26511acc52fd993860551e2d05cae",
+      "bytes": 2269
+    },
+    {
+      "path": "src/gui/circuitwidget/components/meters/voltimeter.h",
+      "sha256": "c65d4e0b0db0b3c8d7db6ffa6e7815a1c2d4f39b151a43301ecca3e336a2d129",
+      "bytes": 1810
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/ellipse.cpp",
+      "sha256": "e2754ed96d5bc1edfe092256d157e1ebe1b15fe8a0d50e6035cd93502ef4ba60",
+      "bytes": 2339
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/ellipse.h",
+      "sha256": "a240704428b30eee7f5f2f9f4df1fc29d23ba837506fb8d072726857dee4bb9a",
+      "bytes": 1910
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/image.cpp",
+      "sha256": "06cab22be7e9689f866eb3e0f476ecc60e4ae2de52270684a5d07b248cdd7069",
+      "bytes": 4882
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/image.h",
+      "sha256": "83864cbfd936bdb23eae6a60291d7e6aee6f5afd93cb9cecd27a209abf527363",
+      "bytes": 2374
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/line.cpp",
+      "sha256": "bf056bcd3ff2028181f94dda18186af06d5aaafbbde75a3f00bc2499557a1c6c",
+      "bytes": 2506
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/line.h",
+      "sha256": "6284a90b2fdc6390798c41c370f4070b32bb9d8826afa7a83311ccf36a10518a",
+      "bytes": 1883
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/rectangle.cpp",
+      "sha256": "453788434d2470e7ec6cafa9c21ed9ba744bf3a262f83f255dce08d10baf0b0e",
+      "bytes": 2315
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/rectangle.h",
+      "sha256": "9a4ec6a27ca968d962b206be4ec83b038d55baa1c66ba5a3e8c8ac733c997c28",
+      "bytes": 1878
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/textcomponent.cpp",
+      "sha256": "dbe203f8de2ada91268f42aa786fa76b6ef075b8b96abc95b0a773f5b2781924",
+      "bytes": 6306
+    },
+    {
+      "path": "src/gui/circuitwidget/components/other/textcomponent.h",
+      "sha256": "c0cfbcd1f790dd315efb5f8d3e2c8e302f3baddf6c746f1e7c31b490cc8f2eb4",
+      "bytes": 2281
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/audio_out.cpp",
+      "sha256": "7d390b1ee2ff4fae340ff25c5131e63dfc80d1c9741ecc67fa60daf103a42bbb",
+      "bytes": 7257
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/audio_out.h",
+      "sha256": "a08b2662aa4a6ef6aa86f7ff84f20945be3f22827fd7f0894af67a7a73a94069",
+      "bytes": 2777
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/hd44780.cpp",
+      "sha256": "787546ba6e5de114d30bcab2f37c1eaff07458236e61a9563185f941fcccd55f",
+      "bytes": 14061
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/hd44780.h",
+      "sha256": "5faf8d504d27072268a68086730bbde3483687230f707e50b2516b8f5ec83aec",
+      "bytes": 3757
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ks0108.cpp",
+      "sha256": "3ad59ba5342e04287026d2844f99b4c61e86460e601e69c6676cbae5954c326a",
+      "bytes": 11209
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ks0108.h",
+      "sha256": "f52d64f4cf1d15375a2c9fa6aa5a3a3a06428944c65f9d2258d0442b81f29789",
+      "bytes": 3681
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/led.cpp",
+      "sha256": "9e5559ebb0ab4d6bec22d269fa188ea0852278a67e0d3567d5776a33d5673552",
+      "bytes": 2643
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/led.h",
+      "sha256": "d7907448bfe8d1ea0486e07dfedcd1e3a46833f02d9bfe374f0e99b0b9a74532",
+      "bytes": 1853
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledbar.cpp",
+      "sha256": "19a8bee3fe5fca50e66af5416e02d23ee1a75445e9de813544bd1ba8f9b95dd7",
+      "bytes": 5989
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledbar.h",
+      "sha256": "1c514d16e0a8ebf6753d69639f0370c29f5075503b0ad8e420882ea33bc22d51",
+      "bytes": 3164
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledbase.cpp",
+      "sha256": "e699445118a76cadb7577aa5ffb63f65c0b350ab61d07d59a335eb557f65b56d",
+      "bytes": 5537
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledbase.h",
+      "sha256": "d45d081b3a42c448f30d1a9e3a4fb0d2fcd516802239ac1b45b3b6e5007d7b1f",
+      "bytes": 3092
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledmatrix.cpp",
+      "sha256": "3532221b9386f36ebeb9799a4cec14c41ef6af490c45112817f714f26956c2f3",
+      "bytes": 8261
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledmatrix.h",
+      "sha256": "1cf773fc60ed3bb8b858216029df43902088ce0ffb6ee7e22f15bdd296bd5afa",
+      "bytes": 3748
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledsmd.cpp",
+      "sha256": "28aeb581c6ae3a3264a7c4d6a142df913d56b51c7e8f1789a7f48e7a5eb16649",
+      "bytes": 1785
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ledsmd.h",
+      "sha256": "89744141debc907979ac5b8605a59dff270fd8adc57372775a7121070509affd",
+      "bytes": 1750
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/pcd8544.cpp",
+      "sha256": "6b0cc96cc36e3acb773983be63a0be89557a27310b048ac457a9674e21593e24",
+      "bytes": 8589
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/pcd8544.h",
+      "sha256": "36a75a4e2ec52addd403cd8b434cc44fb51f98d1e6f5e1656950ad678cdec883",
+      "bytes": 3277
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/servo.cpp",
+      "sha256": "2eac80b159f99ff1a650fb0a73ff57201f5224a09c0c6c88a5012551893130e1",
+      "bytes": 6334
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/servo.h",
+      "sha256": "2f9a834b28a8712a1d7bc176bfd50ab7e2b94fddc2be1f82830d48f88c21484e",
+      "bytes": 2763
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/sevensegment.cpp",
+      "sha256": "afa6ec7d7ff7523dc6aa74b79cfd586ee062e9b13aad6859d2c31996f0d1beef",
+      "bytes": 9842
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/sevensegment.h",
+      "sha256": "c71d80ea095e7bf6a16679ce517119a22345e3c849030d9ea84868ed1a3c785a",
+      "bytes": 3985
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ssd1306.cpp",
+      "sha256": "a1e622c69fb9295f20a129ff547782282d0c217178ecf4342527a7e58e3a7ad6",
+      "bytes": 15243
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ssd1306.h",
+      "sha256": "ff825aa09c6393dadf0e5bc7374cad8175d86b10923ca0101054b46c4fa4976a",
+      "bytes": 4089
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/stepper.cpp",
+      "sha256": "1fd263a68438a735e1ae02f6308bc71a9f38101667984c807867c8f41f28c9db",
+      "bytes": 8247
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/stepper.h",
+      "sha256": "95cba0f053a7d7a706d62114f83b12b9d3596f51150bc6deba1481806726f888",
+      "bytes": 3291
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ws2812.cpp",
+      "sha256": "17f4bbd0b4da9461a9e0108e277cd62fbd84aaf44b3ce0243ae66df2ea786cfe",
+      "bytes": 6671
+    },
+    {
+      "path": "src/gui/circuitwidget/components/outputs/ws2812.h",
+      "sha256": "c32a18a1ad73013d00463bc82c1aa66887c0fd3dc95077f2118906aeff74050d",
+      "bytes": 2744
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/capacitor.cpp",
+      "sha256": "be6129964dac906ecdadabc314493d30bc6e7e0f5bef411c37d7c4ccb6fb9a0e",
+      "bytes": 2201
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/capacitor.h",
+      "sha256": "feb9786bee7e2fb2fc190841b5a414b3a061a9cc8d2ac3e263c7031441d157d9",
+      "bytes": 1898
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/capacitorbase.cpp",
+      "sha256": "d1354b165a5296b1d4f8a9d79ba6ef502722c68b8528707ad58ef4d2c6c691d6",
+      "bytes": 2937
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/capacitorbase.h",
+      "sha256": "550d0df3c1d9789befd366ad679fbc957bffcf50c77655a6f8b6f643fc754933",
+      "bytes": 2105
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/elcapacitor.cpp",
+      "sha256": "f3084762f263771839dc69666b7c800f7ced1f3927cb12d01467a9bad91ab0fe",
+      "bytes": 3197
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/elcapacitor.h",
+      "sha256": "dc35513ad1e4f9618a92797b18c7bb7fae7bdd020976e21cf769898193dd7b3d",
+      "bytes": 2081
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/inductor.cpp",
+      "sha256": "20af4ae0c1d934bc748c6c6ca1b015baab94299625c1f977b97c252a6dfb93ba",
+      "bytes": 4093
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/inductor.h",
+      "sha256": "0b8529fd8e9e70f79a1fdca55101a51e11abc4bbddbc933ff9282489148cb13d",
+      "bytes": 2417
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/potentiometer.cpp",
+      "sha256": "2afb8356fc74ae9e16dd74d2f6427cee7561f14498be95d56cdc7d0284eb0b43",
+      "bytes": 6604
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/potentiometer.h",
+      "sha256": "c0965dd750786b7178d004b22fc4b32e6630b5e49d8a192009f7c102152c79cc",
+      "bytes": 3203
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/resistor.cpp",
+      "sha256": "d2ed81404b51a44023ba733900490dc8e149acbf182f36bcda427029f5e8e5fe",
+      "bytes": 3479
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/resistor.h",
+      "sha256": "ebc3d43f8f3ad24d81ed26068f856b6e722bc0a5a55502e9c9eb41f0ad447041",
+      "bytes": 2359
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/resistordip.cpp",
+      "sha256": "410e8a9df168d5af00c8fcb4bdf6d5f3f015961c0d0474075a97438b6f2b3869",
+      "bytes": 5205
+    },
+    {
+      "path": "src/gui/circuitwidget/components/passive/resistordip.h",
+      "sha256": "ad4b4303d653b28454535dc9904aa7f3591214f84fd2e26b3eebde948367d8a6",
+      "bytes": 2688
+    },
+    {
+      "path": "src/gui/circuitwidget/components/shape.cpp",
+      "sha256": "c9ed03f563040c39ad9f4afa9a19a561c1ad59c800001fc0dbe99b32d7d2edeb",
+      "bytes": 2820
+    },
+    {
+      "path": "src/gui/circuitwidget/components/shape.h",
+      "sha256": "a12df320cddade2c2396e6b4267a0f2b824c141ec658cde4537156778f412a01",
+      "bytes": 2737
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/clock-base.cpp",
+      "sha256": "f7634238362d8c721e09b7928ebe3b55b63dd8a30e43614b386b35b091da130a",
+      "bytes": 3129
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/clock-base.h",
+      "sha256": "ccb9ab4ec05df9385944ce698cc3b7d1e62cfc62bd64f36805a9d54992339a89",
+      "bytes": 2323
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/clock.cpp",
+      "sha256": "b88f6ee547f80a4972cb356838f452b2c1eb529fd724620e7fb2f310abe46eea",
+      "bytes": 2644
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/clock.h",
+      "sha256": "6aa0f08b5bf4920ecabd1baadca1748c0a8168cc25dcb3d00ab8c2a95a6f598f",
+      "bytes": 1936
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/currsource.cpp",
+      "sha256": "beb6958996bbe81afb8fa14e8b3ce2a3c33d02818d8a087a9c16c69579fc4418",
+      "bytes": 4888
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/currsource.h",
+      "sha256": "2d54bb3c5c272aa8c6316f7c3b314b5c3894a199a33e4895c375a0fa5dcddb4e",
+      "bytes": 2994
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/ground.cpp",
+      "sha256": "26411ce124b2fc84733556f4677bd1c0d4a6475e0886df02a0a6a45fdce2686c",
+      "bytes": 2707
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/ground.h",
+      "sha256": "5249285c07632ce3cd67fe9246250e51d2ab3de2a78bfe8c4da08d61ecf9ab72",
+      "bytes": 2038
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/logicinput.cpp",
+      "sha256": "bb8e14b0fce8e301f12f8e703620cbdf0d7fad2e9746938a5ac7ebe20b3c7f3a",
+      "bytes": 4447
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/logicinput.h",
+      "sha256": "b3f37d7e7581e8a181258c6ed39ed9ab3282cbe4aae0d586bf755e006e1a743c",
+      "bytes": 2657
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/rail.cpp",
+      "sha256": "0052e10414611c94a54d10d969787a338b77e83179aae0cee1242fbd5ef3caaa",
+      "bytes": 3125
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/rail.h",
+      "sha256": "1b7206015918778fc4d5eb43cc47e42ab8e46b1f4cade57d50894112f090b52d",
+      "bytes": 2511
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/voltsource.cpp",
+      "sha256": "94fa331acad567ab81debc18403dc36685277ff19f4bfd9b75804df089994650",
+      "bytes": 4808
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/voltsource.h",
+      "sha256": "4e5825dd396b98ff50d0a22d10d971fdd813320111b492f2cd2a435695cdf79a",
+      "bytes": 2873
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/wavegen.cpp",
+      "sha256": "37306d907bceba4562915e05700a4986a98480999fff8db08b92ac47086882de",
+      "bytes": 5092
+    },
+    {
+      "path": "src/gui/circuitwidget/components/sources/wavegen.h",
+      "sha256": "aca4653ec57444542dc1d8f18b63259015a7d882128a0c81f2e747848de43070",
+      "bytes": 3391
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/keypad.cpp",
+      "sha256": "fdebe6d4a6f1f1b6dff5a311b09fa64fbd13a1376e2b40dabfd598cdc1533785",
+      "bytes": 5954
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/keypad.h",
+      "sha256": "4d6f0be9f8413ccc852f6270c8fb61e2f80f9c7a8df58338b290d0f6c09039db",
+      "bytes": 2659
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/mech_contact.cpp",
+      "sha256": "aeff588039e3357a98438c96efa70cccc77619a7bd4a3713ceef05e625e59fb2",
+      "bytes": 7577
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/mech_contact.h",
+      "sha256": "559b511b2f62af6f2fa0f397b21319e4503ba9be3d04bd6197b8974ce2975680",
+      "bytes": 2648
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/push.cpp",
+      "sha256": "5fae4d854303053ced1248ae471898d4080c413d3d3eb147a6108a1e56245ace",
+      "bytes": 2663
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/push.h",
+      "sha256": "9f8bc88b6f7b1e7cabb2d270739027548579c8de1df7ecdf3bc658f6b8e4d94b",
+      "bytes": 1862
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/push_base.cpp",
+      "sha256": "acf6914cb66377efd3a46c77600a1fdefa6c319d95b53b26208fd4e7cd7a7ba7",
+      "bytes": 2315
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/push_base.h",
+      "sha256": "6078703d15504eabacff37f8dcabc51fbc98866a4c0bd4a94f3430a6e3125e45",
+      "bytes": 1784
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/relay-spst.cpp",
+      "sha256": "da28e0d6fc6680980377431400d57cbdb980a37a66ece8746080fa5ccb1d43de",
+      "bytes": 1990
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/relay-spst.h",
+      "sha256": "03645b54bb858ea6e62df8b8b7317bfda76a6f60fbd08ba3995ad56aaf9e9682",
+      "bytes": 1814
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/relay_base.cpp",
+      "sha256": "efdf779739c6c848a527cfeef572aa3531ec5b63f0915d1f203a3a9b0c30b6b5",
+      "bytes": 5893
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/relay_base.h",
+      "sha256": "009d054ee9274ba9e506c8d9dfba9d484da19e3b01e9fe8601dc6fd964d846c3",
+      "bytes": 2760
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switch.cpp",
+      "sha256": "f654095a269b3e5fafec07c2e02e7b1e4b7b4768fffc33e91b214388813308e4",
+      "bytes": 2678
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switch.h",
+      "sha256": "736b2409d472b4d9e65dcccc95e4dd26adb902316a280821af5c309b7b515c3a",
+      "bytes": 2088
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switch_base.cpp",
+      "sha256": "a36cbe6e28bdf04ca4f5988e0772e3514534526fb3e08a4b57fbadfd5c90b253",
+      "bytes": 3152
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switch_base.h",
+      "sha256": "744636b8243c81d695f0f391b2516d5e5c859808d0eaddcc69e1cc7e30c74228",
+      "bytes": 2228
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switchdip.cpp",
+      "sha256": "dd8789af27f271e26ab10f02815c2093386ccb82541630bb79aa1b932f8ddbbe",
+      "bytes": 7170
+    },
+    {
+      "path": "src/gui/circuitwidget/components/switches/switchdip.h",
+      "sha256": "d68518d1bc4a7f84961daddfd800390fadd845981a06035f1db526c34b82c3e5",
+      "bytes": 2605
+    },
+    {
+      "path": "src/simavr/.clang-format",
+      "sha256": "d753a3fc83c62dd61e25d13834703a4a6d25afa8616b61639a73462a4d87c8b0",
+      "bytes": 57
+    },
+    {
+      "path": "src/simavr/cores/avr/iom128.h",
+      "sha256": "3522cb5bb332d89ad42f17309f24f31c46679871f565541a2b3cbece22bbfac8",
+      "bytes": 34348
+    },
+    {
+      "path": "src/simavr/cores/avr/iom1280.h",
+      "sha256": "05b9a8447f9688ee458f6bc9311120173bb073baebd7d74ed7e704ffc3dd7225",
+      "bytes": 3645
+    },
+    {
+      "path": "src/simavr/cores/avr/iom1281.h",
+      "sha256": "b19dab397c1adf0137dd11847a897dfa6154bcb247b00a06298c5993fb088b95",
+      "bytes": 3647
+    },
+    {
+      "path": "src/simavr/cores/avr/iom1284.h",
+      "sha256": "9c2b54038e667a9b578f7f1b334672d8f0a7b985eb68eb21046fa65569740ddd",
+      "bytes": 21646
+    },
+    {
+      "path": "src/simavr/cores/avr/iom1284p.h",
+      "sha256": "809551430cfc85d067056e9bcedb634eef097364fff93c9c442eac10e79360b9",
+      "bytes": 24569
+    },
+    {
+      "path": "src/simavr/cores/avr/iom128rfa1.h",
+      "sha256": "173fc30d730f750f41ffa0f9bfb819bc570a8c42341bc90c2a09773a40786bbf",
+      "bytes": 167387
+    },
+    {
+      "path": "src/simavr/cores/avr/iom128rfr2.h",
+      "sha256": "2c87ea5a2433cd77d3f16f280aa811f6bf50ceaf011f1b40a227352c3a5f7920",
+      "bytes": 206187
+    },
+    {
+      "path": "src/simavr/cores/avr/iom16.h",
+      "sha256": "a595ca6065009298dfd53b119a8998966ae3a3700041ba5db6ec5d2709c64d4f",
+      "bytes": 15247
+    },
+    {
+      "path": "src/simavr/cores/avr/iom164.h",
+      "sha256": "98fecde6f8967e6af0f0b3201f606e130d195fabb090330faf08e3835407c7bd",
+      "bytes": 3669
+    },
+    {
+      "path": "src/simavr/cores/avr/iom168.h",
+      "sha256": "1cd85b6774a6b98ae6a5f1f280a96f7751fb953c857dc605d91aaec48ca14298",
+      "bytes": 3953
+    },
+    {
+      "path": "src/simavr/cores/avr/iom169p.h",
+      "sha256": "1a5265ebb5ba3e124f1ffd818c8a2aa3388c61db814ecd40d1ee8642b3f2e183",
+      "bytes": 23106
+    },
+    {
+      "path": "src/simavr/cores/avr/iom16m1.h",
+      "sha256": "6862d8c5bb3679b39f35d97747f9d663921b65d237a01f9751c6da6e33cc6c0d",
+      "bytes": 31190
+    },
+    {
+      "path": "src/simavr/cores/avr/iom2560.h",
+      "sha256": "639bcfe942357b471d855d372b1a3c3337bbade9ea404cbde0705fadb9b46e71",
+      "bytes": 3645
+    },
+    {
+      "path": "src/simavr/cores/avr/iom32.h",
+      "sha256": "6a975f066e49cb546eb58909e566f2c822255918c1b66fb31108cf1970952447",
+      "bytes": 16019
+    },
+    {
+      "path": "src/simavr/cores/avr/iom324.h",
+      "sha256": "cbcb40898c9e43a1a234ecd36ccffec55cd6ec4bd3dd24c9b8f1c239985cc0fd",
+      "bytes": 3670
+    },
+    {
+      "path": "src/simavr/cores/avr/iom324pa.h",
+      "sha256": "dcbcf1d335602aa153e9288b52ce3454cf474e7a09bd04e218b6d2562eeee977",
+      "bytes": 28448
+    },
+    {
+      "path": "src/simavr/cores/avr/iom328p.h",
+      "sha256": "efe86f567718dbba63956145617654f70cd9ff664df1563b0c18bd3948e3b7d1",
+      "bytes": 19528
+    },
+    {
+      "path": "src/simavr/cores/avr/iom32u4.h",
+      "sha256": "abb41d69376d7ecfd16137b3f78145163617c446b839aa8c952656f3e5af2fd9",
+      "bytes": 29600
+    },
+    {
+      "path": "src/simavr/cores/avr/iom48.h",
+      "sha256": "fd33a2b4fcea9190fd4f6d65acb2607c64d2323ab662ebd6fd9717aa5854bdc7",
+      "bytes": 3780
+    },
+    {
+      "path": "src/simavr/cores/avr/iom64.h",
+      "sha256": "beb79b8954bed507cbdae3ca21d178dadf5ad1e67fe38bf4f9a94b05c646de01",
+      "bytes": 34431
+    },
+    {
+      "path": "src/simavr/cores/avr/iom644.h",
+      "sha256": "8d901c9f789248805d465966b4848205c87b738094300dd09478b77d62c78273",
+      "bytes": 3628
+    },
+    {
+      "path": "src/simavr/cores/avr/iom8.h",
+      "sha256": "b5e35dc6caec0572ce98df13a2a5bf5ea615cb44080d708c9039ae166b34d335",
+      "bytes": 13884
+    },
+    {
+      "path": "src/simavr/cores/avr/iom88.h",
+      "sha256": "f953446f1df4cad2426eeecf54bfb34b3b85662296bbe59922a2b71b7d662c08",
+      "bytes": 3953
+    },
+    {
+      "path": "src/simavr/cores/avr/iomx8.h",
+      "sha256": "bb546ea656d7ec3986f7d888079df4254d38dbec0a46f8b6fbb140e79ac31541",
+      "bytes": 18133
+    },
+    {
+      "path": "src/simavr/cores/avr/iomxx0_1.h",
+      "sha256": "3e893d3d56fd6ac10659f5a8eec78a3a3d2298a20092a4504f5951436fcee87a",
+      "bytes": 35874
+    },
+    {
+      "path": "src/simavr/cores/avr/iomxx4.h",
+      "sha256": "59ecc88885675781c94b319a1d066e09d65d921445b0184671428ecdf39c0110",
+      "bytes": 19647
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn13.h",
+      "sha256": "85006a2e622ee7c30fbde70bc9dda60c07c8e290238daa3a078e9ff7a4e621d4",
+      "bytes": 12176
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn2313.h",
+      "sha256": "ad5e756e2640d1be0673dc3c8c1bb214d9c9b3c916776e3398ca13ca608df043",
+      "bytes": 17854
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn2313a.h",
+      "sha256": "e15eaf808f16df0279d05255437055443c76a409a65c17c91700474146ab22dc",
+      "bytes": 17672
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn24.h",
+      "sha256": "dfc2c7003ff2edb9a5e9664fb6115b1a95dc197973573aa51d63739114203ce7",
+      "bytes": 3308
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn25.h",
+      "sha256": "b2f383691393fb8a3984c5195a73332dab265cd5373d0a3c66acd935cc57a720",
+      "bytes": 3268
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn4313.h",
+      "sha256": "4028a04a76d30453a682c2ab6981da0a0873b735cc4ebb38fb886e3a0a7a5c7b",
+      "bytes": 17649
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn44.h",
+      "sha256": "efa4052b57ecb0dd0d3e29abb64afed2008f1e9b9449a3698dca6be271d00c0a",
+      "bytes": 3324
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn45.h",
+      "sha256": "569fcd2f915940b060da1ef57a9acbb02a3f5774724df1e2d437f76aa69cea2c",
+      "bytes": 3284
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn84.h",
+      "sha256": "31269d9696d2313eb2e0a6da4ce63d26fb613eb7887a852a6061e86322a20a1b",
+      "bytes": 3329
+    },
+    {
+      "path": "src/simavr/cores/avr/iotn85.h",
+      "sha256": "adc0e09bacf542c796d45d78e7aff3aa58cdb5606a0de49ef3e090746ebd1e73",
+      "bytes": 3286
+    },
+    {
+      "path": "src/simavr/cores/avr/iotnx4.h",
+      "sha256": "9ad7a810ad25b10b199ba4a55377d4385668a33d4de7dc0be413c7e2358aa2fe",
+      "bytes": 10839
+    },
+    {
+      "path": "src/simavr/cores/avr/iotnx5.h",
+      "sha256": "865f12e3b975fc011a20bb456347320d2c963b1fadb2d5be3caf89921e895f75",
+      "bytes": 9927
+    },
+    {
+      "path": "src/simavr/cores/avr/iousb162.h",
+      "sha256": "e19e50707b5ed4b8e282abc7d60ef0589c2ea03afb3a5636a9c44404836f2ddf",
+      "bytes": 3683
+    },
+    {
+      "path": "src/simavr/cores/avr/iousbxx2.h",
+      "sha256": "9e06c314e28098ffd6b6bd0957cf5be551c60924b07280b42ab18b143a0066bb",
+      "bytes": 16618
+    },
+    {
+      "path": "src/simavr/cores/avr/sfr_defs.h",
+      "sha256": "f9a9d39a91dc4fa7a321a1eb8ba80dc51f55b6dfe90bc975dfdb3c7cd81b9290",
+      "bytes": 889
+    },
+    {
+      "path": "src/simavr/cores/sim_core_declare.h",
+      "sha256": "1353a57e585e295dffb4c4c87c7e45f7c46579358905e1865290f71d0b444cc2",
+      "bytes": 2903
+    },
+    {
+      "path": "src/simavr/cores/sim_mega128.c",
+      "sha256": "8cc867ade717195bcc642811792d43396410e66a8963bc07b85ab30d69e3592f",
+      "bytes": 13690
+    },
+    {
+      "path": "src/simavr/cores/sim_mega1280.c",
+      "sha256": "5ab805b1559c9cde11dd521fa818401382f551d0d9a13f27f346f11eb0958711",
+      "bytes": 21441
+    },
+    {
+      "path": "src/simavr/cores/sim_mega1281.c",
+      "sha256": "e14ac324e58badd8c4cfea47b72e7898ce586e74af33fdf31572ba6ef5e21eb8",
+      "bytes": 14989
+    },
+    {
+      "path": "src/simavr/cores/sim_mega1284.c",
+      "sha256": "6d3b84f4629c51aa37a2ed74b4835716d9e7324f27339ca2512b179166608c03",
+      "bytes": 1108
+    },
+    {
+      "path": "src/simavr/cores/sim_mega128rfa1.c",
+      "sha256": "deb6cfb0bb35aa6ef49031fde06450fe7b0c1fa88a844fa8b3a1e3f2e9da288c",
+      "bytes": 15612
+    },
+    {
+      "path": "src/simavr/cores/sim_mega128rfr2.c",
+      "sha256": "e7d0975f75b4b685444be11cc732678304a6e41ce3bb694b6ba3035d8fdc552c",
+      "bytes": 15600
+    },
+    {
+      "path": "src/simavr/cores/sim_mega16.c",
+      "sha256": "5cea03f224dc0012b75ab6de1621066926959baf7157e5722704f0f14ffd95cf",
+      "bytes": 1526
+    },
+    {
+      "path": "src/simavr/cores/sim_mega164.c",
+      "sha256": "823e2de898001d391a255178b9fe56e1847f2c3ae6d00aa828d85647684cecaf",
+      "bytes": 1115
+    },
+    {
+      "path": "src/simavr/cores/sim_mega168.c",
+      "sha256": "dfba689869cb8a9b2c42bcb2aa54229de7555b7ccbe58af6262071b354cc4a10",
+      "bytes": 1166
+    },
+    {
+      "path": "src/simavr/cores/sim_mega169.c",
+      "sha256": "00b61c720fbec0f38988dd8edd8a282a804e922e4c94534932963a96c2c3d431",
+      "bytes": 10949
+    },
+    {
+      "path": "src/simavr/cores/sim_mega16m1.c",
+      "sha256": "2e7b5af52e9818daf2eada1c9ec5ea50a07ec2624fe687e70eae7f4a076ed5ff",
+      "bytes": 1118
+    },
+    {
+      "path": "src/simavr/cores/sim_mega2560.c",
+      "sha256": "1084e0d93cc0089a6db42847f961fed5696d277d55a40d406ef9df8b4e1c2ac5",
+      "bytes": 21609
+    },
+    {
+      "path": "src/simavr/cores/sim_mega32.c",
+      "sha256": "0c52f4231fce5058b2acb227b69efbb26d3cfe6067386adaab8e26351273b233",
+      "bytes": 1527
+    },
+    {
+      "path": "src/simavr/cores/sim_mega324.c",
+      "sha256": "adf0c47bafd3380a2a66d69b688cc21bbc129dca9f7f403fcf577357c5ddc305",
+      "bytes": 1495
+    },
+    {
+      "path": "src/simavr/cores/sim_mega324a.c",
+      "sha256": "a8f6d4ccbe3e06a204948e38dfce45b81e986bfc6dc03dcd903a9a128acac1fc",
+      "bytes": 1107
+    },
+    {
+      "path": "src/simavr/cores/sim_mega328.c",
+      "sha256": "b58cdb199f8b3c2d1da2240ebb98827fede27af27475eb955f0b151dcd7a5a24",
+      "bytes": 1127
+    },
+    {
+      "path": "src/simavr/cores/sim_mega32u4.c",
+      "sha256": "d9aad641b1ed38d6fc4defdc34f50282176664b2ffe13a3fb286b73b0ac12e0a",
+      "bytes": 18102
+    },
+    {
+      "path": "src/simavr/cores/sim_mega48.c",
+      "sha256": "beee84e0dba4090684652388ed25bc626c48a5179935db0bd96e4e68bf637b22",
+      "bytes": 1157
+    },
+    {
+      "path": "src/simavr/cores/sim_mega64.c",
+      "sha256": "bb3618fda4e714f547ef1fdaf9bb3c983a7dd21282113faf437d7a5b87985783",
+      "bytes": 13537
+    },
+    {
+      "path": "src/simavr/cores/sim_mega644.c",
+      "sha256": "61e77381ff2ba2fd10cdd1f94b28dd54e348362710795da32fd9d9ad645fe4e1",
+      "bytes": 1100
+    },
+    {
+      "path": "src/simavr/cores/sim_mega8.c",
+      "sha256": "4edd7c5a64617c66eef2c89ee3f4517076df686ee1fb2dfcd367592f10dcf20c",
+      "bytes": 1400
+    },
+    {
+      "path": "src/simavr/cores/sim_mega88.c",
+      "sha256": "f64b7c6f1f337a6d5ad3695c923ed52df10bed7b7af0c39c5b690149dc8f50a5",
+      "bytes": 1157
+    },
+    {
+      "path": "src/simavr/cores/sim_megax.c",
+      "sha256": "9dde03a1aae83536dfc477ed0056669660e9f2cc96143b3e734b1a6f66b6915d",
+      "bytes": 1549
+    },
+    {
+      "path": "src/simavr/cores/sim_megax.h",
+      "sha256": "f76ed078016e07fdfbf7c2139a102c7fd6ed3939f78238b0d6c30a541cb514ef",
+      "bytes": 9280
+    },
+    {
+      "path": "src/simavr/cores/sim_megax4.c",
+      "sha256": "46675f303856c382cfed8cb043ee2ad5d691bddce2173dde468e246272dabceb",
+      "bytes": 1614
+    },
+    {
+      "path": "src/simavr/cores/sim_megax4.h",
+      "sha256": "1f373cfc218629f5fe1268b2aab4714180748530b33b405a5bf7cc53672632bb",
+      "bytes": 13499
+    },
+    {
+      "path": "src/simavr/cores/sim_megax8.c",
+      "sha256": "d621fc8a1b538b6bed6c6191f3082129b2c3fd8482a17d8ce22a7afdeacf7cd3",
+      "bytes": 1459
+    },
+    {
+      "path": "src/simavr/cores/sim_megax8.h",
+      "sha256": "a89d9443e22736c98e9125040ce45613a02f24cd439650298709ec04e79a0eae",
+      "bytes": 10831
+    },
+    {
+      "path": "src/simavr/cores/sim_megaxm1.c",
+      "sha256": "59efc1a266184b9fb734b1243125f96ac28c9709703fa2f4de8d665e2d0172ef",
+      "bytes": 1434
+    },
+    {
+      "path": "src/simavr/cores/sim_megaxm1.h",
+      "sha256": "8c63a80784e7654fc89adc756910b2800e8e8b507b11a586de5daff7892e06a7",
+      "bytes": 9105
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny13.c",
+      "sha256": "be9d05938fda44fcb3c5f0dbb006486b28fb4649ec4c5f7e6d888845dd152c08",
+      "bytes": 5561
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny2313.c",
+      "sha256": "f0aefc417822bf6a2c63c23dd500be73d8a04ac01470e12dd37bfc1f22085077",
+      "bytes": 6414
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny2313a.c",
+      "sha256": "d3b86dd90c4059ac5147b2232e613a9e51b8191b2226910ee48289d153e39cad",
+      "bytes": 6803
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny24.c",
+      "sha256": "6b146372febac43d7f243f3947587c4080c0c0e8550fdf60cd588e331f3c41e3",
+      "bytes": 1216
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny25.c",
+      "sha256": "b8ec485879d90c5a1b3d801ca64120fb533ed7f71c0b8dfc0eea021c0262142e",
+      "bytes": 1162
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny4313.c",
+      "sha256": "23b6133d804a4f075b69a0b12b4fad9d373d88991ede5fb7ada03bb663f009f9",
+      "bytes": 6797
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny44.c",
+      "sha256": "d76c3d217b0db35dd65cc87b08fdcbdba33bdc8e7d75097ecf6a7097c5ce09fa",
+      "bytes": 1216
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny45.c",
+      "sha256": "120156b4b68617ae7f78281ca5305480e005c67730ca94a53f64fd73e9ac0cb6",
+      "bytes": 1162
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny84.c",
+      "sha256": "d0d4b39ddf30b4c7c339bc8d1bf5ae233000f70ded7b5b9c9ed25f916c81abb5",
+      "bytes": 1288
+    },
+    {
+      "path": "src/simavr/cores/sim_tiny85.c",
+      "sha256": "38ab9ac42b22574c07590fa431a30ab9c8f4d71ba44d32b4198413230b5bee7a",
+      "bytes": 1162
+    },
+    {
+      "path": "src/simavr/cores/sim_tinyx4.c",
+      "sha256": "9961269c9fe4b71230c82573331f7fbea0d4e295518efe3e01570cf0caf2b281",
+      "bytes": 1381
+    },
+    {
+      "path": "src/simavr/cores/sim_tinyx4.h",
+      "sha256": "95ffb4e0776a776704530f8705bfe9303a7d694d8734d5eca28531e6a5c8149c",
+      "bytes": 11727
+    },
+    {
+      "path": "src/simavr/cores/sim_tinyx5.c",
+      "sha256": "2ea5285731bc77c3b48556dab1d9f6288ea6f53e9d7552fc8e9136ba635951cc",
+      "bytes": 1273
+    },
+    {
+      "path": "src/simavr/cores/sim_tinyx5.h",
+      "sha256": "4ab89784a249c96d62ffc4fcee71f1f5f2ec918bdd9865eb78df2cdbd6f390fc",
+      "bytes": 6748
+    },
+    {
+      "path": "src/simavr/cores/sim_usb162.c",
+      "sha256": "71c7d10a1192a92d54511f14968318b17962763da2c80d56e3d4fb8fb9bf173a",
+      "bytes": 7333
+    },
+    {
+      "path": "src/simavr/sim/avr/avr_mcu_section.h",
+      "sha256": "c1c117a570ba04da48cd17310b73ef6baa6777f249d50fc215d13640750ddccc",
+      "bytes": 11260
+    },
+    {
+      "path": "src/simavr/sim/avr_acomp.c",
+      "sha256": "eee49d433c861933f31e4e3ef192bfa8c283a14d449ad272a65dc42f36320d75",
+      "bytes": 6424
+    },
+    {
+      "path": "src/simavr/sim/avr_acomp.h",
+      "sha256": "7e51441e9f76f010aa3eda8edb9ce48422c44ec57faf7bb67350cbf5ef5c5369",
+      "bytes": 2771
+    },
+    {
+      "path": "src/simavr/sim/avr_adc.c",
+      "sha256": "d3459a1230f87045d5e15a3a4507ed3d782b70b8ba6277193be774841a286bd1",
+      "bytes": 9896
+    },
+    {
+      "path": "src/simavr/sim/avr_adc.h",
+      "sha256": "779ab390fe07590dfe938adcee4524e5d65036f7222a77e5632c4f15213ef206",
+      "bytes": 4801
+    },
+    {
+      "path": "src/simavr/sim/avr_bitbang.c",
+      "sha256": "eb59f99c9ce34a27397dd958ef19963cf2ffde9a49cda1c8e25a9b32fe6e6dff",
+      "bytes": 5396
+    },
+    {
+      "path": "src/simavr/sim/avr_bitbang.h",
+      "sha256": "b68d26c4f39a101b4093b7b1398765cd269a60e49c577969266610fdb828f7af",
+      "bytes": 3777
+    },
+    {
+      "path": "src/simavr/sim/avr_eeprom.c",
+      "sha256": "cd6a17ea1af23b337f43a4936d63e5f2a00d5e04a16f74568c8aca05778cbcc7",
+      "bytes": 4504
+    },
+    {
+      "path": "src/simavr/sim/avr_eeprom.h",
+      "sha256": "570f633d23dc1efe234856c3fec3008c646529dbdac8c41e8365dec8c3382bec",
+      "bytes": 3178
+    },
+    {
+      "path": "src/simavr/sim/avr_extint.c",
+      "sha256": "23a272d422095bcb2d7d2e3fd589809fd4211eed280913b4d18eeb60738f5694",
+      "bytes": 9675
+    },
+    {
+      "path": "src/simavr/sim/avr_extint.h",
+      "sha256": "e0c1afb0573e99bf21f7af047e1f08a92da27641176611b93f7422021209bf46",
+      "bytes": 4730
+    },
+    {
+      "path": "src/simavr/sim/avr_flash.c",
+      "sha256": "3682bc50b0cc2c020f500cf60b40e038c6ce0b0d83b24f3d930b3d982fa7556d",
+      "bytes": 4094
+    },
+    {
+      "path": "src/simavr/sim/avr_flash.h",
+      "sha256": "f497a999d41c2d529e6bb5ce205dc3b3f392d67783b1ae5ad0977269c12ca13e",
+      "bytes": 2411
+    },
+    {
+      "path": "src/simavr/sim/avr_ioport.c",
+      "sha256": "94c84c06b47d05b1cf174edf257714862597d5a67c291e27c2bb7e334fe38d8a",
+      "bytes": 10877
+    },
+    {
+      "path": "src/simavr/sim/avr_ioport.h",
+      "sha256": "ff314913bae64d2d9bcc026ae8f5d4656b7339baf76077922596064e7689e281",
+      "bytes": 3719
+    },
+    {
+      "path": "src/simavr/sim/avr_lin.c",
+      "sha256": "c45ac26981a6ea6af505c52de66de8ae19eef9f2918adfe137dcb4035b63c054",
+      "bytes": 3154
+    },
+    {
+      "path": "src/simavr/sim/avr_lin.h",
+      "sha256": "1115c135731a16ca27a9dd3c61eab12119c60bbd22d05c19ef9dc2307322472b",
+      "bytes": 1253
+    },
+    {
+      "path": "src/simavr/sim/avr_spi.c",
+      "sha256": "2db587d1fcbeb24e28e0b20f11e9d08fa5aa9b41959deae60f7b5c48ec447e27",
+      "bytes": 7910
+    },
+    {
+      "path": "src/simavr/sim/avr_spi.h",
+      "sha256": "8f65d10850019b54f9d80307616be4b1edbeb75c113a836d3a1ac8bd70731830",
+      "bytes": 3808
+    },
+    {
+      "path": "src/simavr/sim/avr_timer.c",
+      "sha256": "3b61e4825c6eb6059f8ebebb5e3b960111c69fff03e3001096a800dc69e7a3f8",
+      "bytes": 27560
+    },
+    {
+      "path": "src/simavr/sim/avr_timer.h",
+      "sha256": "ed557cfcd2b3e3c1aa15a8ab243dfddf557548ffa2563ec62cf92007a81ce5f3",
+      "bytes": 6029
+    },
+    {
+      "path": "src/simavr/sim/avr_twi.c",
+      "sha256": "457fc1a7afff7e6321b15b923283c34443fdd4b43d8d3dea7baff421b4474ba4",
+      "bytes": 18005
+    },
+    {
+      "path": "src/simavr/sim/avr_twi.c-orig",
+      "sha256": "60b6aec1a8d69ea7481f352dac31f805138724cd917c1faf6a3ed57cb454873b",
+      "bytes": 18045
+    },
+    {
+      "path": "src/simavr/sim/avr_twi.h",
+      "sha256": "6fe45e87c708adf729f944b5f3fbd5dccff9301322e4c666c93a177e2b4b114c",
+      "bytes": 2919
+    },
+    {
+      "path": "src/simavr/sim/avr_uart.c",
+      "sha256": "043e54511f9704a16f641af3b19e5804d1175cbc0d692432c2cecd61f134eb54",
+      "bytes": 15416
+    },
+    {
+      "path": "src/simavr/sim/avr_uart.h",
+      "sha256": "33597c0d9c8360fde7a06753148a3fab76973cabf2abcfbc439ba41b76e39049",
+      "bytes": 7586
+    },
+    {
+      "path": "src/simavr/sim/avr_usb.c",
+      "sha256": "51e7c72dccf1cd86bfddc960144b118e6d77d56e7aea1e43009b245672d3f2d8",
+      "bytes": 18335
+    },
+    {
+      "path": "src/simavr/sim/avr_usb.h",
+      "sha256": "da0674043c1d0fdefc569858a629768ab43ebc6be97818234b89052f53baf947",
+      "bytes": 1915
+    },
+    {
+      "path": "src/simavr/sim/avr_watchdog.c",
+      "sha256": "c13864d6f21a9e608e500c9f75ad6b9b62d01f8ddf4af049e0a7f92b97c234b9",
+      "bytes": 6403
+    },
+    {
+      "path": "src/simavr/sim/avr_watchdog.h",
+      "sha256": "76b72a7595b4b18aea57621d88a60ba145f8be78aab88f38b933a39ad8abe6c6",
+      "bytes": 2603
+    },
+    {
+      "path": "src/simavr/sim/fifo_declare.h",
+      "sha256": "99ca703c1db1174ced8bf3b115bdd2c9ad04dfa6a650a5bbe5bed1a102fe98cb",
+      "bytes": 5271
+    },
+    {
+      "path": "src/simavr/sim/read_elf.c",
+      "sha256": "c004f78f8fe5e144c996bc952d4ec1d10d83abaab5229dfc3622a683eb0900fe",
+      "bytes": 13339
+    },
+    {
+      "path": "src/simavr/sim/sim_avr.c",
+      "sha256": "02ddec95a8a999c469daffadfa2f4ce592c12c068a1e6f4b6276a2670994e6f2",
+      "bytes": 9485
+    },
+    {
+      "path": "src/simavr/sim/sim_avr.h",
+      "sha256": "3cd2e2c0a0744c6bec0551edb712c82d97bb455aafd8cb60edb0eeaa19f34de5",
+      "bytes": 13288
+    },
+    {
+      "path": "src/simavr/sim/sim_avr_types.h",
+      "sha256": "c7b0c26a8683235b131297fd466733dbc98dfb83404b0e15a082d9fa1444cede",
+      "bytes": 1532
+    },
+    {
+      "path": "src/simavr/sim/sim_cmds.c",
+      "sha256": "c3d6a8d96cb1c18ab0a6be938a52f1e500a7b535c9a73d00f995ba912dbfb56b",
+      "bytes": 4284
+    },
+    {
+      "path": "src/simavr/sim/sim_cmds.h",
+      "sha256": "1d2360e0a1af71f28434d29eebe9f5381164d67c9d7865582637bb76b911061b",
+      "bytes": 1998
+    },
+    {
+      "path": "src/simavr/sim/sim_core.c",
+      "sha256": "557b7aa64c6fa79dd633378441e64dff28bc1c351be34a8efb20e01b5710452d",
+      "bytes": 45462
+    },
+    {
+      "path": "src/simavr/sim/sim_core.h",
+      "sha256": "73e0687a6055a82e43c3cc03e8b117a4bcc414cc19b94a24068bf476cb0c7436",
+      "bytes": 3218
+    },
+    {
+      "path": "src/simavr/sim/sim_cycle_timers.c",
+      "sha256": "3db35cc2d88d231be50bd653ec2871d8f1b1e2b1c06e69b03864b381f2c5b3d5",
+      "bytes": 6427
+    },
+    {
+      "path": "src/simavr/sim/sim_cycle_timers.h",
+      "sha256": "32028ad28902bea3603ab7191b8dcc9dee96d974ef57f7209c46299b71f73f2e",
+      "bytes": 3392
+    },
+    {
+      "path": "src/simavr/sim/sim_elf.c",
+      "sha256": "f0c8fcb6341ee9bd90da863aaf5498684b11ee7a77f49f53910a29745478bdee",
+      "bytes": 14229
+    },
+    {
+      "path": "src/simavr/sim/sim_elf.h",
+      "sha256": "87a21c261861b33f66197dc0e290230cb9a10018cfe9a28d5ed430e28e7af49c",
+      "bytes": 2126
+    },
+    {
+      "path": "src/simavr/sim/sim_gdb.c",
+      "sha256": "1db09557d25bf97f7913a336b9ab318b2efec341961b5ae7b2a8e3a7fd459e05",
+      "bytes": 16630
+    },
+    {
+      "path": "src/simavr/sim/sim_gdb.h",
+      "sha256": "b8b8dcf173f3100d1b0ca7296729c81dfc189244d62566bd99a38307eb62dc5e",
+      "bytes": 1394
+    },
+    {
+      "path": "src/simavr/sim/sim_hex.c",
+      "sha256": "9cef96fa15918dc9197c084e7edf9ee0d12170e2d5e92f7e2b514172165545be",
+      "bytes": 5188
+    },
+    {
+      "path": "src/simavr/sim/sim_hex.h",
+      "sha256": "47409499ea45487dd2754f7b388f0e3b136959726925cbfc1f83d132ca0893d6",
+      "bytes": 2043
+    },
+    {
+      "path": "src/simavr/sim/sim_interrupts.c",
+      "sha256": "6083b0c4da900d3569df56f33bef35883810d9c9f94c78338e360e189f52fc54",
+      "bytes": 7741
+    },
+    {
+      "path": "src/simavr/sim/sim_interrupts.h",
+      "sha256": "fd125e489e2a448bcb32032b4bc8bfc11cc58c4e9e3e9059424f00e43fdad1df",
+      "bytes": 3906
+    },
+    {
+      "path": "src/simavr/sim/sim_io.c",
+      "sha256": "54e03468c6ee0872815b31c93148405c128fb51872d2ce86e3b3cafa9205ccbe",
+      "bytes": 7132
+    },
+    {
+      "path": "src/simavr/sim/sim_io.h",
+      "sha256": "0ebcc19632d244b9889e6d8438db1c2970b58e7d3288470befe7a9676fca2438",
+      "bytes": 3608
+    },
+    {
+      "path": "src/simavr/sim/sim_irq.c",
+      "sha256": "1066969e3a7702937d6e7cd4dab8960895e2071ef7eba7a7796d48a90d062279",
+      "bytes": 6303
+    },
+    {
+      "path": "src/simavr/sim/sim_irq.h",
+      "sha256": "ff998093cc888035c3b11e4a92008cf69fd49546f783e376e8d0f02d7b210c17",
+      "bytes": 4058
+    },
+    {
+      "path": "src/simavr/sim/sim_network.h",
+      "sha256": "a34c72e4f93a02b981420e99a56f10a7d0ff7750790b45217e8a3193131a27f4",
+      "bytes": 1886
+    },
+    {
+      "path": "src/simavr/sim/sim_regbit.h",
+      "sha256": "ffcee48e17972b9680e86b084d14c2aaa328d7bf4efc5c77a2e92c7ff670c372",
+      "bytes": 4165
+    },
+    {
+      "path": "src/simavr/sim/sim_time.h",
+      "sha256": "8e6b5ec4950d93b44a8edd2b4548b6730adb851dbbbb0aa35aa2f5a20928c1d0",
+      "bytes": 1688
+    },
+    {
+      "path": "src/simavr/sim/sim_utils.c",
+      "sha256": "ac7a935ad6e06bfe840d1ae150d31f9c271d5a2941414a2968fc8d413d197f7c",
+      "bytes": 1855
+    },
+    {
+      "path": "src/simavr/sim/sim_utils.h",
+      "sha256": "65f7886e9f3adbc0874c46c706a8e59f6c7be0ddc6677b06c6570cabaa962e85",
+      "bytes": 1495
+    },
+    {
+      "path": "src/simavr/sim/sim_vcd_file.c",
+      "sha256": "567f053d29096105565b153b122c9fb4fab7ffe5fe9b9268b868f910047c2f41",
+      "bytes": 13497
+    },
+    {
+      "path": "src/simavr/sim/sim_vcd_file.h",
+      "sha256": "c602b76612494bfa8f990149d4523dc04c850d37745f4698f0f33e1b2e045013",
+      "bytes": 3326
+    },
+    {
+      "path": "src/simavr/sim_core_decl.h",
+      "sha256": "aeda8b1688a5c01cde77b90da3f42223e4f02eeccff1d2edea049826babc1ac0",
+      "bytes": 2825
+    },
+    {
+      "path": "src/simulator/circmatrix.cpp",
+      "sha256": "320c8924b2d1b24d4b60a1f9bf7d8aa5336104de8afbf0dbaaade80aa3bd04b5",
+      "bytes": 11795
+    },
+    {
+      "path": "src/simulator/circmatrix.h",
+      "sha256": "329446c29e343356332574780a00e0cbf1765dc2cb6f5a8d7a37289d22df553a",
+      "bytes": 2887
+    },
+    {
+      "path": "src/simulator/e-element.cpp",
+      "sha256": "8082614b088cbe39ff39a698802ab4e0b9b3f4d0e08109bcae8cecddfeea84d8",
+      "bytes": 2995
+    },
+    {
+      "path": "src/simulator/e-element.h",
+      "sha256": "a6d5f2470b0f752e87305b9e8ee0684f5e07dacf44a1004b50bf7e4db2fb1b25",
+      "bytes": 2969
+    },
+    {
+      "path": "src/simulator/e-node.cpp",
+      "sha256": "98d1df71e176dfb255a8a2d5113d001417acf44b0fabb44bfa699e69c711e3ca",
+      "bytes": 9347
+    },
+    {
+      "path": "src/simulator/e-node.h",
+      "sha256": "3ba01407c55274d5ef9a469482d70cee8198b6df1b0aa9c4c2c48c6626613b34",
+      "bytes": 3742
+    },
+    {
+      "path": "src/simulator/e-pin.cpp",
+      "sha256": "524ae6f1d3062f9b1f53308d4a8ffc8699d9bea93b0fccdcee6fcf872d439f57",
+      "bytes": 3701
+    },
+    {
+      "path": "src/simulator/e-pin.h",
+      "sha256": "1204e9527e786fa1b93a3714d5d34419a9077fe20a10d873702211b511b2a57d",
+      "bytes": 2217
+    },
+    {
+      "path": "src/simulator/e-source.cpp",
+      "sha256": "88ad5edc17bdac73cfe6cebc63380a9538eec5383b49fb9226c142b52c29ccef",
+      "bytes": 4243
+    },
+    {
+      "path": "src/simulator/e-source.h",
+      "sha256": "4e445d51256711737e06436387985e44b4b9d01a489f1ed74ada58af8a6f5ca1",
+      "bytes": 2233
+    },
+    {
+      "path": "src/simulator/elements/active/e-bjt.cpp",
+      "sha256": "0bdd03f086e0dd30e3710c8f5b0a3bd0af6d648d821da4cb5640863b90d384f2",
+      "bytes": 7325
+    },
+    {
+      "path": "src/simulator/elements/active/e-bjt.h",
+      "sha256": "1b43cd42c9e2a1456680aa731b67401c22c18fe3910f0c48b3860d77581c0b30",
+      "bytes": 2599
+    },
+    {
+      "path": "src/simulator/elements/active/e-diode.cpp",
+      "sha256": "82c3ed17c27daf882e315d3a4b5f998d14262074ac1fe166d31fc999529c7070",
+      "bytes": 4315
+    },
+    {
+      "path": "src/simulator/elements/active/e-diode.h",
+      "sha256": "2cdbfed6cfc23541ddbe599efee8ff729c2da82fa888231e0e1ccb47676147be",
+      "bytes": 2186
+    },
+    {
+      "path": "src/simulator/elements/active/e-mosfet.cpp",
+      "sha256": "b6646997b29a215759b37f8d65c23c3745ba90e2563927ff4f971564226ab241",
+      "bytes": 5146
+    },
+    {
+      "path": "src/simulator/elements/active/e-mosfet.h",
+      "sha256": "afa4f2ed493fa5cdcc77236f5fab27c18249dd1ee0f458c4ef9203be2c74e742",
+      "bytes": 2466
+    },
+    {
+      "path": "src/simulator/elements/active/e-mux_analog.cpp",
+      "sha256": "ad4c9ea1742727d474170f6a2df0b98013bf6802abc0c0e07496b412fe6e93fd",
+      "bytes": 5587
+    },
+    {
+      "path": "src/simulator/elements/active/e-mux_analog.h",
+      "sha256": "4c337398ddf6908f5f878b1f0925f630f64f9b2e3ec258f76d0b2faa92271739",
+      "bytes": 2275
+    },
+    {
+      "path": "src/simulator/elements/active/e-op_amp.cpp",
+      "sha256": "ec1a21c68a276a2d1bcd94b4490f0a20e5d9a3b495bbd892d8a9fdf0f4c7417a",
+      "bytes": 4559
+    },
+    {
+      "path": "src/simulator/elements/active/e-op_amp.h",
+      "sha256": "33040b386b3226728c4ce542d8c20b53ac46781c2bbe8c5c4fce23cf4c4b106b",
+      "bytes": 2268
+    },
+    {
+      "path": "src/simulator/elements/active/e-volt_reg.cpp",
+      "sha256": "9cedae3a2f5306331e73e01c4eb8a149b0742a945917eca2c6fb905e24b48d35",
+      "bytes": 2733
+    },
+    {
+      "path": "src/simulator/elements/active/e-volt_reg.h",
+      "sha256": "b65af41f348920a80213b3fe212d3c49ec800b534ce757e16d7b4811eae5e326",
+      "bytes": 2002
+    },
+    {
+      "path": "src/simulator/elements/e-logic_device.cpp",
+      "sha256": "81cb3c9f9f8bb929870aed80c83e0d5e8f25a5a3e6ae4f827ee8becd3bd92169",
+      "bytes": 13929
+    },
+    {
+      "path": "src/simulator/elements/e-logic_device.h",
+      "sha256": "7c4fc85571e1a5af4815bc0a8b8b537f56d08ce1b9e489a0fb83a3be4fe2fe5e",
+      "bytes": 4884
+    },
+    {
+      "path": "src/simulator/elements/e-pn.cpp",
+      "sha256": "a1535b0e4089ca715714d5dcb51433cc83355b31954396e8e79af756b166c0de",
+      "bytes": 3166
+    },
+    {
+      "path": "src/simulator/elements/e-pn.h",
+      "sha256": "1f0bb70d5e3bf6572eec28b51f767637671fd5b91ee049860a2b71eaf39b01de",
+      "bytes": 1936
+    },
+    {
+      "path": "src/simulator/elements/logic/e-adc.cpp",
+      "sha256": "952f5275696b03b1af070b4d7e87f2de581f9f2553b633649386dbf9ee386999",
+      "bytes": 2129
+    },
+    {
+      "path": "src/simulator/elements/logic/e-adc.h",
+      "sha256": "db13478e4e6905daedb0810bb7c5d8c1b39ea87977f96eeb804f3a37832d192c",
+      "bytes": 1985
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bcdto7s.cpp",
+      "sha256": "0422938f57808f2055823d0ecb33c080a2e81336bc418aeab45841ce903a2045",
+      "bytes": 6169
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bcdto7s.h",
+      "sha256": "f9aa9b9d2de600c7a91732da56d6f3ddf72087bb3cf965960e5856e5dfea4d98",
+      "bytes": 1809
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bcdtodec.cpp",
+      "sha256": "f732ee162a77d895be4a6cf6da75945f78e39e93300a9657446232467ba0a80b",
+      "bytes": 2392
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bcdtodec.h",
+      "sha256": "b48c5a3848cd07ee1cc327229d09846071b642332b44437862a635eb082aa4c4",
+      "bytes": 1889
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bincounter.cpp",
+      "sha256": "15979d4c5d05cb7dffcdf134e91a653d865149c90b3967f26d149dd46971c081",
+      "bytes": 2881
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bincounter.h",
+      "sha256": "15e575ed76457f8d59d32cd6687ce7b5940af7534352b246f147a08097ae8130",
+      "bytes": 1989
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bus.cpp",
+      "sha256": "fcb7d2702c79c9ceee9ecbfadf12079545409e5995207e1fb947f8dc28364b37",
+      "bytes": 2073
+    },
+    {
+      "path": "src/simulator/elements/logic/e-bus.h",
+      "sha256": "ffe339d1aa303b293bf6ba2cda269a088bb90b00e0d3c9937c0cf05971f20dd3",
+      "bytes": 1977
+    },
+    {
+      "path": "src/simulator/elements/logic/e-clock.cpp",
+      "sha256": "ab610ed671c67224c08553e440b4d9d189aabf2dacd5341f6b993854e89f1134",
+      "bytes": 2453
+    },
+    {
+      "path": "src/simulator/elements/logic/e-clock.h",
+      "sha256": "efd566e3af6e74040b725dad0f7403b490d621bdb258c4032757f8dcc5f327b8",
+      "bytes": 1967
+    },
+    {
+      "path": "src/simulator/elements/logic/e-dac.cpp",
+      "sha256": "da4bd435efb035df83a38ddaa29dd38ed9ba3d9296bae27499c5b2f006371ef5",
+      "bytes": 2193
+    },
+    {
+      "path": "src/simulator/elements/logic/e-dac.h",
+      "sha256": "8a444adffa2aea646796cc5ab99ea7cf43475fa6d13426c76d444b3f3533d0f9",
+      "bytes": 2037
+    },
+    {
+      "path": "src/simulator/elements/logic/e-dectobcd.cpp",
+      "sha256": "4e313534a0c32bcd5d61cbe34c5976b52be60e36d824a6c655bffb5227de5394",
+      "bytes": 2367
+    },
+    {
+      "path": "src/simulator/elements/logic/e-dectobcd.h",
+      "sha256": "5cfb19956077268838dae48a584a14df7f9b7f53e2884a8c4a5ea5918c498d5b",
+      "bytes": 1822
+    },
+    {
+      "path": "src/simulator/elements/logic/e-demux.cpp",
+      "sha256": "a9f9daa4480c02d2f6a134f1998d38149fad8f529bf1509ed773c1e2a4c18cea",
+      "bytes": 2144
+    },
+    {
+      "path": "src/simulator/elements/logic/e-demux.h",
+      "sha256": "15753203fb61445fe56c6836d17d083be9a811d2f7a3525f1069b4a995975fcf",
+      "bytes": 1735
+    },
+    {
+      "path": "src/simulator/elements/logic/e-flipflopd.cpp",
+      "sha256": "798de15b2719a161c358845e24bae861e52fb190a43f5e8652a0e17b3dc5cfe1",
+      "bytes": 3532
+    },
+    {
+      "path": "src/simulator/elements/logic/e-flipflopd.h",
+      "sha256": "c9080e4e2f7a11f2e8b464d91a60e82a6000be88358d9bc9697e7a8b46b1236b",
+      "bytes": 1816
+    },
+    {
+      "path": "src/simulator/elements/logic/e-flipflopjk.cpp",
+      "sha256": "19e8805e3bebee958c244dcd0efce6fc10283599203bb5022cd1fbd867f9590f",
+      "bytes": 3670
+    },
+    {
+      "path": "src/simulator/elements/logic/e-flipflopjk.h",
+      "sha256": "fa2f8e505668169b4aa856f29c66948f4a272a564e82c138f3ce3c0d920888eb",
+      "bytes": 1821
+    },
+    {
+      "path": "src/simulator/elements/logic/e-fulladder.cpp",
+      "sha256": "c25eb1b43ce8c5dfa5f1aec262ce73b3b4ed0f763a71f6348851c4847ceaa4f8",
+      "bytes": 2334
+    },
+    {
+      "path": "src/simulator/elements/logic/e-fulladder.h",
+      "sha256": "f8f3362aefb4bfd4cd2d178c6d9058dca6a34f60d77caad518154df404a635e6",
+      "bytes": 1705
+    },
+    {
+      "path": "src/simulator/elements/logic/e-function.cpp",
+      "sha256": "a47be536764bc4b85c62b69ac956117d1f5614dbbb710060142e43603468340a",
+      "bytes": 3663
+    },
+    {
+      "path": "src/simulator/elements/logic/e-function.h",
+      "sha256": "67938960a01a7e99c8281b89fc9497e40922f4b0c1cf5b4c267182caddd4077e",
+      "bytes": 1890
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate.cpp",
+      "sha256": "bd4c54755cb4571a095c7732bcadaeb46568bd2c95d3d7a0a97d31aff769f002",
+      "bytes": 3652
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate.h",
+      "sha256": "48a822cafd26aaeff0e6c633870ba3feae0c4e0def9680f1bf81a8a0f20dd3c0",
+      "bytes": 2045
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate_or.cpp",
+      "sha256": "43c24e9ce0a7189ad30e30679182d3b524f7cddada02435fc955fa65863f6232",
+      "bytes": 1914
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate_or.h",
+      "sha256": "091b303a183809dd8571bf00133d4867d53b2f0e71d9a2d43292df34140b3be7",
+      "bytes": 1951
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate_xor.cpp",
+      "sha256": "f6fb548fcd6e4efe518e7d9a217f2924d7a9164c3f13ee1a1e0841204c4f7f37",
+      "bytes": 1921
+    },
+    {
+      "path": "src/simulator/elements/logic/e-gate_xor.h",
+      "sha256": "c81b4538f1471887c237b2db58ced8beb32c3407b96fe65e7ab36664130e7819",
+      "bytes": 1956
+    },
+    {
+      "path": "src/simulator/elements/logic/e-i2c.cpp",
+      "sha256": "67bc3c741c95207aa87740e0e1debef26ad838211c1172fcbc7e494074d26cf9",
+      "bytes": 11151
+    },
+    {
+      "path": "src/simulator/elements/logic/e-i2c.h",
+      "sha256": "cf53acc0150634741ec934241caed89841bcd80e6aad1c04a9fc50558db0c312",
+      "bytes": 3497
+    },
+    {
+      "path": "src/simulator/elements/logic/e-latch_d.cpp",
+      "sha256": "4151ecf8ccb1997afd63a9d49ff71274cb6f91c2d113f604b7f98a02ac7cbf01",
+      "bytes": 2621
+    },
+    {
+      "path": "src/simulator/elements/logic/e-latch_d.h",
+      "sha256": "8d5ed5313e70bb71f19842d50b1e8495f608ce8bef6937ade7705549151519e6",
+      "bytes": 1830
+    },
+    {
+      "path": "src/simulator/elements/logic/e-lm555.cpp",
+      "sha256": "2f005ad8a9d257764e30d332081b127a4812643a8a8c7be09919766463a09338",
+      "bytes": 4088
+    },
+    {
+      "path": "src/simulator/elements/logic/e-lm555.h",
+      "sha256": "b05a181580a7cfd04bb042c5cbff637a268ed7149fcce8f9ffa273b960c9099c",
+      "bytes": 1912
+    },
+    {
+      "path": "src/simulator/elements/logic/e-memory.cpp",
+      "sha256": "35a177b32043462f439954790358b7deb3c56c265f637286d37bbb04e86ed0d4",
+      "bytes": 5447
+    },
+    {
+      "path": "src/simulator/elements/logic/e-memory.h",
+      "sha256": "ff152feca4d7069711d4b36052a6ff5f4b9d3672090a7eb4d6cd4c8540ed44d5",
+      "bytes": 2287
+    },
+    {
+      "path": "src/simulator/elements/logic/e-mux.cpp",
+      "sha256": "e41e026ca7afcbe209b26c030f0690b93cf56aeb2a73650e1232147b4714075a",
+      "bytes": 2095
+    },
+    {
+      "path": "src/simulator/elements/logic/e-mux.h",
+      "sha256": "0e626db6aecd9f5e69650163e8452b215632596b4887eb7f8dc94b8963433ed0",
+      "bytes": 1745
+    },
+    {
+      "path": "src/simulator/elements/logic/e-shiftreg.cpp",
+      "sha256": "40c98cfed1d8f63b40360960ebef95dee917cf2700e68feeaef3a0018832dba5",
+      "bytes": 6347
+    },
+    {
+      "path": "src/simulator/elements/logic/e-shiftreg.h",
+      "sha256": "2b3ca8084c232b1896307a3d19897f0840664d3ebe0199ea5d44caf74a272a4b",
+      "bytes": 2269
+    },
+    {
+      "path": "src/simulator/elements/outputs/e-led.cpp",
+      "sha256": "d983181682edaf82e6510962fdfef192e7ee32af3b4452e6ffaf74352cb78bb4",
+      "bytes": 3073
+    },
+    {
+      "path": "src/simulator/elements/outputs/e-led.h",
+      "sha256": "eaf3e097e696612a5cab487bafabc7ae24ba51b733b8cd77ede1a40e309124ee",
+      "bytes": 2119
+    },
+    {
+      "path": "src/simulator/elements/passive/e-capacitor.cpp",
+      "sha256": "b5d908fd24d88782a8a0cedd635e6a6bda635f94bba028c7a48bbaee4359de4b",
+      "bytes": 2849
+    },
+    {
+      "path": "src/simulator/elements/passive/e-capacitor.h",
+      "sha256": "38e111a031630ec330491ff406b56effe2523049b54b6bce7b725105a522addf",
+      "bytes": 1860
+    },
+    {
+      "path": "src/simulator/elements/passive/e-inductor.cpp",
+      "sha256": "2cf804bb7ff090768ad995ed5769b6112fa3ae319ddf63fbf61918bd70a59748",
+      "bytes": 2833
+    },
+    {
+      "path": "src/simulator/elements/passive/e-inductor.h",
+      "sha256": "2cd662a62d444b407bafb4e28fd9cc3f9a10b9475895ca8e45e107f7c25687d6",
+      "bytes": 1915
+    },
+    {
+      "path": "src/simulator/elements/passive/e-resistor.cpp",
+      "sha256": "3b16592ccab332053bc24879fda959fce6a9fbaa79f5343712012bba110a2850",
+      "bytes": 3716
+    },
+    {
+      "path": "src/simulator/elements/passive/e-resistor.h",
+      "sha256": "7d8a9c2dda93ab2f42decfd7935a43fa6ad74d25a03654a5309cc3bc8e437c8a",
+      "bytes": 2095
+    },
+    {
+      "path": "src/simulator/elements/passive/e-resistordip.cpp",
+      "sha256": "bcf1866f557dc0db9701717be1cb485d6db9cb597db4c249cac8a57de2ad2ed1",
+      "bytes": 2494
+    },
+    {
+      "path": "src/simulator/elements/passive/e-resistordip.h",
+      "sha256": "38e4e1ebdd44e2b5b51bab2e40bdc1d352f191c615f5207afcf8708449d82711",
+      "bytes": 1888
+    },
+    {
+      "path": "src/simulator/elements/processors/avrprocessor.cpp",
+      "sha256": "94445c8a8c6c0f9a488da03cdfa10b38ca953ac28b8afab35ac79ba4d5103795",
+      "bytes": 9923
+    },
+    {
+      "path": "src/simulator/elements/processors/avrprocessor.h",
+      "sha256": "df2655abf344b09311bd5a9226625612794c2af3d5c7705f439a9cd6c2bf1625",
+      "bytes": 3024
+    },
+    {
+      "path": "src/simulator/elements/processors/baseprocessor.cpp",
+      "sha256": "0d44c5d585b6598e32bc52d9a37fc402ebb07d6402898a9e3cb23b89772f8bc4",
+      "bytes": 8936
+    },
+    {
+      "path": "src/simulator/elements/processors/baseprocessor.h",
+      "sha256": "21ededcbdc531556bb436f1e74726137af798601071548aeae531c6de09b4c45",
+      "bytes": 3918
+    },
+    {
+      "path": "src/simulator/elements/processors/picprocessor.cpp",
+      "sha256": "0f419e4d7c567903f0ae38f3d3efdfd9289efc96e1f1596ef39fd8b0390a3d4f",
+      "bytes": 7176
+    },
+    {
+      "path": "src/simulator/elements/processors/picprocessor.h",
+      "sha256": "693ddd707940827b28c06fbff3064bc1cb99f31b54cb18b480e8d83072d7b272",
+      "bytes": 2515
+    },
+    {
+      "path": "src/simulator/elements/processors/read_elf.c",
+      "sha256": "8af398062af258c9b53f0a4ad19d26a0789d8351fa6c9ce51f2da248be27f627",
+      "bytes": 11925
+    },
+    {
+      "path": "src/simulator/matrixsolver.cpp",
+      "sha256": "7ba10c797d8858e92ba9b5f4ba56a1712250969332bf9bb5f56ed2b6713a97a2",
+      "bytes": 10147
+    },
+    {
+      "path": "src/simulator/matrixsolver.h",
+      "sha256": "dac0a33a4d1ef3f907743ad8db28980edf279a1c13d324164b31c28e3b367f8f",
+      "bytes": 2219
+    },
+    {
+      "path": "src/simulator/simulator.cpp",
+      "sha256": "93b31697ef76816956cb8ccb50198def806a695a7d59f2e5fb8029afae6f2fbf",
+      "bytes": 16469
+    },
+    {
+      "path": "src/simulator/simulator.h",
+      "sha256": "d10aee3b3d3f65a2f7226015fc3ac6252af96fc6476e4a26fdf9b26a422711c3",
+      "bytes": 4859
+    }
+  ]
+}

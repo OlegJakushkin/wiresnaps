@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Local computation, visible causes and effects."><title>Inside the engine · WireSnaps</title><link rel="stylesheet" href="site.css"></head>
+<body><a class="skip" href="#content">Skip to content</a>
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">w<span>•</span></span><span>WireSnaps<small>BIG IDEAS. LITTLE CONNECTIONS.</small></span></a><a class="play" href="../#build" target="_blank" rel="noopener">Open playground ↗</a></header>
+<div class="layout"><aside><nav aria-label="Feature guide"><a href="index.html">Feature tour</a><a href="build.html">Build &amp; rewire</a><a href="code.html">Program</a><a href="experiments.html">Experiment</a><a href="projects.html">29 projects</a><a href="inside.html" aria-current="page">Inside the engine</a><a href="rights.html">Names &amp; rights</a><a href="review.html">IP review</a></nav><p class="small-note">Independent browser playground.<br>Development milestone.</p></aside>
+<main id="content"><div class="hero"><p class="eyebrow">THE WIRESNAPS FIELD GUIDE</p><h1>What makes the playground work</h1><p>Local computation, visible causes and effects.</p></div>
+<nav class="on-page" aria-label="On this page"><b>On this page</b><a href="#from-a-snap-to-a-moving-fan">From a snap to a moving fan</a><a href="#where-the-c-code-is-involved">Where the C++ code is involved</a><a href="#why-an-led-is-not-just-an-animation">Why an LED is not just an animation</a><a href="#reproducible-inspectable-builds">Reproducible, inspectable builds</a><a href="#honest-limits">Honest limits</a></nav><article><p>The website serves files. <strong>Your browser runs the simulation.</strong> No login,
+application server, cloud compiler or shared-memory hosting headers are required.
+All runtime libraries and firmware ship locally with the site.</p>
+<h2 id="from-a-snap-to-a-moving-fan">From a snap to a moving fan</h2>
+<ol>
+<li><strong>Authoring:</strong> TypeScript, React and Three.js describe placed parts, their
+terminals, controls, connections and code. Shared component geometry is used
+for rendering and collision checks.</li>
+<li><strong>Circuit loading:</strong> a dedicated Web Worker translates the project into the
+engine's circuit description. Project identity, revision and load generation
+prevent old worker replies from affecting a newly opened project.</li>
+<li><strong>Electrical solving:</strong> the Qt-free C/C++ engine, extracted from pinned
+SimulIDE sources, runs as WebAssembly through a small C ABI. It calculates
+voltages, currents, reactive state, heat, limits and damage.</li>
+<li><strong>Mechanical feedback:</strong> every millisecond of simulated time, motor torque
+drives the Rapier rotor. Its speed feeds back into the motor's back EMF and
+electrical load.</li>
+<li><strong>Presentation:</strong> observations drive light emission, rotation, readings and
+condition indicators. Rendering has its own frame rate and never advances
+the physical clock by itself.</li>
+</ol>
+<p>The default electrical step is <strong>10 microseconds</strong>. Work per advance call is
+bounded. Slow hardware can simulate more slowly than real time; it reports that
+speed instead of skipping physical time. Invalid or non-converging circuits
+return diagnostics and stop at the last valid observation.</p>
+<h2 id="where-the-c-code-is-involved">Where the C++ code is involved</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>What C++ does</th>
+<th>What TypeScript does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Construction</td>
+<td>Receives the resulting circuit.</td>
+<td>Validates bodies, builds connection nets and manages edits.</td>
+</tr>
+<tr>
+<td>Electricity</td>
+<td>Solves the network and component equations.</td>
+<td>Sends controls and displays observations.</td>
+</tr>
+<tr>
+<td>Heating and failure</td>
+<td>Accumulates modelled thermal stress and changes failed conductors.</td>
+<td>Explains failure and offers explicit replacement.</td>
+</tr>
+<tr>
+<td>Programming</td>
+<td>Runs simavr / gpsim instructions and electrically modelled MCU pins.</td>
+<td>Edits Blockly JSON, compiles bytecode and packages runtime firmware.</td>
+</tr>
+<tr>
+<td>Motion</td>
+<td>Supplies electrical motor torque and uses returned speed.</td>
+<td>Schedules the Rapier exchange in the worker and renders the result.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Native and WebAssembly builds share the engine source and physics fixtures.
+Firmware is supplied from memory; there is no desktop Qt interface, OS serial
+connection, network debugger or dynamic plugin loader in the product build.</p>
+<h2 id="why-an-led-is-not-just-an-animation">Why an LED is not just an animation</h2>
+<p>A program changes a pin. The connected circuit determines current. The LED
+model supplies brightness and heat observations. The renderer follows those
+observations. Disconnecting the supply, reversing polarity, changing resistance
+or damaging the part can alter the result while the same program keeps running.</p>
+<p>Lamp resistance changes with temperature. Capacitors hold state between steps.
+The motor includes inertia and back EMF. Rewiring preserves matching component
+state, damage and MCU execution rather than starting a new animation from zero.</p>
+<h2 id="reproducible-inspectable-builds">Reproducible, inspectable builds</h2>
+<p>Docker builds the native engine, WebAssembly, AVR/PIC runtime firmware and static
+website. Checks cover analytic electrical fixtures, template construction,
+actual emulated controller behavior and browser interactions. C++ diagnostics,
+licence notices and corresponding source accompany the distribution.</p>
+<p>The export gate counts <strong>every optional download</strong> against 1,000,000,000 bytes.
+The conservative compressed runtime bound must remain below 20 MB. A separate
+full-release gate stays closed while catalogue coverage is incomplete.</p>
+<h2 id="honest-limits">Honest limits</h2>
+<p>The catalogue currently exposes 55 definitions from an unfinished 329-candidate
+inventory. It is not the entire catalogue. Parameters marked as estimates are
+not measurements of a manufacturer's part. Proprietary radio/sound/recording
+modules, broader MCU coverage, fully free spatial assemblies and exhaustive
+hardware validation remain unfinished. The target of 60 FPS and under-100-ms
+interaction is not a certification on every computer.</p>
+<p>The software is <strong>GPL-3.0-or-later</strong>. The upstream SimulIDE revision is
+<code>4bf26bc839147551a00938aa2949012681a3e046</code>; per-file provenance and inherited
+licences accompany the source. <a href="rights.html">Read the names and rights notes</a>.</p>
+</article>
+<section class="next"><h2>Ready to try an idea?</h2><p>Demos open in a new tab as a personal copy. Your existing saved projects stay available.</p><a href="projects.html">Choose a project →</a></section></main></div>
+<footer><span>Original WireSnaps content · GPL-3.0-or-later</span><a href="rights.html">Names & rights</a><a href="../source/THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="../source/wiresnaps-source.tar.gz">Corresponding source</a></footer></body></html>

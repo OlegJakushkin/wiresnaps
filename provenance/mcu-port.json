@@ -1,0 +1,2448 @@
+[
+  {
+    "upstream": "src/simavr/cores/avr/iom128.h",
+    "local": "engine/mcu/simavr/cores/avr/iom128.h",
+    "originalSha256": "3522cb5bb332d89ad42f17309f24f31c46679871f565541a2b3cbece22bbfac8",
+    "modifiedSha256": "3522cb5bb332d89ad42f17309f24f31c46679871f565541a2b3cbece22bbfac8",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom1280.h",
+    "local": "engine/mcu/simavr/cores/avr/iom1280.h",
+    "originalSha256": "05b9a8447f9688ee458f6bc9311120173bb073baebd7d74ed7e704ffc3dd7225",
+    "modifiedSha256": "05b9a8447f9688ee458f6bc9311120173bb073baebd7d74ed7e704ffc3dd7225",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom1281.h",
+    "local": "engine/mcu/simavr/cores/avr/iom1281.h",
+    "originalSha256": "b19dab397c1adf0137dd11847a897dfa6154bcb247b00a06298c5993fb088b95",
+    "modifiedSha256": "b19dab397c1adf0137dd11847a897dfa6154bcb247b00a06298c5993fb088b95",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom1284.h",
+    "local": "engine/mcu/simavr/cores/avr/iom1284.h",
+    "originalSha256": "9c2b54038e667a9b578f7f1b334672d8f0a7b985eb68eb21046fa65569740ddd",
+    "modifiedSha256": "9c2b54038e667a9b578f7f1b334672d8f0a7b985eb68eb21046fa65569740ddd",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom1284p.h",
+    "local": "engine/mcu/simavr/cores/avr/iom1284p.h",
+    "originalSha256": "809551430cfc85d067056e9bcedb634eef097364fff93c9c442eac10e79360b9",
+    "modifiedSha256": "809551430cfc85d067056e9bcedb634eef097364fff93c9c442eac10e79360b9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom128rfa1.h",
+    "local": "engine/mcu/simavr/cores/avr/iom128rfa1.h",
+    "originalSha256": "173fc30d730f750f41ffa0f9bfb819bc570a8c42341bc90c2a09773a40786bbf",
+    "modifiedSha256": "173fc30d730f750f41ffa0f9bfb819bc570a8c42341bc90c2a09773a40786bbf",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom128rfr2.h",
+    "local": "engine/mcu/simavr/cores/avr/iom128rfr2.h",
+    "originalSha256": "2c87ea5a2433cd77d3f16f280aa811f6bf50ceaf011f1b40a227352c3a5f7920",
+    "modifiedSha256": "2c87ea5a2433cd77d3f16f280aa811f6bf50ceaf011f1b40a227352c3a5f7920",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom16.h",
+    "local": "engine/mcu/simavr/cores/avr/iom16.h",
+    "originalSha256": "a595ca6065009298dfd53b119a8998966ae3a3700041ba5db6ec5d2709c64d4f",
+    "modifiedSha256": "a595ca6065009298dfd53b119a8998966ae3a3700041ba5db6ec5d2709c64d4f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom164.h",
+    "local": "engine/mcu/simavr/cores/avr/iom164.h",
+    "originalSha256": "98fecde6f8967e6af0f0b3201f606e130d195fabb090330faf08e3835407c7bd",
+    "modifiedSha256": "98fecde6f8967e6af0f0b3201f606e130d195fabb090330faf08e3835407c7bd",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom168.h",
+    "local": "engine/mcu/simavr/cores/avr/iom168.h",
+    "originalSha256": "1cd85b6774a6b98ae6a5f1f280a96f7751fb953c857dc605d91aaec48ca14298",
+    "modifiedSha256": "1cd85b6774a6b98ae6a5f1f280a96f7751fb953c857dc605d91aaec48ca14298",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom169p.h",
+    "local": "engine/mcu/simavr/cores/avr/iom169p.h",
+    "originalSha256": "1a5265ebb5ba3e124f1ffd818c8a2aa3388c61db814ecd40d1ee8642b3f2e183",
+    "modifiedSha256": "1a5265ebb5ba3e124f1ffd818c8a2aa3388c61db814ecd40d1ee8642b3f2e183",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom16m1.h",
+    "local": "engine/mcu/simavr/cores/avr/iom16m1.h",
+    "originalSha256": "6862d8c5bb3679b39f35d97747f9d663921b65d237a01f9751c6da6e33cc6c0d",
+    "modifiedSha256": "6862d8c5bb3679b39f35d97747f9d663921b65d237a01f9751c6da6e33cc6c0d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom2560.h",
+    "local": "engine/mcu/simavr/cores/avr/iom2560.h",
+    "originalSha256": "639bcfe942357b471d855d372b1a3c3337bbade9ea404cbde0705fadb9b46e71",
+    "modifiedSha256": "639bcfe942357b471d855d372b1a3c3337bbade9ea404cbde0705fadb9b46e71",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom32.h",
+    "local": "engine/mcu/simavr/cores/avr/iom32.h",
+    "originalSha256": "6a975f066e49cb546eb58909e566f2c822255918c1b66fb31108cf1970952447",
+    "modifiedSha256": "6a975f066e49cb546eb58909e566f2c822255918c1b66fb31108cf1970952447",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom324.h",
+    "local": "engine/mcu/simavr/cores/avr/iom324.h",
+    "originalSha256": "cbcb40898c9e43a1a234ecd36ccffec55cd6ec4bd3dd24c9b8f1c239985cc0fd",
+    "modifiedSha256": "cbcb40898c9e43a1a234ecd36ccffec55cd6ec4bd3dd24c9b8f1c239985cc0fd",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom324pa.h",
+    "local": "engine/mcu/simavr/cores/avr/iom324pa.h",
+    "originalSha256": "dcbcf1d335602aa153e9288b52ce3454cf474e7a09bd04e218b6d2562eeee977",
+    "modifiedSha256": "dcbcf1d335602aa153e9288b52ce3454cf474e7a09bd04e218b6d2562eeee977",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom328p.h",
+    "local": "engine/mcu/simavr/cores/avr/iom328p.h",
+    "originalSha256": "efe86f567718dbba63956145617654f70cd9ff664df1563b0c18bd3948e3b7d1",
+    "modifiedSha256": "efe86f567718dbba63956145617654f70cd9ff664df1563b0c18bd3948e3b7d1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom32u4.h",
+    "local": "engine/mcu/simavr/cores/avr/iom32u4.h",
+    "originalSha256": "abb41d69376d7ecfd16137b3f78145163617c446b839aa8c952656f3e5af2fd9",
+    "modifiedSha256": "abb41d69376d7ecfd16137b3f78145163617c446b839aa8c952656f3e5af2fd9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom48.h",
+    "local": "engine/mcu/simavr/cores/avr/iom48.h",
+    "originalSha256": "fd33a2b4fcea9190fd4f6d65acb2607c64d2323ab662ebd6fd9717aa5854bdc7",
+    "modifiedSha256": "fd33a2b4fcea9190fd4f6d65acb2607c64d2323ab662ebd6fd9717aa5854bdc7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom64.h",
+    "local": "engine/mcu/simavr/cores/avr/iom64.h",
+    "originalSha256": "beb79b8954bed507cbdae3ca21d178dadf5ad1e67fe38bf4f9a94b05c646de01",
+    "modifiedSha256": "beb79b8954bed507cbdae3ca21d178dadf5ad1e67fe38bf4f9a94b05c646de01",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom644.h",
+    "local": "engine/mcu/simavr/cores/avr/iom644.h",
+    "originalSha256": "8d901c9f789248805d465966b4848205c87b738094300dd09478b77d62c78273",
+    "modifiedSha256": "8d901c9f789248805d465966b4848205c87b738094300dd09478b77d62c78273",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom8.h",
+    "local": "engine/mcu/simavr/cores/avr/iom8.h",
+    "originalSha256": "b5e35dc6caec0572ce98df13a2a5bf5ea615cb44080d708c9039ae166b34d335",
+    "modifiedSha256": "b5e35dc6caec0572ce98df13a2a5bf5ea615cb44080d708c9039ae166b34d335",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iom88.h",
+    "local": "engine/mcu/simavr/cores/avr/iom88.h",
+    "originalSha256": "f953446f1df4cad2426eeecf54bfb34b3b85662296bbe59922a2b71b7d662c08",
+    "modifiedSha256": "f953446f1df4cad2426eeecf54bfb34b3b85662296bbe59922a2b71b7d662c08",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iomx8.h",
+    "local": "engine/mcu/simavr/cores/avr/iomx8.h",
+    "originalSha256": "bb546ea656d7ec3986f7d888079df4254d38dbec0a46f8b6fbb140e79ac31541",
+    "modifiedSha256": "bb546ea656d7ec3986f7d888079df4254d38dbec0a46f8b6fbb140e79ac31541",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iomxx0_1.h",
+    "local": "engine/mcu/simavr/cores/avr/iomxx0_1.h",
+    "originalSha256": "3e893d3d56fd6ac10659f5a8eec78a3a3d2298a20092a4504f5951436fcee87a",
+    "modifiedSha256": "3e893d3d56fd6ac10659f5a8eec78a3a3d2298a20092a4504f5951436fcee87a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iomxx4.h",
+    "local": "engine/mcu/simavr/cores/avr/iomxx4.h",
+    "originalSha256": "59ecc88885675781c94b319a1d066e09d65d921445b0184671428ecdf39c0110",
+    "modifiedSha256": "8a99a41b017fa75aaac21a27032cedad7fb8ba4ec204a206b61b2a7e6437435f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn13.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn13.h",
+    "originalSha256": "85006a2e622ee7c30fbde70bc9dda60c07c8e290238daa3a078e9ff7a4e621d4",
+    "modifiedSha256": "85006a2e622ee7c30fbde70bc9dda60c07c8e290238daa3a078e9ff7a4e621d4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn2313.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn2313.h",
+    "originalSha256": "ad5e756e2640d1be0673dc3c8c1bb214d9c9b3c916776e3398ca13ca608df043",
+    "modifiedSha256": "ad5e756e2640d1be0673dc3c8c1bb214d9c9b3c916776e3398ca13ca608df043",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn2313a.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn2313a.h",
+    "originalSha256": "e15eaf808f16df0279d05255437055443c76a409a65c17c91700474146ab22dc",
+    "modifiedSha256": "e15eaf808f16df0279d05255437055443c76a409a65c17c91700474146ab22dc",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn24.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn24.h",
+    "originalSha256": "dfc2c7003ff2edb9a5e9664fb6115b1a95dc197973573aa51d63739114203ce7",
+    "modifiedSha256": "dfc2c7003ff2edb9a5e9664fb6115b1a95dc197973573aa51d63739114203ce7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn25.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn25.h",
+    "originalSha256": "b2f383691393fb8a3984c5195a73332dab265cd5373d0a3c66acd935cc57a720",
+    "modifiedSha256": "b2f383691393fb8a3984c5195a73332dab265cd5373d0a3c66acd935cc57a720",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn4313.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn4313.h",
+    "originalSha256": "4028a04a76d30453a682c2ab6981da0a0873b735cc4ebb38fb886e3a0a7a5c7b",
+    "modifiedSha256": "4028a04a76d30453a682c2ab6981da0a0873b735cc4ebb38fb886e3a0a7a5c7b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn44.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn44.h",
+    "originalSha256": "efa4052b57ecb0dd0d3e29abb64afed2008f1e9b9449a3698dca6be271d00c0a",
+    "modifiedSha256": "efa4052b57ecb0dd0d3e29abb64afed2008f1e9b9449a3698dca6be271d00c0a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn45.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn45.h",
+    "originalSha256": "569fcd2f915940b060da1ef57a9acbb02a3f5774724df1e2d437f76aa69cea2c",
+    "modifiedSha256": "569fcd2f915940b060da1ef57a9acbb02a3f5774724df1e2d437f76aa69cea2c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn84.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn84.h",
+    "originalSha256": "31269d9696d2313eb2e0a6da4ce63d26fb613eb7887a852a6061e86322a20a1b",
+    "modifiedSha256": "31269d9696d2313eb2e0a6da4ce63d26fb613eb7887a852a6061e86322a20a1b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotn85.h",
+    "local": "engine/mcu/simavr/cores/avr/iotn85.h",
+    "originalSha256": "adc0e09bacf542c796d45d78e7aff3aa58cdb5606a0de49ef3e090746ebd1e73",
+    "modifiedSha256": "adc0e09bacf542c796d45d78e7aff3aa58cdb5606a0de49ef3e090746ebd1e73",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotnx4.h",
+    "local": "engine/mcu/simavr/cores/avr/iotnx4.h",
+    "originalSha256": "9ad7a810ad25b10b199ba4a55377d4385668a33d4de7dc0be413c7e2358aa2fe",
+    "modifiedSha256": "9ad7a810ad25b10b199ba4a55377d4385668a33d4de7dc0be413c7e2358aa2fe",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iotnx5.h",
+    "local": "engine/mcu/simavr/cores/avr/iotnx5.h",
+    "originalSha256": "865f12e3b975fc011a20bb456347320d2c963b1fadb2d5be3caf89921e895f75",
+    "modifiedSha256": "865f12e3b975fc011a20bb456347320d2c963b1fadb2d5be3caf89921e895f75",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iousb162.h",
+    "local": "engine/mcu/simavr/cores/avr/iousb162.h",
+    "originalSha256": "e19e50707b5ed4b8e282abc7d60ef0589c2ea03afb3a5636a9c44404836f2ddf",
+    "modifiedSha256": "e19e50707b5ed4b8e282abc7d60ef0589c2ea03afb3a5636a9c44404836f2ddf",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/iousbxx2.h",
+    "local": "engine/mcu/simavr/cores/avr/iousbxx2.h",
+    "originalSha256": "9e06c314e28098ffd6b6bd0957cf5be551c60924b07280b42ab18b143a0066bb",
+    "modifiedSha256": "9e06c314e28098ffd6b6bd0957cf5be551c60924b07280b42ab18b143a0066bb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/avr/sfr_defs.h",
+    "local": "engine/mcu/simavr/cores/avr/sfr_defs.h",
+    "originalSha256": "f9a9d39a91dc4fa7a321a1eb8ba80dc51f55b6dfe90bc975dfdb3c7cd81b9290",
+    "modifiedSha256": "f9a9d39a91dc4fa7a321a1eb8ba80dc51f55b6dfe90bc975dfdb3c7cd81b9290",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_core_declare.h",
+    "local": "engine/mcu/simavr/cores/sim_core_declare.h",
+    "originalSha256": "1353a57e585e295dffb4c4c87c7e45f7c46579358905e1865290f71d0b444cc2",
+    "modifiedSha256": "1353a57e585e295dffb4c4c87c7e45f7c46579358905e1865290f71d0b444cc2",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega128.c",
+    "local": "engine/mcu/simavr/cores/sim_mega128.c",
+    "originalSha256": "8cc867ade717195bcc642811792d43396410e66a8963bc07b85ab30d69e3592f",
+    "modifiedSha256": "8cc867ade717195bcc642811792d43396410e66a8963bc07b85ab30d69e3592f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega1280.c",
+    "local": "engine/mcu/simavr/cores/sim_mega1280.c",
+    "originalSha256": "5ab805b1559c9cde11dd521fa818401382f551d0d9a13f27f346f11eb0958711",
+    "modifiedSha256": "5ab805b1559c9cde11dd521fa818401382f551d0d9a13f27f346f11eb0958711",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega1281.c",
+    "local": "engine/mcu/simavr/cores/sim_mega1281.c",
+    "originalSha256": "e14ac324e58badd8c4cfea47b72e7898ce586e74af33fdf31572ba6ef5e21eb8",
+    "modifiedSha256": "e14ac324e58badd8c4cfea47b72e7898ce586e74af33fdf31572ba6ef5e21eb8",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega1284.c",
+    "local": "engine/mcu/simavr/cores/sim_mega1284.c",
+    "originalSha256": "6d3b84f4629c51aa37a2ed74b4835716d9e7324f27339ca2512b179166608c03",
+    "modifiedSha256": "6d3b84f4629c51aa37a2ed74b4835716d9e7324f27339ca2512b179166608c03",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega128rfa1.c",
+    "local": "engine/mcu/simavr/cores/sim_mega128rfa1.c",
+    "originalSha256": "deb6cfb0bb35aa6ef49031fde06450fe7b0c1fa88a844fa8b3a1e3f2e9da288c",
+    "modifiedSha256": "deb6cfb0bb35aa6ef49031fde06450fe7b0c1fa88a844fa8b3a1e3f2e9da288c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega128rfr2.c",
+    "local": "engine/mcu/simavr/cores/sim_mega128rfr2.c",
+    "originalSha256": "e7d0975f75b4b685444be11cc732678304a6e41ce3bb694b6ba3035d8fdc552c",
+    "modifiedSha256": "e7d0975f75b4b685444be11cc732678304a6e41ce3bb694b6ba3035d8fdc552c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega16.c",
+    "local": "engine/mcu/simavr/cores/sim_mega16.c",
+    "originalSha256": "5cea03f224dc0012b75ab6de1621066926959baf7157e5722704f0f14ffd95cf",
+    "modifiedSha256": "5cea03f224dc0012b75ab6de1621066926959baf7157e5722704f0f14ffd95cf",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega164.c",
+    "local": "engine/mcu/simavr/cores/sim_mega164.c",
+    "originalSha256": "823e2de898001d391a255178b9fe56e1847f2c3ae6d00aa828d85647684cecaf",
+    "modifiedSha256": "823e2de898001d391a255178b9fe56e1847f2c3ae6d00aa828d85647684cecaf",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega168.c",
+    "local": "engine/mcu/simavr/cores/sim_mega168.c",
+    "originalSha256": "dfba689869cb8a9b2c42bcb2aa54229de7555b7ccbe58af6262071b354cc4a10",
+    "modifiedSha256": "dfba689869cb8a9b2c42bcb2aa54229de7555b7ccbe58af6262071b354cc4a10",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega169.c",
+    "local": "engine/mcu/simavr/cores/sim_mega169.c",
+    "originalSha256": "00b61c720fbec0f38988dd8edd8a282a804e922e4c94534932963a96c2c3d431",
+    "modifiedSha256": "00b61c720fbec0f38988dd8edd8a282a804e922e4c94534932963a96c2c3d431",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega16m1.c",
+    "local": "engine/mcu/simavr/cores/sim_mega16m1.c",
+    "originalSha256": "2e7b5af52e9818daf2eada1c9ec5ea50a07ec2624fe687e70eae7f4a076ed5ff",
+    "modifiedSha256": "2e7b5af52e9818daf2eada1c9ec5ea50a07ec2624fe687e70eae7f4a076ed5ff",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega2560.c",
+    "local": "engine/mcu/simavr/cores/sim_mega2560.c",
+    "originalSha256": "1084e0d93cc0089a6db42847f961fed5696d277d55a40d406ef9df8b4e1c2ac5",
+    "modifiedSha256": "1084e0d93cc0089a6db42847f961fed5696d277d55a40d406ef9df8b4e1c2ac5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega32.c",
+    "local": "engine/mcu/simavr/cores/sim_mega32.c",
+    "originalSha256": "0c52f4231fce5058b2acb227b69efbb26d3cfe6067386adaab8e26351273b233",
+    "modifiedSha256": "0c52f4231fce5058b2acb227b69efbb26d3cfe6067386adaab8e26351273b233",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega324.c",
+    "local": "engine/mcu/simavr/cores/sim_mega324.c",
+    "originalSha256": "adf0c47bafd3380a2a66d69b688cc21bbc129dca9f7f403fcf577357c5ddc305",
+    "modifiedSha256": "adf0c47bafd3380a2a66d69b688cc21bbc129dca9f7f403fcf577357c5ddc305",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega324a.c",
+    "local": "engine/mcu/simavr/cores/sim_mega324a.c",
+    "originalSha256": "a8f6d4ccbe3e06a204948e38dfce45b81e986bfc6dc03dcd903a9a128acac1fc",
+    "modifiedSha256": "a8f6d4ccbe3e06a204948e38dfce45b81e986bfc6dc03dcd903a9a128acac1fc",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega328.c",
+    "local": "engine/mcu/simavr/cores/sim_mega328.c",
+    "originalSha256": "b58cdb199f8b3c2d1da2240ebb98827fede27af27475eb955f0b151dcd7a5a24",
+    "modifiedSha256": "b58cdb199f8b3c2d1da2240ebb98827fede27af27475eb955f0b151dcd7a5a24",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega32u4.c",
+    "local": "engine/mcu/simavr/cores/sim_mega32u4.c",
+    "originalSha256": "d9aad641b1ed38d6fc4defdc34f50282176664b2ffe13a3fb286b73b0ac12e0a",
+    "modifiedSha256": "4bb7c6b7c29c69a35d9c05fe242dfb7fc876fa1de59806ad4345d22291b2a6a9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega48.c",
+    "local": "engine/mcu/simavr/cores/sim_mega48.c",
+    "originalSha256": "beee84e0dba4090684652388ed25bc626c48a5179935db0bd96e4e68bf637b22",
+    "modifiedSha256": "beee84e0dba4090684652388ed25bc626c48a5179935db0bd96e4e68bf637b22",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega64.c",
+    "local": "engine/mcu/simavr/cores/sim_mega64.c",
+    "originalSha256": "bb3618fda4e714f547ef1fdaf9bb3c983a7dd21282113faf437d7a5b87985783",
+    "modifiedSha256": "bb3618fda4e714f547ef1fdaf9bb3c983a7dd21282113faf437d7a5b87985783",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega644.c",
+    "local": "engine/mcu/simavr/cores/sim_mega644.c",
+    "originalSha256": "61e77381ff2ba2fd10cdd1f94b28dd54e348362710795da32fd9d9ad645fe4e1",
+    "modifiedSha256": "61e77381ff2ba2fd10cdd1f94b28dd54e348362710795da32fd9d9ad645fe4e1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega8.c",
+    "local": "engine/mcu/simavr/cores/sim_mega8.c",
+    "originalSha256": "4edd7c5a64617c66eef2c89ee3f4517076df686ee1fb2dfcd367592f10dcf20c",
+    "modifiedSha256": "4edd7c5a64617c66eef2c89ee3f4517076df686ee1fb2dfcd367592f10dcf20c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_mega88.c",
+    "local": "engine/mcu/simavr/cores/sim_mega88.c",
+    "originalSha256": "f64b7c6f1f337a6d5ad3695c923ed52df10bed7b7af0c39c5b690149dc8f50a5",
+    "modifiedSha256": "f64b7c6f1f337a6d5ad3695c923ed52df10bed7b7af0c39c5b690149dc8f50a5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax.c",
+    "local": "engine/mcu/simavr/cores/sim_megax.c",
+    "originalSha256": "9dde03a1aae83536dfc477ed0056669660e9f2cc96143b3e734b1a6f66b6915d",
+    "modifiedSha256": "9dde03a1aae83536dfc477ed0056669660e9f2cc96143b3e734b1a6f66b6915d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax.h",
+    "local": "engine/mcu/simavr/cores/sim_megax.h",
+    "originalSha256": "f76ed078016e07fdfbf7c2139a102c7fd6ed3939f78238b0d6c30a541cb514ef",
+    "modifiedSha256": "f76ed078016e07fdfbf7c2139a102c7fd6ed3939f78238b0d6c30a541cb514ef",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax4.c",
+    "local": "engine/mcu/simavr/cores/sim_megax4.c",
+    "originalSha256": "46675f303856c382cfed8cb043ee2ad5d691bddce2173dde468e246272dabceb",
+    "modifiedSha256": "46675f303856c382cfed8cb043ee2ad5d691bddce2173dde468e246272dabceb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax4.h",
+    "local": "engine/mcu/simavr/cores/sim_megax4.h",
+    "originalSha256": "1f373cfc218629f5fe1268b2aab4714180748530b33b405a5bf7cc53672632bb",
+    "modifiedSha256": "1f373cfc218629f5fe1268b2aab4714180748530b33b405a5bf7cc53672632bb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax8.c",
+    "local": "engine/mcu/simavr/cores/sim_megax8.c",
+    "originalSha256": "d621fc8a1b538b6bed6c6191f3082129b2c3fd8482a17d8ce22a7afdeacf7cd3",
+    "modifiedSha256": "d621fc8a1b538b6bed6c6191f3082129b2c3fd8482a17d8ce22a7afdeacf7cd3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megax8.h",
+    "local": "engine/mcu/simavr/cores/sim_megax8.h",
+    "originalSha256": "a89d9443e22736c98e9125040ce45613a02f24cd439650298709ec04e79a0eae",
+    "modifiedSha256": "a89d9443e22736c98e9125040ce45613a02f24cd439650298709ec04e79a0eae",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megaxm1.c",
+    "local": "engine/mcu/simavr/cores/sim_megaxm1.c",
+    "originalSha256": "59efc1a266184b9fb734b1243125f96ac28c9709703fa2f4de8d665e2d0172ef",
+    "modifiedSha256": "59efc1a266184b9fb734b1243125f96ac28c9709703fa2f4de8d665e2d0172ef",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_megaxm1.h",
+    "local": "engine/mcu/simavr/cores/sim_megaxm1.h",
+    "originalSha256": "8c63a80784e7654fc89adc756910b2800e8e8b507b11a586de5daff7892e06a7",
+    "modifiedSha256": "8c63a80784e7654fc89adc756910b2800e8e8b507b11a586de5daff7892e06a7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny13.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny13.c",
+    "originalSha256": "be9d05938fda44fcb3c5f0dbb006486b28fb4649ec4c5f7e6d888845dd152c08",
+    "modifiedSha256": "be9d05938fda44fcb3c5f0dbb006486b28fb4649ec4c5f7e6d888845dd152c08",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny2313.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny2313.c",
+    "originalSha256": "f0aefc417822bf6a2c63c23dd500be73d8a04ac01470e12dd37bfc1f22085077",
+    "modifiedSha256": "f0aefc417822bf6a2c63c23dd500be73d8a04ac01470e12dd37bfc1f22085077",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny2313a.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny2313a.c",
+    "originalSha256": "d3b86dd90c4059ac5147b2232e613a9e51b8191b2226910ee48289d153e39cad",
+    "modifiedSha256": "d3b86dd90c4059ac5147b2232e613a9e51b8191b2226910ee48289d153e39cad",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny24.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny24.c",
+    "originalSha256": "6b146372febac43d7f243f3947587c4080c0c0e8550fdf60cd588e331f3c41e3",
+    "modifiedSha256": "6b146372febac43d7f243f3947587c4080c0c0e8550fdf60cd588e331f3c41e3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny25.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny25.c",
+    "originalSha256": "b8ec485879d90c5a1b3d801ca64120fb533ed7f71c0b8dfc0eea021c0262142e",
+    "modifiedSha256": "b8ec485879d90c5a1b3d801ca64120fb533ed7f71c0b8dfc0eea021c0262142e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny4313.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny4313.c",
+    "originalSha256": "23b6133d804a4f075b69a0b12b4fad9d373d88991ede5fb7ada03bb663f009f9",
+    "modifiedSha256": "23b6133d804a4f075b69a0b12b4fad9d373d88991ede5fb7ada03bb663f009f9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny44.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny44.c",
+    "originalSha256": "d76c3d217b0db35dd65cc87b08fdcbdba33bdc8e7d75097ecf6a7097c5ce09fa",
+    "modifiedSha256": "d76c3d217b0db35dd65cc87b08fdcbdba33bdc8e7d75097ecf6a7097c5ce09fa",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny45.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny45.c",
+    "originalSha256": "120156b4b68617ae7f78281ca5305480e005c67730ca94a53f64fd73e9ac0cb6",
+    "modifiedSha256": "120156b4b68617ae7f78281ca5305480e005c67730ca94a53f64fd73e9ac0cb6",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny84.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny84.c",
+    "originalSha256": "d0d4b39ddf30b4c7c339bc8d1bf5ae233000f70ded7b5b9c9ed25f916c81abb5",
+    "modifiedSha256": "d0d4b39ddf30b4c7c339bc8d1bf5ae233000f70ded7b5b9c9ed25f916c81abb5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tiny85.c",
+    "local": "engine/mcu/simavr/cores/sim_tiny85.c",
+    "originalSha256": "38ab9ac42b22574c07590fa431a30ab9c8f4d71ba44d32b4198413230b5bee7a",
+    "modifiedSha256": "38ab9ac42b22574c07590fa431a30ab9c8f4d71ba44d32b4198413230b5bee7a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tinyx4.c",
+    "local": "engine/mcu/simavr/cores/sim_tinyx4.c",
+    "originalSha256": "9961269c9fe4b71230c82573331f7fbea0d4e295518efe3e01570cf0caf2b281",
+    "modifiedSha256": "9961269c9fe4b71230c82573331f7fbea0d4e295518efe3e01570cf0caf2b281",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tinyx4.h",
+    "local": "engine/mcu/simavr/cores/sim_tinyx4.h",
+    "originalSha256": "95ffb4e0776a776704530f8705bfe9303a7d694d8734d5eca28531e6a5c8149c",
+    "modifiedSha256": "95ffb4e0776a776704530f8705bfe9303a7d694d8734d5eca28531e6a5c8149c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tinyx5.c",
+    "local": "engine/mcu/simavr/cores/sim_tinyx5.c",
+    "originalSha256": "2ea5285731bc77c3b48556dab1d9f6288ea6f53e9d7552fc8e9136ba635951cc",
+    "modifiedSha256": "2ea5285731bc77c3b48556dab1d9f6288ea6f53e9d7552fc8e9136ba635951cc",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_tinyx5.h",
+    "local": "engine/mcu/simavr/cores/sim_tinyx5.h",
+    "originalSha256": "4ab89784a249c96d62ffc4fcee71f1f5f2ec918bdd9865eb78df2cdbd6f390fc",
+    "modifiedSha256": "4ab89784a249c96d62ffc4fcee71f1f5f2ec918bdd9865eb78df2cdbd6f390fc",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/cores/sim_usb162.c",
+    "local": "engine/mcu/simavr/cores/sim_usb162.c",
+    "originalSha256": "71c7d10a1192a92d54511f14968318b17962763da2c80d56e3d4fb8fb9bf173a",
+    "modifiedSha256": "71c7d10a1192a92d54511f14968318b17962763da2c80d56e3d4fb8fb9bf173a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr/avr_mcu_section.h",
+    "local": "engine/mcu/simavr/sim/avr/avr_mcu_section.h",
+    "originalSha256": "c1c117a570ba04da48cd17310b73ef6baa6777f249d50fc215d13640750ddccc",
+    "modifiedSha256": "c1c117a570ba04da48cd17310b73ef6baa6777f249d50fc215d13640750ddccc",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_acomp.c",
+    "local": "engine/mcu/simavr/sim/avr_acomp.c",
+    "originalSha256": "eee49d433c861933f31e4e3ef192bfa8c283a14d449ad272a65dc42f36320d75",
+    "modifiedSha256": "4beb9e2bcca2c689466a61ef31edd891670d612dda44926d9dc431e681cf5898",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/avr_acomp.h",
+    "local": "engine/mcu/simavr/sim/avr_acomp.h",
+    "originalSha256": "7e51441e9f76f010aa3eda8edb9ce48422c44ec57faf7bb67350cbf5ef5c5369",
+    "modifiedSha256": "33a8b7f188cc325bd23f38e54c99bf31126ade1a23ea5ca3144e29766065575a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/avr_adc.c",
+    "local": "engine/mcu/simavr/sim/avr_adc.c",
+    "originalSha256": "d3459a1230f87045d5e15a3a4507ed3d782b70b8ba6277193be774841a286bd1",
+    "modifiedSha256": "d3459a1230f87045d5e15a3a4507ed3d782b70b8ba6277193be774841a286bd1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_adc.h",
+    "local": "engine/mcu/simavr/sim/avr_adc.h",
+    "originalSha256": "779ab390fe07590dfe938adcee4524e5d65036f7222a77e5632c4f15213ef206",
+    "modifiedSha256": "779ab390fe07590dfe938adcee4524e5d65036f7222a77e5632c4f15213ef206",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_bitbang.c",
+    "local": "engine/mcu/simavr/sim/avr_bitbang.c",
+    "originalSha256": "eb59f99c9ce34a27397dd958ef19963cf2ffde9a49cda1c8e25a9b32fe6e6dff",
+    "modifiedSha256": "eb59f99c9ce34a27397dd958ef19963cf2ffde9a49cda1c8e25a9b32fe6e6dff",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_bitbang.h",
+    "local": "engine/mcu/simavr/sim/avr_bitbang.h",
+    "originalSha256": "b68d26c4f39a101b4093b7b1398765cd269a60e49c577969266610fdb828f7af",
+    "modifiedSha256": "b68d26c4f39a101b4093b7b1398765cd269a60e49c577969266610fdb828f7af",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_eeprom.c",
+    "local": "engine/mcu/simavr/sim/avr_eeprom.c",
+    "originalSha256": "cd6a17ea1af23b337f43a4936d63e5f2a00d5e04a16f74568c8aca05778cbcc7",
+    "modifiedSha256": "cd6a17ea1af23b337f43a4936d63e5f2a00d5e04a16f74568c8aca05778cbcc7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_eeprom.h",
+    "local": "engine/mcu/simavr/sim/avr_eeprom.h",
+    "originalSha256": "570f633d23dc1efe234856c3fec3008c646529dbdac8c41e8365dec8c3382bec",
+    "modifiedSha256": "570f633d23dc1efe234856c3fec3008c646529dbdac8c41e8365dec8c3382bec",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_extint.c",
+    "local": "engine/mcu/simavr/sim/avr_extint.c",
+    "originalSha256": "23a272d422095bcb2d7d2e3fd589809fd4211eed280913b4d18eeb60738f5694",
+    "modifiedSha256": "23a272d422095bcb2d7d2e3fd589809fd4211eed280913b4d18eeb60738f5694",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_extint.h",
+    "local": "engine/mcu/simavr/sim/avr_extint.h",
+    "originalSha256": "e0c1afb0573e99bf21f7af047e1f08a92da27641176611b93f7422021209bf46",
+    "modifiedSha256": "e0c1afb0573e99bf21f7af047e1f08a92da27641176611b93f7422021209bf46",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_flash.c",
+    "local": "engine/mcu/simavr/sim/avr_flash.c",
+    "originalSha256": "3682bc50b0cc2c020f500cf60b40e038c6ce0b0d83b24f3d930b3d982fa7556d",
+    "modifiedSha256": "3682bc50b0cc2c020f500cf60b40e038c6ce0b0d83b24f3d930b3d982fa7556d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_flash.h",
+    "local": "engine/mcu/simavr/sim/avr_flash.h",
+    "originalSha256": "f497a999d41c2d529e6bb5ce205dc3b3f392d67783b1ae5ad0977269c12ca13e",
+    "modifiedSha256": "f497a999d41c2d529e6bb5ce205dc3b3f392d67783b1ae5ad0977269c12ca13e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_ioport.c",
+    "local": "engine/mcu/simavr/sim/avr_ioport.c",
+    "originalSha256": "94c84c06b47d05b1cf174edf257714862597d5a67c291e27c2bb7e334fe38d8a",
+    "modifiedSha256": "94c84c06b47d05b1cf174edf257714862597d5a67c291e27c2bb7e334fe38d8a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_ioport.h",
+    "local": "engine/mcu/simavr/sim/avr_ioport.h",
+    "originalSha256": "ff314913bae64d2d9bcc026ae8f5d4656b7339baf76077922596064e7689e281",
+    "modifiedSha256": "ff314913bae64d2d9bcc026ae8f5d4656b7339baf76077922596064e7689e281",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_lin.c",
+    "local": "engine/mcu/simavr/sim/avr_lin.c",
+    "originalSha256": "c45ac26981a6ea6af505c52de66de8ae19eef9f2918adfe137dcb4035b63c054",
+    "modifiedSha256": "c45ac26981a6ea6af505c52de66de8ae19eef9f2918adfe137dcb4035b63c054",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_lin.h",
+    "local": "engine/mcu/simavr/sim/avr_lin.h",
+    "originalSha256": "1115c135731a16ca27a9dd3c61eab12119c60bbd22d05c19ef9dc2307322472b",
+    "modifiedSha256": "1115c135731a16ca27a9dd3c61eab12119c60bbd22d05c19ef9dc2307322472b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_spi.c",
+    "local": "engine/mcu/simavr/sim/avr_spi.c",
+    "originalSha256": "2db587d1fcbeb24e28e0b20f11e9d08fa5aa9b41959deae60f7b5c48ec447e27",
+    "modifiedSha256": "2db587d1fcbeb24e28e0b20f11e9d08fa5aa9b41959deae60f7b5c48ec447e27",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_spi.h",
+    "local": "engine/mcu/simavr/sim/avr_spi.h",
+    "originalSha256": "8f65d10850019b54f9d80307616be4b1edbeb75c113a836d3a1ac8bd70731830",
+    "modifiedSha256": "8f65d10850019b54f9d80307616be4b1edbeb75c113a836d3a1ac8bd70731830",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_timer.c",
+    "local": "engine/mcu/simavr/sim/avr_timer.c",
+    "originalSha256": "3b61e4825c6eb6059f8ebebb5e3b960111c69fff03e3001096a800dc69e7a3f8",
+    "modifiedSha256": "3b61e4825c6eb6059f8ebebb5e3b960111c69fff03e3001096a800dc69e7a3f8",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_timer.h",
+    "local": "engine/mcu/simavr/sim/avr_timer.h",
+    "originalSha256": "ed557cfcd2b3e3c1aa15a8ab243dfddf557548ffa2563ec62cf92007a81ce5f3",
+    "modifiedSha256": "ed557cfcd2b3e3c1aa15a8ab243dfddf557548ffa2563ec62cf92007a81ce5f3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_twi.c",
+    "local": "engine/mcu/simavr/sim/avr_twi.c",
+    "originalSha256": "457fc1a7afff7e6321b15b923283c34443fdd4b43d8d3dea7baff421b4474ba4",
+    "modifiedSha256": "457fc1a7afff7e6321b15b923283c34443fdd4b43d8d3dea7baff421b4474ba4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_twi.h",
+    "local": "engine/mcu/simavr/sim/avr_twi.h",
+    "originalSha256": "6fe45e87c708adf729f944b5f3fbd5dccff9301322e4c666c93a177e2b4b114c",
+    "modifiedSha256": "6fe45e87c708adf729f944b5f3fbd5dccff9301322e4c666c93a177e2b4b114c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_uart.c",
+    "local": "engine/mcu/simavr/sim/avr_uart.c",
+    "originalSha256": "043e54511f9704a16f641af3b19e5804d1175cbc0d692432c2cecd61f134eb54",
+    "modifiedSha256": "d63076b92e4021718e226c2e7b72d6839e2406d78ebeb5fb295767e460a953a9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/avr_uart.h",
+    "local": "engine/mcu/simavr/sim/avr_uart.h",
+    "originalSha256": "33597c0d9c8360fde7a06753148a3fab76973cabf2abcfbc439ba41b76e39049",
+    "modifiedSha256": "33597c0d9c8360fde7a06753148a3fab76973cabf2abcfbc439ba41b76e39049",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_usb.c",
+    "local": "engine/mcu/simavr/sim/avr_usb.c",
+    "originalSha256": "51e7c72dccf1cd86bfddc960144b118e6d77d56e7aea1e43009b245672d3f2d8",
+    "modifiedSha256": "51e7c72dccf1cd86bfddc960144b118e6d77d56e7aea1e43009b245672d3f2d8",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_usb.h",
+    "local": "engine/mcu/simavr/sim/avr_usb.h",
+    "originalSha256": "da0674043c1d0fdefc569858a629768ab43ebc6be97818234b89052f53baf947",
+    "modifiedSha256": "da0674043c1d0fdefc569858a629768ab43ebc6be97818234b89052f53baf947",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_watchdog.c",
+    "local": "engine/mcu/simavr/sim/avr_watchdog.c",
+    "originalSha256": "c13864d6f21a9e608e500c9f75ad6b9b62d01f8ddf4af049e0a7f92b97c234b9",
+    "modifiedSha256": "c13864d6f21a9e608e500c9f75ad6b9b62d01f8ddf4af049e0a7f92b97c234b9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/avr_watchdog.h",
+    "local": "engine/mcu/simavr/sim/avr_watchdog.h",
+    "originalSha256": "76b72a7595b4b18aea57621d88a60ba145f8be78aab88f38b933a39ad8abe6c6",
+    "modifiedSha256": "76b72a7595b4b18aea57621d88a60ba145f8be78aab88f38b933a39ad8abe6c6",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/fifo_declare.h",
+    "local": "engine/mcu/simavr/sim/fifo_declare.h",
+    "originalSha256": "99ca703c1db1174ced8bf3b115bdd2c9ad04dfa6a650a5bbe5bed1a102fe98cb",
+    "modifiedSha256": "99ca703c1db1174ced8bf3b115bdd2c9ad04dfa6a650a5bbe5bed1a102fe98cb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_avr.c",
+    "local": "engine/mcu/simavr/sim/sim_avr.c",
+    "originalSha256": "02ddec95a8a999c469daffadfa2f4ce592c12c068a1e6f4b6276a2670994e6f2",
+    "modifiedSha256": "f483cd8dc5ec7dc170cc6c9312b719ed0ee44cc838fcad16c745ad7793eb16ea",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/sim_avr.h",
+    "local": "engine/mcu/simavr/sim/sim_avr.h",
+    "originalSha256": "3cd2e2c0a0744c6bec0551edb712c82d97bb455aafd8cb60edb0eeaa19f34de5",
+    "modifiedSha256": "3cd2e2c0a0744c6bec0551edb712c82d97bb455aafd8cb60edb0eeaa19f34de5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_avr_types.h",
+    "local": "engine/mcu/simavr/sim/sim_avr_types.h",
+    "originalSha256": "c7b0c26a8683235b131297fd466733dbc98dfb83404b0e15a082d9fa1444cede",
+    "modifiedSha256": "c7b0c26a8683235b131297fd466733dbc98dfb83404b0e15a082d9fa1444cede",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_cmds.c",
+    "local": "engine/mcu/simavr/sim/sim_cmds.c",
+    "originalSha256": "c3d6a8d96cb1c18ab0a6be938a52f1e500a7b535c9a73d00f995ba912dbfb56b",
+    "modifiedSha256": "5fcea109a2b6053d470e9b157df54532d2480ff8cbb366adf4f6b9a10624f531",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/sim_cmds.h",
+    "local": "engine/mcu/simavr/sim/sim_cmds.h",
+    "originalSha256": "1d2360e0a1af71f28434d29eebe9f5381164d67c9d7865582637bb76b911061b",
+    "modifiedSha256": "1d2360e0a1af71f28434d29eebe9f5381164d67c9d7865582637bb76b911061b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_core.c",
+    "local": "engine/mcu/simavr/sim/sim_core.c",
+    "originalSha256": "557b7aa64c6fa79dd633378441e64dff28bc1c351be34a8efb20e01b5710452d",
+    "modifiedSha256": "0d930379a033388284fa975e7e80fe534ee845ebd2166ea4764c7b19149d4c21",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/simavr/sim/sim_core.h",
+    "local": "engine/mcu/simavr/sim/sim_core.h",
+    "originalSha256": "73e0687a6055a82e43c3cc03e8b117a4bcc414cc19b94a24068bf476cb0c7436",
+    "modifiedSha256": "73e0687a6055a82e43c3cc03e8b117a4bcc414cc19b94a24068bf476cb0c7436",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_cycle_timers.c",
+    "local": "engine/mcu/simavr/sim/sim_cycle_timers.c",
+    "originalSha256": "3db35cc2d88d231be50bd653ec2871d8f1b1e2b1c06e69b03864b381f2c5b3d5",
+    "modifiedSha256": "3db35cc2d88d231be50bd653ec2871d8f1b1e2b1c06e69b03864b381f2c5b3d5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_cycle_timers.h",
+    "local": "engine/mcu/simavr/sim/sim_cycle_timers.h",
+    "originalSha256": "32028ad28902bea3603ab7191b8dcc9dee96d974ef57f7209c46299b71f73f2e",
+    "modifiedSha256": "32028ad28902bea3603ab7191b8dcc9dee96d974ef57f7209c46299b71f73f2e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_elf.h",
+    "local": "engine/mcu/simavr/sim/sim_elf.h",
+    "originalSha256": "87a21c261861b33f66197dc0e290230cb9a10018cfe9a28d5ed430e28e7af49c",
+    "modifiedSha256": "87a21c261861b33f66197dc0e290230cb9a10018cfe9a28d5ed430e28e7af49c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_gdb.h",
+    "local": "engine/mcu/simavr/sim/sim_gdb.h",
+    "originalSha256": "b8b8dcf173f3100d1b0ca7296729c81dfc189244d62566bd99a38307eb62dc5e",
+    "modifiedSha256": "b8b8dcf173f3100d1b0ca7296729c81dfc189244d62566bd99a38307eb62dc5e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_hex.c",
+    "local": "engine/mcu/simavr/sim/sim_hex.c",
+    "originalSha256": "9cef96fa15918dc9197c084e7edf9ee0d12170e2d5e92f7e2b514172165545be",
+    "modifiedSha256": "9cef96fa15918dc9197c084e7edf9ee0d12170e2d5e92f7e2b514172165545be",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_hex.h",
+    "local": "engine/mcu/simavr/sim/sim_hex.h",
+    "originalSha256": "47409499ea45487dd2754f7b388f0e3b136959726925cbfc1f83d132ca0893d6",
+    "modifiedSha256": "47409499ea45487dd2754f7b388f0e3b136959726925cbfc1f83d132ca0893d6",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_interrupts.c",
+    "local": "engine/mcu/simavr/sim/sim_interrupts.c",
+    "originalSha256": "6083b0c4da900d3569df56f33bef35883810d9c9f94c78338e360e189f52fc54",
+    "modifiedSha256": "6083b0c4da900d3569df56f33bef35883810d9c9f94c78338e360e189f52fc54",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_interrupts.h",
+    "local": "engine/mcu/simavr/sim/sim_interrupts.h",
+    "originalSha256": "fd125e489e2a448bcb32032b4bc8bfc11cc58c4e9e3e9059424f00e43fdad1df",
+    "modifiedSha256": "fd125e489e2a448bcb32032b4bc8bfc11cc58c4e9e3e9059424f00e43fdad1df",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_io.c",
+    "local": "engine/mcu/simavr/sim/sim_io.c",
+    "originalSha256": "54e03468c6ee0872815b31c93148405c128fb51872d2ce86e3b3cafa9205ccbe",
+    "modifiedSha256": "54e03468c6ee0872815b31c93148405c128fb51872d2ce86e3b3cafa9205ccbe",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_io.h",
+    "local": "engine/mcu/simavr/sim/sim_io.h",
+    "originalSha256": "0ebcc19632d244b9889e6d8438db1c2970b58e7d3288470befe7a9676fca2438",
+    "modifiedSha256": "0ebcc19632d244b9889e6d8438db1c2970b58e7d3288470befe7a9676fca2438",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_irq.c",
+    "local": "engine/mcu/simavr/sim/sim_irq.c",
+    "originalSha256": "1066969e3a7702937d6e7cd4dab8960895e2071ef7eba7a7796d48a90d062279",
+    "modifiedSha256": "1066969e3a7702937d6e7cd4dab8960895e2071ef7eba7a7796d48a90d062279",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_irq.h",
+    "local": "engine/mcu/simavr/sim/sim_irq.h",
+    "originalSha256": "ff998093cc888035c3b11e4a92008cf69fd49546f783e376e8d0f02d7b210c17",
+    "modifiedSha256": "ff998093cc888035c3b11e4a92008cf69fd49546f783e376e8d0f02d7b210c17",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_regbit.h",
+    "local": "engine/mcu/simavr/sim/sim_regbit.h",
+    "originalSha256": "ffcee48e17972b9680e86b084d14c2aaa328d7bf4efc5c77a2e92c7ff670c372",
+    "modifiedSha256": "ffcee48e17972b9680e86b084d14c2aaa328d7bf4efc5c77a2e92c7ff670c372",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_time.h",
+    "local": "engine/mcu/simavr/sim/sim_time.h",
+    "originalSha256": "8e6b5ec4950d93b44a8edd2b4548b6730adb851dbbbb0aa35aa2f5a20928c1d0",
+    "modifiedSha256": "8e6b5ec4950d93b44a8edd2b4548b6730adb851dbbbb0aa35aa2f5a20928c1d0",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_utils.c",
+    "local": "engine/mcu/simavr/sim/sim_utils.c",
+    "originalSha256": "ac7a935ad6e06bfe840d1ae150d31f9c271d5a2941414a2968fc8d413d197f7c",
+    "modifiedSha256": "ac7a935ad6e06bfe840d1ae150d31f9c271d5a2941414a2968fc8d413d197f7c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_utils.h",
+    "local": "engine/mcu/simavr/sim/sim_utils.h",
+    "originalSha256": "65f7886e9f3adbc0874c46c706a8e59f6c7be0ddc6677b06c6570cabaa962e85",
+    "modifiedSha256": "65f7886e9f3adbc0874c46c706a8e59f6c7be0ddc6677b06c6570cabaa962e85",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_vcd_file.c",
+    "local": "engine/mcu/simavr/sim/sim_vcd_file.c",
+    "originalSha256": "567f053d29096105565b153b122c9fb4fab7ffe5fe9b9268b868f910047c2f41",
+    "modifiedSha256": "567f053d29096105565b153b122c9fb4fab7ffe5fe9b9268b868f910047c2f41",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim/sim_vcd_file.h",
+    "local": "engine/mcu/simavr/sim/sim_vcd_file.h",
+    "originalSha256": "c602b76612494bfa8f990149d4523dc04c850d37745f4698f0f33e1b2e045013",
+    "modifiedSha256": "c602b76612494bfa8f990149d4523dc04c850d37745f4698f0f33e1b2e045013",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/simavr/sim_core_decl.h",
+    "local": "engine/mcu/simavr/sim_core_decl.h",
+    "originalSha256": "aeda8b1688a5c01cde77b90da3f42223e4f02eeccff1d2edea049826babc1ac0",
+    "modifiedSha256": "aeda8b1688a5c01cde77b90da3f42223e4f02eeccff1d2edea049826babc1ac0",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/12bit-hexdecode.cc",
+    "local": "engine/mcu/gpsim/12bit-hexdecode.cc",
+    "originalSha256": "20f54d6eb8a0731bf43a174e7a8a206314a001c7d75f705cbaa17ac30833f33f",
+    "modifiedSha256": "20f54d6eb8a0731bf43a174e7a8a206314a001c7d75f705cbaa17ac30833f33f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/12bit-instructions.h",
+    "local": "engine/mcu/gpsim/12bit-instructions.h",
+    "originalSha256": "3f55f1972df997effb6da3ebaba57bdd903c2ae33a3b3e59522426a0b88cc0ff",
+    "modifiedSha256": "3f55f1972df997effb6da3ebaba57bdd903c2ae33a3b3e59522426a0b88cc0ff",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/12bit-processors.cc",
+    "local": "engine/mcu/gpsim/12bit-processors.cc",
+    "originalSha256": "524dbd842ce26e5a70495e20c392d4e184d71d37f51188300f7e5c4803aba9b1",
+    "modifiedSha256": "524dbd842ce26e5a70495e20c392d4e184d71d37f51188300f7e5c4803aba9b1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/12bit-processors.h",
+    "local": "engine/mcu/gpsim/12bit-processors.h",
+    "originalSha256": "3c1c0824e463891e70d1c921545965a3e63b95f3579850d005826b8654a36b99",
+    "modifiedSha256": "3c1c0824e463891e70d1c921545965a3e63b95f3579850d005826b8654a36b99",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/14bit-hexdecode.cc",
+    "local": "engine/mcu/gpsim/14bit-hexdecode.cc",
+    "originalSha256": "bf9c5d5254bcd0ada4a16375c09c3c1e48606fcbcc8ad3348730fc6e9fe464b8",
+    "modifiedSha256": "bf9c5d5254bcd0ada4a16375c09c3c1e48606fcbcc8ad3348730fc6e9fe464b8",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/14bit-instructions.cc",
+    "local": "engine/mcu/gpsim/14bit-instructions.cc",
+    "originalSha256": "abbb9421daf8c340a878de8e37511470979e741771bac3d8b6b5a26e3cc1dd6e",
+    "modifiedSha256": "0744ca2ec9ee70e3eba3a7b59a35af81e32ac3afbeafde51f7adb921228f28ca",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/14bit-instructions.h",
+    "local": "engine/mcu/gpsim/14bit-instructions.h",
+    "originalSha256": "f1371688c0ff4bcf041757d73da2cecff347773fd5c09b8b261752531098c4d0",
+    "modifiedSha256": "f1371688c0ff4bcf041757d73da2cecff347773fd5c09b8b261752531098c4d0",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/14bit-processors.cc",
+    "local": "engine/mcu/gpsim/14bit-processors.cc",
+    "originalSha256": "4aaa811eb4f23f82e7d798f26b950fcab5b030d21f0441fe02ad0797cefb0c0c",
+    "modifiedSha256": "48e09e4c6dd208f226fc919c03a4170c3c37865e0f3f61fce1c4d368a92a4725",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/14bit-processors.h",
+    "local": "engine/mcu/gpsim/14bit-processors.h",
+    "originalSha256": "df747fa60c7559086591bad70191db1f79f331b61a0c483c33c8aef3539ddd81",
+    "modifiedSha256": "df747fa60c7559086591bad70191db1f79f331b61a0c483c33c8aef3539ddd81",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/16bit-hexdecode.cc",
+    "local": "engine/mcu/gpsim/16bit-hexdecode.cc",
+    "originalSha256": "f7f6eb1e5932247dff1bc337954a992f1a9183b04e915bf1d9fee033e653e493",
+    "modifiedSha256": "f7f6eb1e5932247dff1bc337954a992f1a9183b04e915bf1d9fee033e653e493",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/16bit-instructions.cc",
+    "local": "engine/mcu/gpsim/16bit-instructions.cc",
+    "originalSha256": "e4be6fe19a7f4d516c95b395c53c553ec774125c7c91c80fbbbcce0568b04837",
+    "modifiedSha256": "6fcf22243f359a13bd1b88cd194a938bc196ff36a673486141c874ec72e9cb4f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/16bit-instructions.h",
+    "local": "engine/mcu/gpsim/16bit-instructions.h",
+    "originalSha256": "de6c36e3e0e90fab202c9e62acaaee52eac2bfa849c4b2ca417dec3b3d282d72",
+    "modifiedSha256": "de6c36e3e0e90fab202c9e62acaaee52eac2bfa849c4b2ca417dec3b3d282d72",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/16bit-processors.cc",
+    "local": "engine/mcu/gpsim/16bit-processors.cc",
+    "originalSha256": "26f1b3daada3aae9b6240d3cfaf79c38dea17293bd95bf31d49ed283ae685f3c",
+    "modifiedSha256": "7e5da1116e693203c403f8305045f5d50f12af7b2bdb469e5c825d20605036c5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/16bit-processors.h",
+    "local": "engine/mcu/gpsim/16bit-processors.h",
+    "originalSha256": "acc0117025051146ec1b64f49988d1d99659b5a6b2536e3a8409805fa706e176",
+    "modifiedSha256": "acc0117025051146ec1b64f49988d1d99659b5a6b2536e3a8409805fa706e176",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/breakpoints.cc",
+    "local": "engine/mcu/gpsim/breakpoints.cc",
+    "originalSha256": "d0ca09028c5a8cd10fded11bd0ae48322df535f0e247167eb475516a8f21aee3",
+    "modifiedSha256": "14c4b7953b7373e675d06d1bd8d84c4f7bcfa53b21ea91ab2dd401230bb5583b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/breakpoints.h",
+    "local": "engine/mcu/gpsim/breakpoints.h",
+    "originalSha256": "5a10b67b8873e14fb6d4dd4c0b2106834471841a6f011965a8186dd7532efa98",
+    "modifiedSha256": "f953b194e6a6c7e858635576129b93bef626672711725d2191cb3618f2cff932",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/clock_phase.cc",
+    "local": "engine/mcu/gpsim/clock_phase.cc",
+    "originalSha256": "5d9e6a6d2262224f49d399477a5bbe1319c1a22f6043a226dcbf0c1ccdc66333",
+    "modifiedSha256": "f557594ba43fbdbbe64d4f110e1085484d005af1cdbcd9f251a8f0ad3fc5a0f6",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/clock_phase.h",
+    "local": "engine/mcu/gpsim/clock_phase.h",
+    "originalSha256": "f4ff3ced8cbc4ff3da38acac73193bee6c53e4e0a6575efcda4110954d1c2c6a",
+    "modifiedSha256": "f4ff3ced8cbc4ff3da38acac73193bee6c53e4e0a6575efcda4110954d1c2c6a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/config.h",
+    "local": "engine/mcu/gpsim/config.h",
+    "originalSha256": "f1375135d9c3954f071cc73f0538a6bb23d50c3fe6ef428f2266792343edb9aa",
+    "modifiedSha256": "f1375135d9c3954f071cc73f0538a6bb23d50c3fe6ef428f2266792343edb9aa",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p12f6xx.cc",
+    "local": "engine/mcu/gpsim/devices/p12f6xx.cc",
+    "originalSha256": "cdc9341da097def50561f324586b8bfc66d7e4820d91ac29a8e8189764960781",
+    "modifiedSha256": "cdc9341da097def50561f324586b8bfc66d7e4820d91ac29a8e8189764960781",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p12f6xx.h",
+    "local": "engine/mcu/gpsim/devices/p12f6xx.h",
+    "originalSha256": "18e53d4fdaf183d7744ea26a90044fad0826e7fbe8bd7e26173e97db1ce73d24",
+    "modifiedSha256": "18e53d4fdaf183d7744ea26a90044fad0826e7fbe8bd7e26173e97db1ce73d24",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p12x.cc",
+    "local": "engine/mcu/gpsim/devices/p12x.cc",
+    "originalSha256": "782b249827579c4f866f6a139d21ff0852d5bb4cabd096911cf31cba79efe608",
+    "modifiedSha256": "782b249827579c4f866f6a139d21ff0852d5bb4cabd096911cf31cba79efe608",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p12x.h",
+    "local": "engine/mcu/gpsim/devices/p12x.h",
+    "originalSha256": "81be32ef30e67588d5cb6989938045c2a3db66922e4c008a9779354b6bfb0c41",
+    "modifiedSha256": "81be32ef30e67588d5cb6989938045c2a3db66922e4c008a9779354b6bfb0c41",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f1503.cc",
+    "local": "engine/mcu/gpsim/devices/p16f1503.cc",
+    "originalSha256": "866411544b9b77c495dce854715501963db4e0eafb2f7af064b9927e5af65ab3",
+    "modifiedSha256": "866411544b9b77c495dce854715501963db4e0eafb2f7af064b9927e5af65ab3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f1503.h",
+    "local": "engine/mcu/gpsim/devices/p16f1503.h",
+    "originalSha256": "c197b89898499a6e39b5622682cd80cc59b7c0d80f0db9752125ac59ed2c5e17",
+    "modifiedSha256": "c197b89898499a6e39b5622682cd80cc59b7c0d80f0db9752125ac59ed2c5e17",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f178x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f178x.cc",
+    "originalSha256": "c213877af6597ed5eb186c1f59c6387d7247e85c543e9fb9bb76b6f2e10f879f",
+    "modifiedSha256": "c213877af6597ed5eb186c1f59c6387d7247e85c543e9fb9bb76b6f2e10f879f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f178x.h",
+    "local": "engine/mcu/gpsim/devices/p16f178x.h",
+    "originalSha256": "d819b3e2a6ad2265c778867e45222d411fc3c00c1c311183579de14913cba73b",
+    "modifiedSha256": "d819b3e2a6ad2265c778867e45222d411fc3c00c1c311183579de14913cba73b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f62x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f62x.cc",
+    "originalSha256": "9d127800717635161ce958ee9d92b7d343b5f5c83b3ce65e460527165fc88e2f",
+    "modifiedSha256": "9d127800717635161ce958ee9d92b7d343b5f5c83b3ce65e460527165fc88e2f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f62x.h",
+    "local": "engine/mcu/gpsim/devices/p16f62x.h",
+    "originalSha256": "fa7de5f0bc32ca9ab8f0da3899309069bcd79b896e1924946f6c6ce6927f2416",
+    "modifiedSha256": "fa7de5f0bc32ca9ab8f0da3899309069bcd79b896e1924946f6c6ce6927f2416",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f87x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f87x.cc",
+    "originalSha256": "bd68061a1374be80889f2dfb2b5ad8bcb6462c7b255d8cfa0d7381a06b47a492",
+    "modifiedSha256": "bd68061a1374be80889f2dfb2b5ad8bcb6462c7b255d8cfa0d7381a06b47a492",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f87x.h",
+    "local": "engine/mcu/gpsim/devices/p16f87x.h",
+    "originalSha256": "a2163b8ce12c99d52a140913639545dcaff73b2ab43239ab9de8fd442d88385d",
+    "modifiedSha256": "a2163b8ce12c99d52a140913639545dcaff73b2ab43239ab9de8fd442d88385d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f88x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f88x.cc",
+    "originalSha256": "5fcfdd4a6e26a22cca8518e010b949c0c2a860bfe0d3ade6823b2a4d79f9683a",
+    "modifiedSha256": "5fcfdd4a6e26a22cca8518e010b949c0c2a860bfe0d3ade6823b2a4d79f9683a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f88x.h",
+    "local": "engine/mcu/gpsim/devices/p16f88x.h",
+    "originalSha256": "bce6574c83ed8d0fc5783fda6926522ff7f46019ea8a19323eae214b4d4c1d9e",
+    "modifiedSha256": "bce6574c83ed8d0fc5783fda6926522ff7f46019ea8a19323eae214b4d4c1d9e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f8x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f8x.cc",
+    "originalSha256": "c8c1fbc86eaf1b4ae57f9cf69362ea3acaaea2af50bda9e6ae9bce7e335e1af9",
+    "modifiedSha256": "c8c1fbc86eaf1b4ae57f9cf69362ea3acaaea2af50bda9e6ae9bce7e335e1af9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f8x.h",
+    "local": "engine/mcu/gpsim/devices/p16f8x.h",
+    "originalSha256": "6cd1b1f5d566f9afaad13e2ef5bb10fa5a87707c70cc9d9797b8e10eb96ed998",
+    "modifiedSha256": "6cd1b1f5d566f9afaad13e2ef5bb10fa5a87707c70cc9d9797b8e10eb96ed998",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f91x.cc",
+    "local": "engine/mcu/gpsim/devices/p16f91x.cc",
+    "originalSha256": "0f7bdd0830d725f497d6cae52b52808e6ed8bc192de875b09efdf67d247f1631",
+    "modifiedSha256": "0f7bdd0830d725f497d6cae52b52808e6ed8bc192de875b09efdf67d247f1631",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16f91x.h",
+    "local": "engine/mcu/gpsim/devices/p16f91x.h",
+    "originalSha256": "765f62dad591a48a865a067eeb5652ad4426fd62cb35e1ddbe09749274263eab",
+    "modifiedSha256": "765f62dad591a48a865a067eeb5652ad4426fd62cb35e1ddbe09749274263eab",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x5x.cc",
+    "local": "engine/mcu/gpsim/devices/p16x5x.cc",
+    "originalSha256": "727c1f7df4bb3933577f37c00e0408998269adad64a1ae1bcb522aeaf463846d",
+    "modifiedSha256": "727c1f7df4bb3933577f37c00e0408998269adad64a1ae1bcb522aeaf463846d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x5x.h",
+    "local": "engine/mcu/gpsim/devices/p16x5x.h",
+    "originalSha256": "c3a0d394ba2e8b93686d9a96b86672dd4bfb5f9d0769a387edbd09fd80ae5cd1",
+    "modifiedSha256": "c3a0d394ba2e8b93686d9a96b86672dd4bfb5f9d0769a387edbd09fd80ae5cd1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x6x.cc",
+    "local": "engine/mcu/gpsim/devices/p16x6x.cc",
+    "originalSha256": "75f96868cb5b6e9e6adfe6fe8634fb292800c015d36f67a6ba0f848b7a71442f",
+    "modifiedSha256": "75f96868cb5b6e9e6adfe6fe8634fb292800c015d36f67a6ba0f848b7a71442f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x6x.h",
+    "local": "engine/mcu/gpsim/devices/p16x6x.h",
+    "originalSha256": "3fac1e996d4ef76ad1094ece98f049474783e5f35a1d5402e8f671540f2d3f0e",
+    "modifiedSha256": "3fac1e996d4ef76ad1094ece98f049474783e5f35a1d5402e8f671540f2d3f0e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x7x.cc",
+    "local": "engine/mcu/gpsim/devices/p16x7x.cc",
+    "originalSha256": "5b4ef9d2f0437e2750cf95895d4455a0f9078ecd63cfb240a116ae51e6f7f9b9",
+    "modifiedSha256": "5b4ef9d2f0437e2750cf95895d4455a0f9078ecd63cfb240a116ae51e6f7f9b9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x7x.h",
+    "local": "engine/mcu/gpsim/devices/p16x7x.h",
+    "originalSha256": "4cac7bae00d37a3452d59e31aea3487f2c3109328c12f61602fbc6af10b4bc22",
+    "modifiedSha256": "4cac7bae00d37a3452d59e31aea3487f2c3109328c12f61602fbc6af10b4bc22",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x8x.cc",
+    "local": "engine/mcu/gpsim/devices/p16x8x.cc",
+    "originalSha256": "1dd60627d380bbc895a211e98c15f747b92bd07f544b4ecc7382e3fdf7457521",
+    "modifiedSha256": "1dd60627d380bbc895a211e98c15f747b92bd07f544b4ecc7382e3fdf7457521",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p16x8x.h",
+    "local": "engine/mcu/gpsim/devices/p16x8x.h",
+    "originalSha256": "faa3edd498d2c141325f2203c113f79b1b0b5b748375e97f79edac14fbf0cdfa",
+    "modifiedSha256": "faa3edd498d2c141325f2203c113f79b1b0b5b748375e97f79edac14fbf0cdfa",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p17c75x.cc",
+    "local": "engine/mcu/gpsim/devices/p17c75x.cc",
+    "originalSha256": "38d662c034b9767cb5bb559cfd8747d2f737132da25737296e0b428d9899678f",
+    "modifiedSha256": "38d662c034b9767cb5bb559cfd8747d2f737132da25737296e0b428d9899678f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p17c75x.h",
+    "local": "engine/mcu/gpsim/devices/p17c75x.h",
+    "originalSha256": "f9fc7500690ffb376bb062676ad873af6e3c67cbf0c2cdc6f5ef53f8a456cc61",
+    "modifiedSha256": "f9fc7500690ffb376bb062676ad873af6e3c67cbf0c2cdc6f5ef53f8a456cc61",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p18fk.cc",
+    "local": "engine/mcu/gpsim/devices/p18fk.cc",
+    "originalSha256": "8f4c6e24e47ed79e717f0b00e97b86b006a6246f598b03fd9657f88eef4e8b25",
+    "modifiedSha256": "8f4c6e24e47ed79e717f0b00e97b86b006a6246f598b03fd9657f88eef4e8b25",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p18fk.h",
+    "local": "engine/mcu/gpsim/devices/p18fk.h",
+    "originalSha256": "d5e84c62b5e1fb609e86eb2e094ec0810957aa7d9d64440b4160ed3092942563",
+    "modifiedSha256": "d5e84c62b5e1fb609e86eb2e094ec0810957aa7d9d64440b4160ed3092942563",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p18x.cc",
+    "local": "engine/mcu/gpsim/devices/p18x.cc",
+    "originalSha256": "7714dbc7539e7ead8b4a3b0c7ce6030b5c1145f957debbbd5f495e299edd3cb4",
+    "modifiedSha256": "7714dbc7539e7ead8b4a3b0c7ce6030b5c1145f957debbbd5f495e299edd3cb4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p18x.h",
+    "local": "engine/mcu/gpsim/devices/p18x.h",
+    "originalSha256": "a36f5ed37fdfa6ef567a6aca6880e5ef23193e267f3ed46d9770e7081030b262",
+    "modifiedSha256": "a36f5ed37fdfa6ef567a6aca6880e5ef23193e267f3ed46d9770e7081030b262",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p1xf1xxx.cc",
+    "local": "engine/mcu/gpsim/devices/p1xf1xxx.cc",
+    "originalSha256": "803ffad7b2d5556b96a847c0e1795fa7e1840443e1af18222334d905d22f881e",
+    "modifiedSha256": "803ffad7b2d5556b96a847c0e1795fa7e1840443e1af18222334d905d22f881e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/devices/p1xf1xxx.h",
+    "local": "engine/mcu/gpsim/devices/p1xf1xxx.h",
+    "originalSha256": "f99ef68f42849ab0c10cb3803eb1f51bc4b4d53883abd498df550fe2d382402a",
+    "modifiedSha256": "f99ef68f42849ab0c10cb3803eb1f51bc4b4d53883abd498df550fe2d382402a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/errors.cc",
+    "local": "engine/mcu/gpsim/errors.cc",
+    "originalSha256": "79d64950426ad36bc26163acc40bc52b3a160c21b797340a7806cc2a04cf1110",
+    "modifiedSha256": "79d64950426ad36bc26163acc40bc52b3a160c21b797340a7806cc2a04cf1110",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/errors.h",
+    "local": "engine/mcu/gpsim/errors.h",
+    "originalSha256": "248eb2feec64a9e3331f03a07964afa52230f0ce72494cba9f970677a5646b1b",
+    "modifiedSha256": "248eb2feec64a9e3331f03a07964afa52230f0ce72494cba9f970677a5646b1b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/gpsim_classes.h",
+    "local": "engine/mcu/gpsim/gpsim_classes.h",
+    "originalSha256": "79868b6d031c11a094c81633e5086d2e51d4c072988e69365a4a98593a3dadac",
+    "modifiedSha256": "79868b6d031c11a094c81633e5086d2e51d4c072988e69365a4a98593a3dadac",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/gpsim_object.cc",
+    "local": "engine/mcu/gpsim/gpsim_object.cc",
+    "originalSha256": "2f4ec3cbcb050161a2c1b48f8540907dd4f796bd9bdf35a7996faa3dbf57e81c",
+    "modifiedSha256": "2f4ec3cbcb050161a2c1b48f8540907dd4f796bd9bdf35a7996faa3dbf57e81c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/gpsim_object.h",
+    "local": "engine/mcu/gpsim/gpsim_object.h",
+    "originalSha256": "72c0dce1ba237903c49fb0e95367cb7e1efd2845dcb3e5d55c75e6ed13d9a133",
+    "modifiedSha256": "72c0dce1ba237903c49fb0e95367cb7e1efd2845dcb3e5d55c75e6ed13d9a133",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/gpsim_time.cc",
+    "local": "engine/mcu/gpsim/gpsim_time.cc",
+    "originalSha256": "2a78f0d4d2bfae3597d038acc8836009f3d7018475d20dcfe81af410d030af5a",
+    "modifiedSha256": "6fcc2372f2b2f6526b0a2efd603f455c9cf0e842ac3922c9df315e82074f1eac",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/gpsim_time.h",
+    "local": "engine/mcu/gpsim/gpsim_time.h",
+    "originalSha256": "55e5c865c58d7791a6148373517d99f1d3faa3e3814f76efed7da4581fde5f69",
+    "modifiedSha256": "604524e08ede609c49f959774b6a16941e18b32b9bf1c7932c1b02e99a071e6b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/hexutils.cc",
+    "local": "engine/mcu/gpsim/hexutils.cc",
+    "originalSha256": "7144e0a0d53d7deadd1d15160312cc501fd71dee9eb0257857d9e280e0201d2c",
+    "modifiedSha256": "7144e0a0d53d7deadd1d15160312cc501fd71dee9eb0257857d9e280e0201d2c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/hexutils.h",
+    "local": "engine/mcu/gpsim/hexutils.h",
+    "originalSha256": "232e34899a78ad2b3f89dd77477f879124df9affe580b5a8a602b65946a71539",
+    "modifiedSha256": "232e34899a78ad2b3f89dd77477f879124df9affe580b5a8a602b65946a71539",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/ioports.cc",
+    "local": "engine/mcu/gpsim/ioports.cc",
+    "originalSha256": "e6356c365fa764884a5ba6c700ba918e6ac0d026d20f28407ca04a7b4799d20d",
+    "modifiedSha256": "e6356c365fa764884a5ba6c700ba918e6ac0d026d20f28407ca04a7b4799d20d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/ioports.h",
+    "local": "engine/mcu/gpsim/ioports.h",
+    "originalSha256": "b9bc5515cee50194271393a13d0a446875a7feccca8d78135aa318db9a495b97",
+    "modifiedSha256": "b9bc5515cee50194271393a13d0a446875a7feccca8d78135aa318db9a495b97",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/14bit-tmrs.cc",
+    "local": "engine/mcu/gpsim/modules/14bit-tmrs.cc",
+    "originalSha256": "d27071d24705eccc95c20a5fb0e7592ae8ec521c71ab0c0604cb26291e1dcd65",
+    "modifiedSha256": "7d5928d17f9a92d075ee8147bd91c42ab15dc6a6f651bde1ab0a3f06c9f7f0a2",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/14bit-tmrs.h",
+    "local": "engine/mcu/gpsim/modules/14bit-tmrs.h",
+    "originalSha256": "b450b096665346cf4f8035b62f269054069ef6d94387ee3b44c288de507194a4",
+    "modifiedSha256": "b450b096665346cf4f8035b62f269054069ef6d94387ee3b44c288de507194a4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/16bit-tmrs.cc",
+    "local": "engine/mcu/gpsim/modules/16bit-tmrs.cc",
+    "originalSha256": "ffbae0f4153033d160052e51755f542f5afc81412852dc506891071bbec79cb0",
+    "modifiedSha256": "ffbae0f4153033d160052e51755f542f5afc81412852dc506891071bbec79cb0",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/16bit-tmrs.h",
+    "local": "engine/mcu/gpsim/modules/16bit-tmrs.h",
+    "originalSha256": "b7888f57539ec11c7d18ccc5b5d11a622ca931a4000a3d7162856519d1c68186",
+    "modifiedSha256": "b7888f57539ec11c7d18ccc5b5d11a622ca931a4000a3d7162856519d1c68186",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/a2d_v2.cc",
+    "local": "engine/mcu/gpsim/modules/a2d_v2.cc",
+    "originalSha256": "26e7de071c80dabb2dbc31ba1e857274f6006ec71a7c512d88e738065e1c5484",
+    "modifiedSha256": "26e7de071c80dabb2dbc31ba1e857274f6006ec71a7c512d88e738065e1c5484",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/a2d_v2.h",
+    "local": "engine/mcu/gpsim/modules/a2d_v2.h",
+    "originalSha256": "6229367195500b2834883b8606df43f7ac7f9c337739223c5af510611c13adc9",
+    "modifiedSha256": "ce574c533393248a868651426e05e5ec7b9696bc2c53d9ebfbfcf00eb2dd859a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/a2dconverter.cc",
+    "local": "engine/mcu/gpsim/modules/a2dconverter.cc",
+    "originalSha256": "f2c6d6c323416c897910bf62d71add49b7ccdbd309affe3d7a4a2a2eb4c0da6d",
+    "modifiedSha256": "f2c6d6c323416c897910bf62d71add49b7ccdbd309affe3d7a4a2a2eb4c0da6d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/a2dconverter.h",
+    "local": "engine/mcu/gpsim/modules/a2dconverter.h",
+    "originalSha256": "2666e6b5ab13dc1acca1f409a88deed6009a7f38319f78263e35f974990b9c08",
+    "modifiedSha256": "2666e6b5ab13dc1acca1f409a88deed6009a7f38319f78263e35f974990b9c08",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/clc.cc",
+    "local": "engine/mcu/gpsim/modules/clc.cc",
+    "originalSha256": "a939781d206303ba0e9b54b36099a7886d91e70e1c05648bda1ab9c31db3acf2",
+    "modifiedSha256": "a939781d206303ba0e9b54b36099a7886d91e70e1c05648bda1ab9c31db3acf2",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/clc.h",
+    "local": "engine/mcu/gpsim/modules/clc.h",
+    "originalSha256": "cb696a15580d4d5a7d8fda2f657fd949d69295b99e96653bf250b529868dd970",
+    "modifiedSha256": "cb696a15580d4d5a7d8fda2f657fd949d69295b99e96653bf250b529868dd970",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/comparator.cc",
+    "local": "engine/mcu/gpsim/modules/comparator.cc",
+    "originalSha256": "252999aeb268ad78af4e71b44754a817171e9ac95ebaed48d3493554d2efad33",
+    "modifiedSha256": "0be8b483ef5e12db623822ee66139fac61ad073cee036ab95f0c2ea73844da9b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/comparator.h",
+    "local": "engine/mcu/gpsim/modules/comparator.h",
+    "originalSha256": "a1410415698aa74fbf8b2e0d51cc4c31f5153c7994c1457e9e9c5b7f11be68da",
+    "modifiedSha256": "a1410415698aa74fbf8b2e0d51cc4c31f5153c7994c1457e9e9c5b7f11be68da",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/ctmu.cc",
+    "local": "engine/mcu/gpsim/modules/ctmu.cc",
+    "originalSha256": "940f2d29479a14532d00730ead3b887c75f49790bea178fb1f3ace36ae05cd2c",
+    "modifiedSha256": "940f2d29479a14532d00730ead3b887c75f49790bea178fb1f3ace36ae05cd2c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/ctmu.h",
+    "local": "engine/mcu/gpsim/modules/ctmu.h",
+    "originalSha256": "594416a1a3c9ee28fe08101cdacb7338f07b5a035302bf6c30820d0c3824f59a",
+    "modifiedSha256": "594416a1a3c9ee28fe08101cdacb7338f07b5a035302bf6c30820d0c3824f59a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/cwg.cc",
+    "local": "engine/mcu/gpsim/modules/cwg.cc",
+    "originalSha256": "8b9c5aa717e2a856f31d609094212e3d267fe68d0c8c5b1e5ad04632ca7e0069",
+    "modifiedSha256": "8b9c5aa717e2a856f31d609094212e3d267fe68d0c8c5b1e5ad04632ca7e0069",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/cwg.h",
+    "local": "engine/mcu/gpsim/modules/cwg.h",
+    "originalSha256": "0c5e99d894bc88e188f22e6afb74272bf4ff6b0bd738bce1e4ede30009482d47",
+    "modifiedSha256": "0c5e99d894bc88e188f22e6afb74272bf4ff6b0bd738bce1e4ede30009482d47",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/dsm_module.cc",
+    "local": "engine/mcu/gpsim/modules/dsm_module.cc",
+    "originalSha256": "c7a55daa89e29e1679434c39bcff5aeeac738f8090bb5ddb89bec89f1f9fef6c",
+    "modifiedSha256": "c7a55daa89e29e1679434c39bcff5aeeac738f8090bb5ddb89bec89f1f9fef6c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/dsm_module.h",
+    "local": "engine/mcu/gpsim/modules/dsm_module.h",
+    "originalSha256": "ca8003f789506272f30dfd54f89647c937d8fd5a13f74ffbd78187cd46c4a96a",
+    "modifiedSha256": "ca8003f789506272f30dfd54f89647c937d8fd5a13f74ffbd78187cd46c4a96a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/eeprom.cc",
+    "local": "engine/mcu/gpsim/modules/eeprom.cc",
+    "originalSha256": "e96427d75630dcc99a661db9fe0c6fd4875071d9109b26c61e49eaaaded38da2",
+    "modifiedSha256": "768c2882a94da29f4e128c2db4e65e424a968269a2cc60d6a55f5032bb0b761d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/eeprom.h",
+    "local": "engine/mcu/gpsim/modules/eeprom.h",
+    "originalSha256": "2ca6cb5d10a9e60b306b867442a89ec6ec9d7eda8a9c1483662ea7d96ef6f307",
+    "modifiedSha256": "2ca6cb5d10a9e60b306b867442a89ec6ec9d7eda8a9c1483662ea7d96ef6f307",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/i2c-ee.cc",
+    "local": "engine/mcu/gpsim/modules/i2c-ee.cc",
+    "originalSha256": "c0bbe5c51b8db8ab40fb694ecdb4808dcdb52c1c04bd6d9d7b92701123947c7d",
+    "modifiedSha256": "c0bbe5c51b8db8ab40fb694ecdb4808dcdb52c1c04bd6d9d7b92701123947c7d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/i2c-ee.h",
+    "local": "engine/mcu/gpsim/modules/i2c-ee.h",
+    "originalSha256": "5738a1fdcdf6315b768a2d5c3e4dc75e6e3d691ef44ba752d12621fc1f915e6b",
+    "modifiedSha256": "5738a1fdcdf6315b768a2d5c3e4dc75e6e3d691ef44ba752d12621fc1f915e6b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/lcd_module.cc",
+    "local": "engine/mcu/gpsim/modules/lcd_module.cc",
+    "originalSha256": "0b295ab9a05810628b5ea678250ad29327aa9cd7178445fb815729631a3c1457",
+    "modifiedSha256": "0b295ab9a05810628b5ea678250ad29327aa9cd7178445fb815729631a3c1457",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/lcd_module.h",
+    "local": "engine/mcu/gpsim/modules/lcd_module.h",
+    "originalSha256": "c68b735d6074719ac0e26086b0cab63bde9b6426d031684f826e2e5999ba76a7",
+    "modifiedSha256": "c68b735d6074719ac0e26086b0cab63bde9b6426d031684f826e2e5999ba76a7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/nco.cc",
+    "local": "engine/mcu/gpsim/modules/nco.cc",
+    "originalSha256": "6e3e7bb98b5d3aeac73ba62ef4c7a51dcdced46f38caa202791a32586e338e2d",
+    "modifiedSha256": "6e3e7bb98b5d3aeac73ba62ef4c7a51dcdced46f38caa202791a32586e338e2d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/nco.h",
+    "local": "engine/mcu/gpsim/modules/nco.h",
+    "originalSha256": "9540444eff32a7cf8b5866d17a1c80fc083195fb5aa9ddfabc0ef2758c49018f",
+    "modifiedSha256": "9540444eff32a7cf8b5866d17a1c80fc083195fb5aa9ddfabc0ef2758c49018f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/spp.cc",
+    "local": "engine/mcu/gpsim/modules/spp.cc",
+    "originalSha256": "676b3a8af9c9f8273f081314283c95fb5b536a3bef9bb00b48885ec904bea2a9",
+    "modifiedSha256": "676b3a8af9c9f8273f081314283c95fb5b536a3bef9bb00b48885ec904bea2a9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/spp.h",
+    "local": "engine/mcu/gpsim/modules/spp.h",
+    "originalSha256": "32a1ca681a755d61c99ae2932735f39d6db9b3aae5120ad97b67494aad9ea859",
+    "modifiedSha256": "32a1ca681a755d61c99ae2932735f39d6db9b3aae5120ad97b67494aad9ea859",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/ssp.cc",
+    "local": "engine/mcu/gpsim/modules/ssp.cc",
+    "originalSha256": "55370425c3b3b0e237a1552e681eb12b392b3e1fea4c2e6b611f805f81199ba4",
+    "modifiedSha256": "55370425c3b3b0e237a1552e681eb12b392b3e1fea4c2e6b611f805f81199ba4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/ssp.h",
+    "local": "engine/mcu/gpsim/modules/ssp.h",
+    "originalSha256": "9fdda5e5104cf952924b5f958c283311306a4ee1ad14aba8c8675855c9f1f40c",
+    "modifiedSha256": "9fdda5e5104cf952924b5f958c283311306a4ee1ad14aba8c8675855c9f1f40c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/tmr0.cc",
+    "local": "engine/mcu/gpsim/modules/tmr0.cc",
+    "originalSha256": "f722836c10812e94ce920a6721706e80acc067f2abc020dc1220680e7b3ab619",
+    "modifiedSha256": "a5b2d7f13377a350fdcd231406d14dfda2c0b94b02db2e8477f905a81ea66886",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/tmr0.h",
+    "local": "engine/mcu/gpsim/modules/tmr0.h",
+    "originalSha256": "e61920f99959580a5d9910a3582d714ccd5f154a34fbcb5fc31ffb2bf87e1df3",
+    "modifiedSha256": "e61920f99959580a5d9910a3582d714ccd5f154a34fbcb5fc31ffb2bf87e1df3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules/uart.cc",
+    "local": "engine/mcu/gpsim/modules/uart.cc",
+    "originalSha256": "9f7d8beb2d3316a03913258b8fe428879d6ec0978f27b5269bf7629cef036014",
+    "modifiedSha256": "e9e218e4249af9c6c24b7e14e00ba79f303f5406d76e6a9f67255f00dbf71120",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules/uart.h",
+    "local": "engine/mcu/gpsim/modules/uart.h",
+    "originalSha256": "4d51da4af1c7e8719d1dc2f509e49a9c1cdf951f349f2477aff34459a3971e36",
+    "modifiedSha256": "bab020e92810c70fe842cfdbc90277e4b583a5a624a990aa44d42f30e4cf75a0",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/modules.cc",
+    "local": "engine/mcu/gpsim/modules.cc",
+    "originalSha256": "5157f849d635baae61067cfbf1da78809e257bbc2807af8ba0585124fc3b71c3",
+    "modifiedSha256": "5157f849d635baae61067cfbf1da78809e257bbc2807af8ba0585124fc3b71c3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/modules.h",
+    "local": "engine/mcu/gpsim/modules.h",
+    "originalSha256": "3f68df9534564c1afaa1cd44ff680d4ccbe3b76685553925e0c909f89381d08e",
+    "modifiedSha256": "3f68df9534564c1afaa1cd44ff680d4ccbe3b76685553925e0c909f89381d08e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/packages.cc",
+    "local": "engine/mcu/gpsim/packages.cc",
+    "originalSha256": "5a3bcf7f08f0690b312995733845a8368f7ff6c7a1180daad9242efc9e44a37d",
+    "modifiedSha256": "5a3bcf7f08f0690b312995733845a8368f7ff6c7a1180daad9242efc9e44a37d",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/packages.h",
+    "local": "engine/mcu/gpsim/packages.h",
+    "originalSha256": "0feb029784e9a994e7fda2fc52cccf2cd759f9ae489a267d750f5771f3a2a8a4",
+    "modifiedSha256": "0feb029784e9a994e7fda2fc52cccf2cd759f9ae489a267d750f5771f3a2a8a4",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/pic-instructions.cc",
+    "local": "engine/mcu/gpsim/pic-instructions.cc",
+    "originalSha256": "0556821f7ff3ee566f5b2492f31ab268e5aaab01ed6a91eea3830c25e6079f43",
+    "modifiedSha256": "0556821f7ff3ee566f5b2492f31ab268e5aaab01ed6a91eea3830c25e6079f43",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/pic-instructions.h",
+    "local": "engine/mcu/gpsim/pic-instructions.h",
+    "originalSha256": "923ca194ff93c8e0b6f115da2495230e0bb488bfcc54a00bbf6436a12148490a",
+    "modifiedSha256": "923ca194ff93c8e0b6f115da2495230e0bb488bfcc54a00bbf6436a12148490a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/pic-ioports.cc",
+    "local": "engine/mcu/gpsim/pic-ioports.cc",
+    "originalSha256": "b9919b65e7956fce9aa039bab2abd0c1ebc31d9c0e6d4912dbbd83d7f75c618d",
+    "modifiedSha256": "d1c1de4a74d00c6c5b1478393f36b5348eb139d7a1e7b63b94a637fed1f74042",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/pic-ioports.h",
+    "local": "engine/mcu/gpsim/pic-ioports.h",
+    "originalSha256": "352eae9c0fc5cde2b0c65513e9b38cc7ba400d5092e2084c3c8d33e344d011a8",
+    "modifiedSha256": "d79887a658c01fe2e322d6e98f68d7ecb0e5e4fde5fa4a574fd949fb94b4cf75",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/pic-processor.cc",
+    "local": "engine/mcu/gpsim/pic-processor.cc",
+    "originalSha256": "864418d83a7a63bf91901e6563dd695c14b17dfc6258b3593c0a8c336da8b9fc",
+    "modifiedSha256": "d09434a69bba57e3bd6dd779d9e1712aa0c8f810c9029735f4fce6293b61cd06",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/pic-processor.h",
+    "local": "engine/mcu/gpsim/pic-processor.h",
+    "originalSha256": "3264951c481251fa3a667a1bb71be4f5f4623220377712ed5d828ede6a7b56e6",
+    "modifiedSha256": "a501f6fd8b2bda973e0c3f1f7287693e85583af86ab61e8f688985b4672aefa5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/processor.cc",
+    "local": "engine/mcu/gpsim/processor.cc",
+    "originalSha256": "f5da10c7c2404b4c795f11e776a102ed300936f152f40ecf9c5f21599737eb48",
+    "modifiedSha256": "b7e6be266aeced71b7b01ae5f40589a68def682c846987c77256a32fb44e70bd",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/processor.h",
+    "local": "engine/mcu/gpsim/processor.h",
+    "originalSha256": "0a2d4cddd51b53e9eebbf0c4f2499b87d3b31d3dbf5a70421a85b40b322f543a",
+    "modifiedSha256": "0a2d4cddd51b53e9eebbf0c4f2499b87d3b31d3dbf5a70421a85b40b322f543a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/protocol.cc",
+    "local": "engine/mcu/gpsim/protocol.cc",
+    "originalSha256": "504f9aaf19b5eedef6894814c929aea872ad1c6b2c9dfce7ea6097534deb025c",
+    "modifiedSha256": "8bb9988ff851da1cbd1c8ac0746f23a5c78dce2cbc2dc3a57d8b83790b3f722f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/protocol.h",
+    "local": "engine/mcu/gpsim/protocol.h",
+    "originalSha256": "77e4b496cf758d1f15ddc586f69236c6167e093c16c17f591714b700294a5dda",
+    "modifiedSha256": "77e4b496cf758d1f15ddc586f69236c6167e093c16c17f591714b700294a5dda",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/14bit-registers.cc",
+    "local": "engine/mcu/gpsim/registers/14bit-registers.cc",
+    "originalSha256": "590c0ad5d9d7d5f877c83f423716d760941b15865a18e86802103af5b28fe424",
+    "modifiedSha256": "34ac164baf988e7fac89ae816b663bff3321fe829221c1665f187e6fa2199bb3",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/registers/14bit-registers.h",
+    "local": "engine/mcu/gpsim/registers/14bit-registers.h",
+    "originalSha256": "0d442706bfca38b013b6495724de542e2023c0977ad9f5dbdd88402b08f7f710",
+    "modifiedSha256": "0d442706bfca38b013b6495724de542e2023c0977ad9f5dbdd88402b08f7f710",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/16bit-registers.cc",
+    "local": "engine/mcu/gpsim/registers/16bit-registers.cc",
+    "originalSha256": "5f288a7ddb2478e207d6de1eac84610cbcbd39cd25f4c17ada1200ed6ddb96ed",
+    "modifiedSha256": "c394009464379339d7452de4f7611e6486e98b37640f0076bfb0ca11dfd339b7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/registers/16bit-registers.h",
+    "local": "engine/mcu/gpsim/registers/16bit-registers.h",
+    "originalSha256": "f37590a583f8d68c5a5583a3fa7397a94957fcb027c2fbea5ae01217c6d9a27f",
+    "modifiedSha256": "f37590a583f8d68c5a5583a3fa7397a94957fcb027c2fbea5ae01217c6d9a27f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/apfcon.cc",
+    "local": "engine/mcu/gpsim/registers/apfcon.cc",
+    "originalSha256": "4c7c512444ffed0f356d35c634c8bc40b515ba42a0fe497551c5cb099825658e",
+    "modifiedSha256": "4c7c512444ffed0f356d35c634c8bc40b515ba42a0fe497551c5cb099825658e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/apfcon.h",
+    "local": "engine/mcu/gpsim/registers/apfcon.h",
+    "originalSha256": "745467f168aec80a843802ab11f1f85a10320c1bf1e53ea04a15cffcdb9b3241",
+    "modifiedSha256": "745467f168aec80a843802ab11f1f85a10320c1bf1e53ea04a15cffcdb9b3241",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/intcon.cc",
+    "local": "engine/mcu/gpsim/registers/intcon.cc",
+    "originalSha256": "e6c3d903c3f8533a13c728f49971f092092671c198f7e59f3754a6e39edd32e7",
+    "modifiedSha256": "a3918ead2c9100b1b36529d6b7a7e32bdfb77ad561c1cdeb25119b2345a87417",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/registers/intcon.h",
+    "local": "engine/mcu/gpsim/registers/intcon.h",
+    "originalSha256": "a9c6861dbe0332327b30a7efef29bc45a75fcd1d25a5f42a24f0528eda3945a7",
+    "modifiedSha256": "a9c6861dbe0332327b30a7efef29bc45a75fcd1d25a5f42a24f0528eda3945a7",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pic-registers.cc",
+    "local": "engine/mcu/gpsim/registers/pic-registers.cc",
+    "originalSha256": "581cc3c72b5113f60755b9cf2383dac570c6fe4e632b6d8b66f3cab5f3a00348",
+    "modifiedSha256": "e0a40c68f6954a86e175c90c871adc67743acf459b8aecee214cf230dfd9f121",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/registers/pic-registers.h",
+    "local": "engine/mcu/gpsim/registers/pic-registers.h",
+    "originalSha256": "fe7f11b480bf37217924a0b6b8812e3aa4f69e86aa9bb9be3fb6caef90d4f886",
+    "modifiedSha256": "fe7f11b480bf37217924a0b6b8812e3aa4f69e86aa9bb9be3fb6caef90d4f886",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pie.cc",
+    "local": "engine/mcu/gpsim/registers/pie.cc",
+    "originalSha256": "ea2934dbd62beff9db957317085253db7205e7d1869b8924df8de78a0d300643",
+    "modifiedSha256": "ea2934dbd62beff9db957317085253db7205e7d1869b8924df8de78a0d300643",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pie.h",
+    "local": "engine/mcu/gpsim/registers/pie.h",
+    "originalSha256": "342ba82154c3a0828281237e13ddddbf72799ce1300a4dc7466097d5711332b1",
+    "modifiedSha256": "342ba82154c3a0828281237e13ddddbf72799ce1300a4dc7466097d5711332b1",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pir.cc",
+    "local": "engine/mcu/gpsim/registers/pir.cc",
+    "originalSha256": "8c9121c48525b5c791d7562af46a2f6b3067e7f2d7c21703a2280c9f197f1293",
+    "modifiedSha256": "8c9121c48525b5c791d7562af46a2f6b3067e7f2d7c21703a2280c9f197f1293",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pir.h",
+    "local": "engine/mcu/gpsim/registers/pir.h",
+    "originalSha256": "db620604a8688108c1a453d81fd5d51d87aba1bfbbf8d36b451ceadb977893cb",
+    "modifiedSha256": "db620604a8688108c1a453d81fd5d51d87aba1bfbbf8d36b451ceadb977893cb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pm_rd.cc",
+    "local": "engine/mcu/gpsim/registers/pm_rd.cc",
+    "originalSha256": "511fa6e7b68d6f55854d6c44616951193dee52a270ca7fa2da948fd4862c18d9",
+    "modifiedSha256": "511fa6e7b68d6f55854d6c44616951193dee52a270ca7fa2da948fd4862c18d9",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/pm_rd.h",
+    "local": "engine/mcu/gpsim/registers/pm_rd.h",
+    "originalSha256": "09933d687482fdb12996bbe7a5ce86f8e12210ff124afb42fc7cec2958105400",
+    "modifiedSha256": "09933d687482fdb12996bbe7a5ce86f8e12210ff124afb42fc7cec2958105400",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/psp.cc",
+    "local": "engine/mcu/gpsim/registers/psp.cc",
+    "originalSha256": "6b29ee851f06e849b1fa3785c7bdfd96e9732fffe0272dfe0a0f7e1500213a3e",
+    "modifiedSha256": "6b29ee851f06e849b1fa3785c7bdfd96e9732fffe0272dfe0a0f7e1500213a3e",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/psp.h",
+    "local": "engine/mcu/gpsim/registers/psp.h",
+    "originalSha256": "77c7b5775ff3f14368b565eeae0e9834c3572620910ec3ecdfb563eb7827148a",
+    "modifiedSha256": "77c7b5775ff3f14368b565eeae0e9834c3572620910ec3ecdfb563eb7827148a",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers/rcon.h",
+    "local": "engine/mcu/gpsim/registers/rcon.h",
+    "originalSha256": "7b50c79bf0fb22b76fae72f5d120d02083f810fc0b2042c794b6813999cefc37",
+    "modifiedSha256": "7b50c79bf0fb22b76fae72f5d120d02083f810fc0b2042c794b6813999cefc37",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/registers.cc",
+    "local": "engine/mcu/gpsim/registers.cc",
+    "originalSha256": "690dc7c8fa83b748fd32c088d30d30f42ccc91e778c7dd49aa562b3840e7cafe",
+    "modifiedSha256": "cdd2fadf16160cde4efa98cde77938c593096793dfb650f15ffa0f2a756661cb",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/registers.h",
+    "local": "engine/mcu/gpsim/registers.h",
+    "originalSha256": "7e0d2c99ea033a156783fb2dafed9c8ecface63b04d0f7877ad7cf7450bbf744",
+    "modifiedSha256": "7e0d2c99ea033a156783fb2dafed9c8ecface63b04d0f7877ad7cf7450bbf744",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/stimuli.cc",
+    "local": "engine/mcu/gpsim/stimuli.cc",
+    "originalSha256": "5159254a6fe3711ab706d574c5c8d0d6fabcf560daaf1f30369fdce004990fdc",
+    "modifiedSha256": "459b529259ed1389ca7d11fba1b05eb918c542efdb70bd1714299c43166c14ef",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/stimuli.h",
+    "local": "engine/mcu/gpsim/stimuli.h",
+    "originalSha256": "90b8a3b9c1da7f6aa2eb56d836f76d0b2b2860172bf8e55e93f4b6f3da7ddf06",
+    "modifiedSha256": "e3f0f89229a9387b716213ca358e5fbb8b8f8d7c97b2cb641338b38d8ea89c9f",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/trigger.cc",
+    "local": "engine/mcu/gpsim/trigger.cc",
+    "originalSha256": "abfb8437a69ef3d31c6a402dff4db141ce5d048b14f7cf81d03be51c9b3173f4",
+    "modifiedSha256": "309c7cd00fae348c04eaa59971ef4dc1a0d2a4524de49f17984cd9588041a3b6",
+    "transformScript": "tools/port_mcus.py",
+    "changes": [
+      "Qt types and GUI callbacks replaced with standard C/C++ interfaces",
+      "Per-instance cycle/breakpoint/serial routing for gpsim",
+      "Host sleeps and debug/file endpoints removed from product",
+      "Sanitizer-verified ownership, class hierarchy and signed-shift repairs"
+    ]
+  },
+  {
+    "upstream": "src/gpsim/trigger.h",
+    "local": "engine/mcu/gpsim/trigger.h",
+    "originalSha256": "d8c65bf20edf73cf63f402d8cfb420184bf54e9fb0f694f9bf06c89a11307d3b",
+    "modifiedSha256": "d8c65bf20edf73cf63f402d8cfb420184bf54e9fb0f694f9bf06c89a11307d3b",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/value.cc",
+    "local": "engine/mcu/gpsim/value.cc",
+    "originalSha256": "d785f151cdab48b773fbcf04b8252148aeda32d2a66bf722776f426013cc13b5",
+    "modifiedSha256": "d785f151cdab48b773fbcf04b8252148aeda32d2a66bf722776f426013cc13b5",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  },
+  {
+    "upstream": "src/gpsim/value.h",
+    "local": "engine/mcu/gpsim/value.h",
+    "originalSha256": "979cff89fb64126987addedf1b624dd5fb36b7a7fe29b0747641eb3283fdca2c",
+    "modifiedSha256": "979cff89fb64126987addedf1b624dd5fb36b7a7fe29b0747641eb3283fdca2c",
+    "transformScript": "tools/port_mcus.py",
+    "changes": []
+  }
+]

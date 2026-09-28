@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Light, motion, stored energy and the occasional broken part."><title>Experiment · WireSnaps</title><link rel="stylesheet" href="site.css"></head>
+<body><a class="skip" href="#content">Skip to content</a>
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">w<span>•</span></span><span>WireSnaps<small>BIG IDEAS. LITTLE CONNECTIONS.</small></span></a><a class="play" href="../#build" target="_blank" rel="noopener">Open playground ↗</a></header>
+<div class="layout"><aside><nav aria-label="Feature guide"><a href="index.html">Feature tour</a><a href="build.html">Build &amp; rewire</a><a href="code.html">Program</a><a href="experiments.html" aria-current="page">Experiment</a><a href="projects.html">29 projects</a><a href="inside.html">Inside the engine</a><a href="rights.html">Names &amp; rights</a><a href="review.html">IP review</a></nav><p class="small-note">Independent browser playground.<br>Development milestone.</p></aside>
+<main id="content"><div class="hero"><p class="eyebrow">THE WIRESNAPS FIELD GUIDE</p><h1>Find out what changes what</h1><p>Light, motion, stored energy and the occasional broken part.</p></div>
+<nav class="on-page" aria-label="On this page"><b>On this page</b><a href="#light-you-can-see-and-darkness-a-sensor-can-feel">Light you can see, and darkness a sensor can feel</a><a href="#electricity-can-become-motion-and-motion-electricity">Electricity can become motion, and motion electricity</a><a href="#one-transistor-three-useful-jobs">One transistor, three useful jobs</a><a href="#stored-energy-one-way-paths-and-separate-circuits">Stored energy, one-way paths and separate circuits</a><a href="#virtual-breakage-lab">Virtual Breakage Lab</a><a href="#change-the-surroundings">Change the surroundings</a></nav><article><p>The most useful question is small: <strong>what happens if I change just this?</strong>
+WireSnaps connects visible light and motion to electrical observations, so you
+can compare your prediction with the circuit's response.</p>
+<h2 id="light-you-can-see-and-darkness-a-sensor-can-feel">Light you can see, and darkness a sensor can feel</h2>
+<p><a href="../?demo=battery-team#build" class="demo-launch" target="_blank" rel="noopener">Try Battery Team</a> · <a href="../?demo=npn-sensor#build" class="demo-launch" target="_blank" rel="noopener">Try NPN Night Watch</a></p>
+<p>Turn on Dark Night to see a powered bulb's warm glow and nearby light spill.
+Unpowered or failed lights emit nothing. Night also sets the simulated ambient
+sunlight to zero, affecting solar cells and light sensors; returning to daylight
+restores your sunshine setting.</p>
+<p><img src="images/night.png" alt="A powered bulb in the night environment" loading="lazy" width="1440" height="940"></p>
+<p>Light sensing currently uses the <strong>ambient environment</strong>, not a fully spatial
+optical simulation of every nearby lamp. The illumination you see is not a
+claim that arbitrary optical sensor arrangements are modelled.</p>
+<h2 id="electricity-can-become-motion-and-motion-electricity">Electricity can become motion, and motion electricity</h2>
+<p><a href="../?demo=gear-buddies#build" class="demo-launch" target="_blank" rel="noopener">Try Gear Buddies</a> · <a href="../?demo=wind-watts#build" class="demo-launch" target="_blank" rel="noopener">Try Wind Makes Watts</a></p>
+<p>The motor model includes torque, inertia, back EMF, current and winding heat.
+A motor draws extra current when it cannot turn; a spinning motor can generate
+a voltage. Rapier handles the rotor's mechanical response and returns speed to
+the electrical model on a fixed schedule.</p>
+<p>Gear Buddies has two supported gears. Watch their relative direction and speed,
+then open the switch: supplied energy stops and the gears coast down rather than
+spinning forever. Wind Makes Watts drives a generator and shows the resulting
+voltage on a meter. These are focused educational mechanisms; arbitrary gear
+trains, belts, vehicles and every construction accessory are not yet supported.</p>
+<h2 id="one-transistor-three-useful-jobs">One transistor, three useful jobs</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Collection</th>
+<th>Sensor</th>
+<th>Timer</th>
+<th>Motor control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NPN only</td>
+<td><a href="../?demo=npn-sensor#build" class="demo-launch" target="_blank" rel="noopener">Night Watch</a>: darkness turns the LED on.</td>
+<td><a href="../?demo=npn-timer#build" class="demo-launch" target="_blank" rel="noopener">Porch Timer</a>: stored charge keeps a light on after release.</td>
+<td><a href="../?demo=npn-fan#build" class="demo-launch" target="_blank" rel="noopener">Desk Fan</a>: a dial controls a fan through one NPN.</td>
+</tr>
+<tr>
+<td>PNP only</td>
+<td><a href="../?demo=pnp-sensor#build" class="demo-launch" target="_blank" rel="noopener">Sunrise Beacon</a>: daylight turns the LED on.</td>
+<td><a href="../?demo=pnp-timer#build" class="demo-launch" target="_blank" rel="noopener">Courtesy Light</a>: a brief afterglow with one PNP.</td>
+<td><a href="../?demo=pnp-fan#build" class="demo-launch" target="_blank" rel="noopener">Breeze Dial</a>: motor control from the positive side.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each example uses exactly one transistor of the stated type, with no computer
+and no opposite-type transistor. Resistors, capacitors, a sensor or a protective
+diode provide the supporting circuit. Compare B, C and E with the terminal guide
+to discover why the two transistor types respond to different base polarities.</p>
+<h2 id="stored-energy-one-way-paths-and-separate-circuits">Stored energy, one-way paths and separate circuits</h2>
+<ul>
+<li><strong>Firefly Jar:</strong> hold the button, release it and watch stored capacitor energy
+briefly feed an LED. It is an electrical transient, not an animation timer.</li>
+<li><strong>One-Way Gate:</strong> reverse a diode and compare the current and light output.</li>
+<li><strong>Relay Light Swap:</strong> a powered coil chooses between contacts in a separate
+circuit. Follow COM, NC and NO to understand the changeover.</li>
+<li><strong>NPN + PNP Team:</strong> a small signal passes through two transistor stages before
+controlling the load.</li>
+</ul>
+<h2 id="virtual-breakage-lab">Virtual Breakage Lab</h2>
+<p><strong>Simulation only — do not try these experiments with real components.</strong></p>
+<p>These four projects open paused in Experiment mode. Start deliberately, inspect
+the current and inside temperature, and watch the intended component fail.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Experiment</th>
+<th>What goes wrong</th>
+<th>What you learn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../?demo=break-bulb#build" class="demo-launch" target="_blank" rel="noopener">Filament Flash</a></td>
+<td>Excess voltage overheats a small bulb.</td>
+<td>Ratings matter; a brighter flash can end in an open filament.</td>
+</tr>
+<tr>
+<td><a href="../?demo=break-led#build" class="demo-launch" target="_blank" rel="noopener">The Missing Resistor</a></td>
+<td>Excess current damages an LED.</td>
+<td>Current needs limiting even when a circuit looks simple.</td>
+</tr>
+<tr>
+<td><a href="../?demo=break-npn#build" class="demo-launch" target="_blank" rel="noopener">One Load Too Many</a></td>
+<td>Several loads overload an NPN.</td>
+<td>A small control signal does not mean unlimited load current.</td>
+</tr>
+<tr>
+<td><a href="../?demo=break-motor#build" class="demo-launch" target="_blank" rel="noopener">The Stuck Motor</a></td>
+<td>A blocked rotor causes winding heating.</td>
+<td>Mechanical load changes electrical behavior.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Failure changes the engine's electrical model. The present failure models open
+the failed component's conducting path. Restarting power does not repair it;
+select the part and explicitly replace it. Saved projects retain the damage.</p>
+<p>Switch the same circuit to Guided mode to see intervention before predicted
+failure. Both modes use the same physical models until Guided mode pauses them.
+Thermal constants and failure thresholds include estimates: they are educational
+models, not a prediction of a particular real component's exact lifetime.</p>
+<h2 id="change-the-surroundings">Change the surroundings</h2>
+<p>Sunshine, sound level, wind and ambient temperature provide simple environmental
+inputs. Select a part to compare voltage, current, temperature and condition.
+Sound and optical environments are simplified; full radio, recording and
+proprietary sound-module behavior remains unfinished.</p>
+<p>Auto, High and Low graphics settings control rendering cost. Shadow, bloom and
+depth-of-field effects help read the scene; construction views stay sharp.
+Heavy simulation reports its actual speed instead of skipping physical time.</p>
+</article>
+<section class="next"><h2>Ready to try an idea?</h2><p>Demos open in a new tab as a personal copy. Your existing saved projects stay available.</p><a href="projects.html">Choose a project →</a></section></main></div>
+<footer><span>Original WireSnaps content · GPL-3.0-or-later</span><a href="rights.html">Names & rights</a><a href="../source/THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="../source/wiresnaps-source.tar.gz">Corresponding source</a></footer></body></html>

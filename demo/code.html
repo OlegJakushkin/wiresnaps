@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Blocks become instructions. Pins carry the result."><title>Program · WireSnaps</title><link rel="stylesheet" href="site.css"></head>
+<body><a class="skip" href="#content">Skip to content</a>
+<header><a class="brand" href="index.html"><span class="mark" aria-hidden="true">w<span>•</span></span><span>WireSnaps<small>BIG IDEAS. LITTLE CONNECTIONS.</small></span></a><a class="play" href="../#build" target="_blank" rel="noopener">Open playground ↗</a></header>
+<div class="layout"><aside><nav aria-label="Feature guide"><a href="index.html">Feature tour</a><a href="build.html">Build &amp; rewire</a><a href="code.html" aria-current="page">Program</a><a href="experiments.html">Experiment</a><a href="projects.html">29 projects</a><a href="inside.html">Inside the engine</a><a href="rights.html">Names &amp; rights</a><a href="review.html">IP review</a></nav><p class="small-note">Independent browser playground.<br>Development milestone.</p></aside>
+<main id="content"><div class="hero"><p class="eyebrow">THE WIRESNAPS FIELD GUIDE</p><h1>Give your circuit a little program</h1><p>Blocks become instructions. Pins carry the result.</p></div>
+<nav class="on-page" aria-label="On this page"><b>On this page</b><a href="#traffic-light-dance-sequence-and-timing">Traffic-Light Dance: sequence and timing</a><a href="#dial-a-glow-input-decision-output">Dial-a-Glow: input, decision, output</a><a href="#what-the-blocks-can-express">What the blocks can express</a><a href="#understand-the-boundaries">Understand the boundaries</a></nav><article><p>WireSnaps connects visual programming to <strong>real emulated processor pins</strong>. Your
+blocks cannot directly set a lamp's brightness or a motor's speed. The circuit
+still needs a power supply, a return path and appropriate components.</p>
+<p><img src="images/blocks.png" alt="Traffic-Light Dance in the Blockly editor" loading="lazy" width="1440" height="940"></p>
+<h2 id="traffic-light-dance-sequence-and-timing">Traffic-Light Dance: sequence and timing</h2>
+<p><a href="../?demo=traffic-code#build" class="demo-launch" target="_blank" rel="noopener">Open the AVR traffic-light demo</a></p>
+<ol>
+<li>Watch the three lights take turns, then open Code.</li>
+<li>The supplied loop raises a pin, waits, lowers it and moves to the next light.</li>
+<li>Change a wait value, press Send to controller, and observe the new rhythm.</li>
+</ol>
+<p><strong>What is happening:</strong> locally compiled bytecode is packaged with the AVR runtime
+firmware. The ATmega328P emulator executes it. GPIO pins switch voltage through
+the wired resistors and LEDs. Removing a resistor or supply changes the circuit
+even when the program itself has not changed.</p>
+<p><strong>Try next:</strong> make one light pause twice as long, or add a short all-off gap
+between colours. Pin names on the board and in blocks help you follow the signal.</p>
+<h2 id="dial-a-glow-input-decision-output">Dial-a-Glow: input, decision, output</h2>
+<p><a href="../?demo=dial-code#build" class="demo-launch" target="_blank" rel="noopener">Open the PIC dimmer demo</a></p>
+<p>Hold the push button and turn the dial. The PIC16F877A program reads a digital
+input and an analogue voltage, then controls the LED through a PWM output.
+Release the button to stop that output. In Code, inspect the condition and the
+sensor reading that feed the brightness command.</p>
+<p><strong>Try next:</strong> swap the branches of the condition so the light responds when the
+button is released. The button and dial are electrical inputs, not shortcuts
+that reach into the light's visual appearance.</p>
+<h2 id="what-the-blocks-can-express">What the blocks can express</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Comparison table"><table>
+<thead>
+<tr>
+<th>Blocks</th>
+<th>What they let you build</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start, sequences, repeat and forever</td>
+<td>A one-off action or a repeating pattern.</td>
+</tr>
+<tr>
+<td>Conditions and comparisons</td>
+<td>React differently to a button or measured input.</td>
+</tr>
+<tr>
+<td>Variables and arithmetic</td>
+<td>Keep a small count and combine signals.</td>
+</tr>
+<tr>
+<td>Wait and timing</td>
+<td>Make a blink, pause or paced loop.</td>
+</tr>
+<tr>
+<td>Digital input/output, ADC and PWM</td>
+<td>Sense a circuit and send electrical signals back.</td>
+</tr>
+<tr>
+<td>Serial output</td>
+<td>Inspect messages from your running program.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The workspace is saved as JSON with the project. Compilation happens in the
+browser, without a cloud service. Memory limits and invalid programs produce
+messages; source-to-block tracing highlights the relevant executing block.</p>
+<h2 id="understand-the-boundaries">Understand the boundaries</h2>
+<ul>
+<li>The verified initial targets are <strong>ATmega328P and PIC16F877A</strong>. Other imported
+processor families are not advertised as usable programming targets.</li>
+<li>Numbers currently use unsigned bytes: arithmetic wraps modulo 256. It is not a
+general-purpose desktop language.</li>
+<li>Run, Pause and simulation stepping are available. Complete block-by-block
+debugger stepping remains unfinished.</li>
+<li>Output impedance and overload matter. A controller pin is not a motor power
+supply; a suitable transistor driver is needed.</li>
+<li>Advanced users can load HEX firmware from memory for the supported profiles.
+The website does not flash a physical board or access a serial device.</li>
+</ul>
+<p><a href="inside.html">See the C++ and WebAssembly path</a> · <a href="projects.html">Explore transistor drivers</a></p>
+</article>
+<section class="next"><h2>Ready to try an idea?</h2><p>Demos open in a new tab as a personal copy. Your existing saved projects stay available.</p><a href="projects.html">Choose a project →</a></section></main></div>
+<footer><span>Original WireSnaps content · GPL-3.0-or-later</span><a href="rights.html">Names & rights</a><a href="../source/THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="../source/wiresnaps-source.tar.gz">Corresponding source</a></footer></body></html>

@@ -1,0 +1,330 @@
+[
+  {
+    "local": "engine/vendor/nlohmann/adl_serializer.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/adl_serializer.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "11fa1edc01753910dba091d4e96f5fb2a2155abb1a323548ce3dc9b169a24018"
+  },
+  {
+    "local": "engine/vendor/nlohmann/byte_container_with_subtype.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/byte_container_with_subtype.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "a67843c9de0e19ab6d28b356ec06350febe757ccb9d62b794cb02e91827bfd8a"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/conversions/from_json.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/conversions/from_json.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "12cc521ca690d5097bf1a811da82a7109e338cc32dc87ef7baa2f1b75dbc7929"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/conversions/to_chars.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/conversions/to_chars.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "c90f3568eee135b39c0fc9093c8e76d55d14eb5be0a0a9400efeb2e640395185"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/conversions/to_json.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/conversions/to_json.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "2ed86af93bcc6900585130a3be362d8c7bbdbcc47a788c17066d9d39d8ec2107"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/exceptions.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/exceptions.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "f63df2d041329d82f05448a43daa145dd7d28266b4e70621a8491e6ed2c373e2"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/hash.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/hash.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "c3df85b0e0678145b99baaf10c98291937dc25d295bc3a03bfb5c9cdc06e2442"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/binary_reader.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/binary_reader.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "b800a7f80b32d038ca64e2524c4541a7b36c1c44aa4f77334ea52a7365916192"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/input_adapters.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/input_adapters.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "e5f815c6c96a0781616af2df832de89cde3d4eac0c2585e32e04a0b8907a070b"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/json_sax.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/json_sax.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "fb4a20edf3fdcc59f830383a5816df853d0c12e038c544367e672653af2b1f7a"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/lexer.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/lexer.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "f130ad1700612f048b0d879937e843017b374b12e1cf17a5a4abaa066398b8ae"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/parser.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/parser.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "381ea6773194135dc754be65b3a92e3f0c1cb7a95d2e81e633b21f48bd483c38"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/input/position_t.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/input/position_t.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "74165b5bfc846ec864a1a925f2581954b138156412fe55ec3d777117acd344d9"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/internal_iterator.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/internal_iterator.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "ac86431bcf82d1b91e6d49124bb8a03d04837ebfdf5ef50ec72ff71995b6e79b"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/iter_impl.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/iter_impl.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "0a47b194b99f22c963ceb33f3fe637ec941b7128486ec6a234d276158551c2a2"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/iteration_proxy.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/iteration_proxy.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "208e4b039625682497efb84137bc90cf23c3bd45ebdbdeae6681cace60b3cec7"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/iterator_traits.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/iterator_traits.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "76ffa1c26019b858a89dfc1bc4c2257c9ef7232601f5f3eacf2c8148b465fcb0"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/json_reverse_iterator.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/json_reverse_iterator.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "d312900dd5cd5e8ed6ceb7bad33ed4972c9ca7e8eb8a9a682825a8894113a624"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/iterators/primitive_iterator.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/iterators/primitive_iterator.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "b9c28ded6b26f1f4a9f05a2be28c7b8f1a5ce4ee6ec10e44f1add08a4787d840"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/json_pointer.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/json_pointer.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "d6b18d22003660f33dcadaee2f57da5f995aff92b827a127a2f4241b196790db"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/json_ref.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/json_ref.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "6b58be24543d20016bf29e656b168a2349e403bb2c1d29968faecb1704a92453"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/macro_scope.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/macro_scope.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "cfcc9928b3c8cb1d7be8dc840e146c5d74868d1e8a077c496690f06e287565ca"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/macro_unscope.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/macro_unscope.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "c1752a1bda02bf6813dbeccc322d270c2934792f0d9828e7d6eb26cc545cf86a"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/call_std/begin.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/call_std/begin.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "8af4d4514fd8994c47daad0e4962e2233d349642d603b9738c2a152a79dba3ec"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/call_std/end.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/call_std/end.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "d496c413cc108d194918838f1c4f22c4820c91fd56e8684ec22638bc912738f5"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/cpp_future.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/cpp_future.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "c8ea57ed8cb7f3b4421df19c707b376092daecc4e166dab5626d2de711fec09e"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/detected.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/detected.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "47753a00f0ccfa77e1b8798a5d45f78d1677b59949083edc17193b17e6cfe47e"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/identity_tag.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/identity_tag.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "ff3cf9ed5a429c0e47a0e191426038a464f66d7cea34180e30204acb54c4f7dc"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/is_sax.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/is_sax.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "e61d51ba39415a1af6fb335db7eacd8967304566e165fe91d8d0d29f240f7af8"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/type_traits.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/type_traits.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "720d31380101c6cecdc0a3a6d7e4e332eb516cb2be698ee94ad85787ebded12c"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/meta/void_t.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/meta/void_t.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "4f4920f2a4a6e01aca3c6e67f23bc95488ea4a5659c240d4bedb4e4653c09037"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/output/binary_writer.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/output/binary_writer.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "ca3f44113749e4c13b6d0cb5f437132726ff9c515df50d09d675d19bd15826cf"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/output/output_adapters.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/output/output_adapters.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "40b264badf502dbea29591e2b2c40af51c8059bfa9ba2e4f9b8b763c4ebdf651"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/output/serializer.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/output/serializer.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "1ee543573c19b73918c427e4d61011d49d73fe74c94ced7fd94ad2451a73163c"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/string_escape.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/string_escape.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "9dcac101923af37532865f9b04552e54093f21e46b98f4fc0ceb615f2f91384c"
+  },
+  {
+    "local": "engine/vendor/nlohmann/detail/value_t.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/detail/value_t.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "24fef9cdccad9a593db17e366f6e5f97f759ab80748771da9f9533bc2ef90fe4"
+  },
+  {
+    "local": "engine/vendor/nlohmann/json.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/json.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "7262f190c3a2f2bb334236b3b74acaa1ac1ffb72920c4654bcaf02a7db1a4ec0"
+  },
+  {
+    "local": "engine/vendor/nlohmann/json_fwd.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/json_fwd.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "f72caa6116635d2a5e644d292f2df742deeca0b2515ea73a530723d3814abb5e"
+  },
+  {
+    "local": "engine/vendor/nlohmann/ordered_map.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/ordered_map.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "9dcd7ae8d310f725fb31755dc51c18c9104086628c48b1f5343a6f40a2e18ba9"
+  },
+  {
+    "local": "engine/vendor/nlohmann/thirdparty/hedley/hedley.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/thirdparty/hedley/hedley.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "f64ebead5217e6521cc34a78d66ccc2e2bad1ccb2c284d9cff0ea78f78115956"
+  },
+  {
+    "local": "engine/vendor/nlohmann/thirdparty/hedley/hedley_undef.hpp",
+    "origin": "https://github.com/nlohmann/json/tree/v3.10.5/include/nlohmann/thirdparty/hedley/hedley_undef.hpp",
+    "version": "3.10.5",
+    "license": "MIT",
+    "changes": [],
+    "sha256": "17e28db134fd4d5e2127967850ee485aafb79f57583c0b3d092dac244ec3c67f"
+  }
+]
