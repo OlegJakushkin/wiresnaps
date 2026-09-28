@@ -1,0 +1,16 @@
+export default {
+ brand:'WireSnaps',tagline:'A little spark of discovery',build:'Build',code:'Code',projects:'Projects',
+ run:'Run',pause:'Pause',step:'One step',parts:'Your parts',search:'Find a part…',all:'All parts',
+ guide:'Your little guide',ready:'Ready for a little discovery?',guided:'Guided',experiment:'Experiment',
+ save:'Save project',export:'Download',import:'Open a project',top:'Top view',layers:'See layers',home:'Home view',
+ undo:'Undo',redo:'Redo',rotate:'Rotate',duplicate:'Make a copy',remove:'Remove',repair:'Replace part',
+ join:'Join snaps',cancel:'Cancel',place:'Click the board to place it',selected:'On your workbench',
+ what:'What does it do?',needs:'What does it need?',try:'Something to try',surroundings:'Around your circuit',
+ light:'Sunshine',sound:'Sound',wind:'Wind',temperature:'Room temperature',
+ modelNote:'These are educational models. Unpublished values are estimates. Real parts can behave differently.',
+ experimentNote:'Virtual parts can break here. A broken part stays broken until you replace it.',
+ guidedNote:'We will pause before a part gets too much energy.',
+ empty:'Pick a part to discover what it does.',help:'Drag parts to move them · R rotates · Delete removes · Scroll to zoom',
+ projectsIntro:'Little projects. Big “I made it!” moments.',
+ local:'Saved on this device',version:'Workbench preview · catalogue audit in progress',
+};

@@ -1,0 +1,989 @@
+[
+  {
+    "upstream": "src/simulator/circmatrix.cpp",
+    "local": "engine/derived/circmatrix.cpp",
+    "originalSha256": "320c8924b2d1b24d4b60a1f9bf7d8aa5336104de8afbf0dbaaade80aa3bd04b5",
+    "modifiedSha256": "468b1ec9e6444d5836e8fe329ba7c6b00c2a46df7fbcd2f8e9021b8530f54220",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/circmatrix.h",
+    "local": "engine/derived/circmatrix.h",
+    "originalSha256": "329446c29e343356332574780a00e0cbf1765dc2cb6f5a8d7a37289d22df553a",
+    "modifiedSha256": "653a3c53a1d6dc88ab62dd5a8f7b075ade916316d2f8e0f3e2b6b3b35d6bb0f8",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-element.cpp",
+    "local": "engine/derived/e-element.cpp",
+    "originalSha256": "8082614b088cbe39ff39a698802ab4e0b9b3f4d0e08109bcae8cecddfeea84d8",
+    "modifiedSha256": "b346d003e8db3473279a65aa1ba9c217a2d905bbceda9c87ac32154849a8b9ac",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-element.h",
+    "local": "engine/derived/e-element.h",
+    "originalSha256": "a6d5f2470b0f752e87305b9e8ee0684f5e07dacf44a1004b50bf7e4db2fb1b25",
+    "modifiedSha256": "19f31d35a82260e436c73ef3aba54484cccae1b9bc8166b802eab7ccad567b90",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-node.cpp",
+    "local": "engine/derived/e-node.cpp",
+    "originalSha256": "98d1df71e176dfb255a8a2d5113d001417acf44b0fabb44bfa699e69c711e3ca",
+    "modifiedSha256": "7d549e2754badf11427ac068632b6a11c5059d35a62cad36b14572074756fa37",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-node.h",
+    "local": "engine/derived/e-node.h",
+    "originalSha256": "3ba01407c55274d5ef9a469482d70cee8198b6df1b0aa9c4c2c48c6626613b34",
+    "modifiedSha256": "ddaef4f691ebdf42eb04672d5319cf6d80c1ada4e3c24b37a507c2cacdbee3eb",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-pin.cpp",
+    "local": "engine/derived/e-pin.cpp",
+    "originalSha256": "524ae6f1d3062f9b1f53308d4a8ffc8699d9bea93b0fccdcee6fcf872d439f57",
+    "modifiedSha256": "bbc3ffadd1a8a05509fbeec5679ee779b436577dc43ad16a72eb9fead324381d",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-pin.h",
+    "local": "engine/derived/e-pin.h",
+    "originalSha256": "1204e9527e786fa1b93a3714d5d34419a9077fe20a10d873702211b511b2a57d",
+    "modifiedSha256": "9beb0d068932e8e4e63aa6c8072eb35f6c6872bbc949a4ee0903b0a509733a66",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-source.cpp",
+    "local": "engine/derived/e-source.cpp",
+    "originalSha256": "88ad5edc17bdac73cfe6cebc63380a9538eec5383b49fb9226c142b52c29ccef",
+    "modifiedSha256": "5af118369d4a9ca27699f9063c81edfb2cea6c6be249e57dfd7a5ff87987fe6e",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/e-source.h",
+    "local": "engine/derived/e-source.h",
+    "originalSha256": "4e445d51256711737e06436387985e44b4b9d01a489f1ed74ada58af8a6f5ca1",
+    "modifiedSha256": "77b3fa6e5bc4a19712ab16b05a05dfbb01462cef89f08c337c1a11b001fe21ed",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-bjt.cpp",
+    "local": "engine/derived/elements/active/e-bjt.cpp",
+    "originalSha256": "0bdd03f086e0dd30e3710c8f5b0a3bd0af6d648d821da4cb5640863b90d384f2",
+    "modifiedSha256": "6c19d79df2e6e10f3d7c12e858668e6e584700fdf574bad8d7b59c083f90ec5b",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration",
+      "deterministic three-terminal Norton Jacobian of upstream BJT gain/saturation equations; emitter-lead feedback and controlled-source current accounting",
+      "Exact zero-current cutoff clears relaxed Norton stamps; avoids invented floating collector voltage on switch release. Covered by native/WASM LED cutoff and template switch regressions."
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-bjt.h",
+    "local": "engine/derived/elements/active/e-bjt.h",
+    "originalSha256": "1b43cd42c9e2a1456680aa731b67401c22c18fe3910f0c48b3860d77581c0b30",
+    "modifiedSha256": "e231069e017436e2a29a4c206da6340e205317ce143b3628f214198b8528d68e",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration",
+      "deterministic three-terminal Norton Jacobian of upstream BJT gain/saturation equations; emitter-lead feedback and controlled-source current accounting"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-diode.cpp",
+    "local": "engine/derived/elements/active/e-diode.cpp",
+    "originalSha256": "82c3ed17c27daf882e315d3a4b5f998d14262074ac1fe166d31fc999529c7070",
+    "modifiedSha256": "1992473f468af09924398df11a536abe8869e515f414cca061e6dca97820a089",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-diode.h",
+    "local": "engine/derived/elements/active/e-diode.h",
+    "originalSha256": "2cdbfed6cfc23541ddbe599efee8ff729c2da82fa888231e0e1ccb47676147be",
+    "modifiedSha256": "e43a88050da4b0ae72c54b24c64b1a537e14e59528abeac2884d63a57f737263",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-mosfet.cpp",
+    "local": "engine/derived/elements/active/e-mosfet.cpp",
+    "originalSha256": "b6646997b29a215759b37f8d65c23c3745ba90e2563927ff4f971564226ab241",
+    "modifiedSha256": "f565f68f24eff76500620dec9115afcba78a57368d9fec9283c1c8a293cd6300",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-mosfet.h",
+    "local": "engine/derived/elements/active/e-mosfet.h",
+    "originalSha256": "afa4f2ed493fa5cdcc77236f5fab27c18249dd1ee0f458c4ef9203be2c74e742",
+    "modifiedSha256": "e835e4a3524e5872607812033af9b59df490655f8a503c106a530bd79ff94b4a",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-mux_analog.cpp",
+    "local": "engine/derived/elements/active/e-mux_analog.cpp",
+    "originalSha256": "ad4c9ea1742727d474170f6a2df0b98013bf6802abc0c0e07496b412fe6e93fd",
+    "modifiedSha256": "623d8b1a9e8624b35760300d88c9f68e3cf9db8e6fef3aa883985c985a6bd4ff",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-mux_analog.h",
+    "local": "engine/derived/elements/active/e-mux_analog.h",
+    "originalSha256": "4c337398ddf6908f5f878b1f0925f630f64f9b2e3ec258f76d0b2faa92271739",
+    "modifiedSha256": "18f608ee4251d50d3840a42f01036d5304df245af8f7a25110a985443da35aeb",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-op_amp.cpp",
+    "local": "engine/derived/elements/active/e-op_amp.cpp",
+    "originalSha256": "ec1a21c68a276a2d1bcd94b4490f0a20e5d9a3b495bbd892d8a9fdf0f4c7417a",
+    "modifiedSha256": "c8aaeff8134477328174f7570dc16054c7c8cae9eae91e53452b920c7ecb5d43",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-op_amp.h",
+    "local": "engine/derived/elements/active/e-op_amp.h",
+    "originalSha256": "33040b386b3226728c4ce542d8c20b53ac46781c2bbe8c5c4fce23cf4c4b106b",
+    "modifiedSha256": "afad099ac1d5089fbeb991f3488c10821053a5a456685d2e8a93d536496e7951",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-volt_reg.cpp",
+    "local": "engine/derived/elements/active/e-volt_reg.cpp",
+    "originalSha256": "9cedae3a2f5306331e73e01c4eb8a149b0742a945917eca2c6fb905e24b48d35",
+    "modifiedSha256": "dc94530a677360972e26dc68490bdf5752d322b4aecc5f13aa75dba95a87069c",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/active/e-volt_reg.h",
+    "local": "engine/derived/elements/active/e-volt_reg.h",
+    "originalSha256": "b65af41f348920a80213b3fe212d3c49ec800b534ce757e16d7b4811eae5e326",
+    "modifiedSha256": "764585f5c9a6092c80ef56a97c0b34fc269f5ca3eb4f2f2b6bc3182de1cfdeb1",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/e-logic_device.cpp",
+    "local": "engine/derived/elements/e-logic_device.cpp",
+    "originalSha256": "81cb3c9f9f8bb929870aed80c83e0d5e8f25a5a3e6ae4f827ee8becd3bd92169",
+    "modifiedSha256": "78114ae5d8e1bf0a0a89d611e892762685e8d9661c9e1aeaf716f7afb4b8e584",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/e-logic_device.h",
+    "local": "engine/derived/elements/e-logic_device.h",
+    "originalSha256": "7c4fc85571e1a5af4815bc0a8b8b537f56d08ce1b9e489a0fb83a3be4fe2fe5e",
+    "modifiedSha256": "a12c249118c67c36a3c0639c49154e59fc7f9adf100ffc97052e83f10b89e824",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/e-pn.cpp",
+    "local": "engine/derived/elements/e-pn.cpp",
+    "originalSha256": "a1535b0e4089ca715714d5dcb51433cc83355b31954396e8e79af756b166c0de",
+    "modifiedSha256": "04d4d7278eb7120962f02819045eb17ce35c4ad3118c08d933091e259231e7ce",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/e-pn.h",
+    "local": "engine/derived/elements/e-pn.h",
+    "originalSha256": "1f0bb70d5e3bf6572eec28b51f767637671fd5b91ee049860a2b71eaf39b01de",
+    "modifiedSha256": "f0570f007e04f6c3c1a9595d97c7a4a577711a30aa50ebeb1a7920960dc48336",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-adc.cpp",
+    "local": "engine/derived/elements/logic/e-adc.cpp",
+    "originalSha256": "952f5275696b03b1af070b4d7e87f2de581f9f2553b633649386dbf9ee386999",
+    "modifiedSha256": "c29b47e0327a3bfe541fc6e2e4a8a65a08d0f098397d7ae3c13dc79b79f0ac88",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-adc.h",
+    "local": "engine/derived/elements/logic/e-adc.h",
+    "originalSha256": "db13478e4e6905daedb0810bb7c5d8c1b39ea87977f96eeb804f3a37832d192c",
+    "modifiedSha256": "5371c0820eb38adba43e59780def9035a45099efaeb7bd75e2bab73afd079ae4",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bcdto7s.cpp",
+    "local": "engine/derived/elements/logic/e-bcdto7s.cpp",
+    "originalSha256": "0422938f57808f2055823d0ecb33c080a2e81336bc418aeab45841ce903a2045",
+    "modifiedSha256": "2d12f49103a36cd6dbaff8ff03f1f08aa34747503722e63dc59efb1c9b52d0f0",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bcdto7s.h",
+    "local": "engine/derived/elements/logic/e-bcdto7s.h",
+    "originalSha256": "f9aa9b9d2de600c7a91732da56d6f3ddf72087bb3cf965960e5856e5dfea4d98",
+    "modifiedSha256": "ba4355b39e52233cf353c22612e10708019ac0e9b9322636139b4a7dc3f7f37d",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bcdtodec.cpp",
+    "local": "engine/derived/elements/logic/e-bcdtodec.cpp",
+    "originalSha256": "f732ee162a77d895be4a6cf6da75945f78e39e93300a9657446232467ba0a80b",
+    "modifiedSha256": "b24cf7b4bff19ac7597a82c51bc27fd9c4da44430eea28881c338a0ea702fd21",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bcdtodec.h",
+    "local": "engine/derived/elements/logic/e-bcdtodec.h",
+    "originalSha256": "b48c5a3848cd07ee1cc327229d09846071b642332b44437862a635eb082aa4c4",
+    "modifiedSha256": "d2f453237a541cd1db253474c959d93b110792696bdcbe1d81020f556af2f7a5",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bincounter.cpp",
+    "local": "engine/derived/elements/logic/e-bincounter.cpp",
+    "originalSha256": "15979d4c5d05cb7dffcdf134e91a653d865149c90b3967f26d149dd46971c081",
+    "modifiedSha256": "9bb9208054e95432b083505e543f15f11e0915f87332f980c723dfe971ddd448",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bincounter.h",
+    "local": "engine/derived/elements/logic/e-bincounter.h",
+    "originalSha256": "15e575ed76457f8d59d32cd6687ce7b5940af7534352b246f147a08097ae8130",
+    "modifiedSha256": "cf9deb1a4e146baa26d86b297db2c669f72ef278697ba9e8d769fd4bc1ad5731",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bus.cpp",
+    "local": "engine/derived/elements/logic/e-bus.cpp",
+    "originalSha256": "fcb7d2702c79c9ceee9ecbfadf12079545409e5995207e1fb947f8dc28364b37",
+    "modifiedSha256": "1bf6e02613aa6a9bc9fb1111fabf73d583aaf8ea1d894e93e7608103140f9cdc",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-bus.h",
+    "local": "engine/derived/elements/logic/e-bus.h",
+    "originalSha256": "ffe339d1aa303b293bf6ba2cda269a088bb90b00e0d3c9937c0cf05971f20dd3",
+    "modifiedSha256": "ad6ee7e80f980e27e7e9c0adaaac94ee107b8636366d60b5e81c6def8afa6d35",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-clock.cpp",
+    "local": "engine/derived/elements/logic/e-clock.cpp",
+    "originalSha256": "ab610ed671c67224c08553e440b4d9d189aabf2dacd5341f6b993854e89f1134",
+    "modifiedSha256": "ba3a01ddac6db4bd4b01fb37a7a3d6a464dd6741a5b7566bbc2eba7ec492a69b",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-clock.h",
+    "local": "engine/derived/elements/logic/e-clock.h",
+    "originalSha256": "efd566e3af6e74040b725dad0f7403b490d621bdb258c4032757f8dcc5f327b8",
+    "modifiedSha256": "4f18b0c5b973fb5d59db486f5d108902e34ba5907c8c79dd2dd7c35882836dfa",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-dac.cpp",
+    "local": "engine/derived/elements/logic/e-dac.cpp",
+    "originalSha256": "da4bd435efb035df83a38ddaa29dd38ed9ba3d9296bae27499c5b2f006371ef5",
+    "modifiedSha256": "be890d1df6b216e42bd1c7974176c591fa0b9606bd061d11575c6a18f5343337",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-dac.h",
+    "local": "engine/derived/elements/logic/e-dac.h",
+    "originalSha256": "8a444adffa2aea646796cc5ab99ea7cf43475fa6d13426c76d444b3f3533d0f9",
+    "modifiedSha256": "154982b0f7deabae26736a18fc52212892717fe08c498163e2b6c0629569a913",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-dectobcd.cpp",
+    "local": "engine/derived/elements/logic/e-dectobcd.cpp",
+    "originalSha256": "4e313534a0c32bcd5d61cbe34c5976b52be60e36d824a6c655bffb5227de5394",
+    "modifiedSha256": "f3b60e7f994a240f3f196b814b9f2d203f73044997fc8dd67fec998232dc86eb",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-dectobcd.h",
+    "local": "engine/derived/elements/logic/e-dectobcd.h",
+    "originalSha256": "5cfb19956077268838dae48a584a14df7f9b7f53e2884a8c4a5ea5918c498d5b",
+    "modifiedSha256": "099d0ed07b728511f496f802c862a5fe006778b88c5d6f7fef518e52a6f31485",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-demux.cpp",
+    "local": "engine/derived/elements/logic/e-demux.cpp",
+    "originalSha256": "a9f9daa4480c02d2f6a134f1998d38149fad8f529bf1509ed773c1e2a4c18cea",
+    "modifiedSha256": "3910d2f70991f4db6e4f7f80d8b28dc7c1435644bd0341438e3d6e3cfd44d2b4",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-demux.h",
+    "local": "engine/derived/elements/logic/e-demux.h",
+    "originalSha256": "15753203fb61445fe56c6836d17d083be9a811d2f7a3525f1069b4a995975fcf",
+    "modifiedSha256": "2ccd6719546adba890fbbebed9172352d18717a01e835d4971f2de913da0233c",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-flipflopd.cpp",
+    "local": "engine/derived/elements/logic/e-flipflopd.cpp",
+    "originalSha256": "798de15b2719a161c358845e24bae861e52fb190a43f5e8652a0e17b3dc5cfe1",
+    "modifiedSha256": "7a442abb0316b4ac808b77ed1f92274e5d8b70179bef033160c602d7062c08f7",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-flipflopd.h",
+    "local": "engine/derived/elements/logic/e-flipflopd.h",
+    "originalSha256": "c9080e4e2f7a11f2e8b464d91a60e82a6000be88358d9bc9697e7a8b46b1236b",
+    "modifiedSha256": "91d58602b045cee1f4badd486ccb6873c3e5ddf8b1d392f0fe642cc0f0833b86",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-flipflopjk.cpp",
+    "local": "engine/derived/elements/logic/e-flipflopjk.cpp",
+    "originalSha256": "19e8805e3bebee958c244dcd0efce6fc10283599203bb5022cd1fbd867f9590f",
+    "modifiedSha256": "3dff0255aec811dc5e23e2cb190382638b987302fa5c1f378e835865cdc3afb9",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-flipflopjk.h",
+    "local": "engine/derived/elements/logic/e-flipflopjk.h",
+    "originalSha256": "fa2f8e505668169b4aa856f29c66948f4a272a564e82c138f3ce3c0d920888eb",
+    "modifiedSha256": "f95e182fb580a5f0c0fd0d4c8169b045ff65168af9c3461de8a407d4c7c059ed",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-fulladder.cpp",
+    "local": "engine/derived/elements/logic/e-fulladder.cpp",
+    "originalSha256": "c25eb1b43ce8c5dfa5f1aec262ce73b3b4ed0f763a71f6348851c4847ceaa4f8",
+    "modifiedSha256": "4dc67c79bd761fd9751a81083fd6954c08cb55551f5d03bae25543f81cbfe127",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-fulladder.h",
+    "local": "engine/derived/elements/logic/e-fulladder.h",
+    "originalSha256": "f8f3362aefb4bfd4cd2d178c6d9058dca6a34f60d77caad518154df404a635e6",
+    "modifiedSha256": "cc6749413ff1fa6f95c7e622e529f58a881c5df08ed571239e6320ce389288d8",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-function.cpp",
+    "local": "engine/derived/elements/logic/e-function.cpp",
+    "originalSha256": "a47be536764bc4b85c62b69ac956117d1f5614dbbb710060142e43603468340a",
+    "modifiedSha256": "786d14ad73af5dd993f39ea0e809d04ceebd6003b132082bf5fb19675f04e223",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-function.h",
+    "local": "engine/derived/elements/logic/e-function.h",
+    "originalSha256": "67938960a01a7e99c8281b89fc9497e40922f4b0c1cf5b4c267182caddd4077e",
+    "modifiedSha256": "27fa24a9fde143501eb0bf26a2451847b566cbe4a7466911ab63b4fd2dcd8890",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate.cpp",
+    "local": "engine/derived/elements/logic/e-gate.cpp",
+    "originalSha256": "bd4c54755cb4571a095c7732bcadaeb46568bd2c95d3d7a0a97d31aff769f002",
+    "modifiedSha256": "6aa1c8fd7c547e8c1bbb3d1ac4b78147cd16820fb016b6d64efcb02e51e08203",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate.h",
+    "local": "engine/derived/elements/logic/e-gate.h",
+    "originalSha256": "48a822cafd26aaeff0e6c633870ba3feae0c4e0def9680f1bf81a8a0f20dd3c0",
+    "modifiedSha256": "d61e84b0dacb29369dfae7b36d604d76c4f5d763a8383b0d9f22be0d384f8a21",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate_or.cpp",
+    "local": "engine/derived/elements/logic/e-gate_or.cpp",
+    "originalSha256": "43c24e9ce0a7189ad30e30679182d3b524f7cddada02435fc955fa65863f6232",
+    "modifiedSha256": "b6dbd8d0f3cd586db1bb884bbca0ea7838ec07609e9f8503c64a87cc6d1e2ba6",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate_or.h",
+    "local": "engine/derived/elements/logic/e-gate_or.h",
+    "originalSha256": "091b303a183809dd8571bf00133d4867d53b2f0e71d9a2d43292df34140b3be7",
+    "modifiedSha256": "8d1274ae2469ae76ed9d00d8e9e505617fd4ed459bf3a94aaec688ed5b6e37fd",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate_xor.cpp",
+    "local": "engine/derived/elements/logic/e-gate_xor.cpp",
+    "originalSha256": "f6fb548fcd6e4efe518e7d9a217f2924d7a9164c3f13ee1a1e0841204c4f7f37",
+    "modifiedSha256": "4a515993e572461d2f145bcd263a1e0ce844b2ab6d5bd6428775194ef8e109c6",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-gate_xor.h",
+    "local": "engine/derived/elements/logic/e-gate_xor.h",
+    "originalSha256": "c81b4538f1471887c237b2db58ced8beb32c3407b96fe65e7ab36664130e7819",
+    "modifiedSha256": "9acbf051a7d2000680169347affada37eb81eb987c2dad2d6bdedd6a44eee9f6",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-i2c.cpp",
+    "local": "engine/derived/elements/logic/e-i2c.cpp",
+    "originalSha256": "67bc3c741c95207aa87740e0e1debef26ad838211c1172fcbc7e494074d26cf9",
+    "modifiedSha256": "625c409cbb93ab31b0cbb2430947f12cf4e83e645e3e3910f67e380635ee4a38",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-i2c.h",
+    "local": "engine/derived/elements/logic/e-i2c.h",
+    "originalSha256": "cf53acc0150634741ec934241caed89841bcd80e6aad1c04a9fc50558db0c312",
+    "modifiedSha256": "19b3af381fe036ff257a7d097106c245f169636c9011207d42f0cbc883f75d41",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-latch_d.cpp",
+    "local": "engine/derived/elements/logic/e-latch_d.cpp",
+    "originalSha256": "4151ecf8ccb1997afd63a9d49ff71274cb6f91c2d113f604b7f98a02ac7cbf01",
+    "modifiedSha256": "f040763a5ed85cc81e448c50540818b7283b301f505f13ca252e877fc4708518",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-latch_d.h",
+    "local": "engine/derived/elements/logic/e-latch_d.h",
+    "originalSha256": "8d5ed5313e70bb71f19842d50b1e8495f608ce8bef6937ade7705549151519e6",
+    "modifiedSha256": "c2c9a882ef74bc6c40d3a6dc6afe6e66f20518a47524f7de27de628fc8f4e5f6",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-lm555.cpp",
+    "local": "engine/derived/elements/logic/e-lm555.cpp",
+    "originalSha256": "2f005ad8a9d257764e30d332081b127a4812643a8a8c7be09919766463a09338",
+    "modifiedSha256": "d1c6252faa0c45f56d48b1ca93f501afed4f3892d187fa029a6d0b19beb6e1c7",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-lm555.h",
+    "local": "engine/derived/elements/logic/e-lm555.h",
+    "originalSha256": "b05a181580a7cfd04bb042c5cbff637a268ed7149fcce8f9ffa273b960c9099c",
+    "modifiedSha256": "f00e6069eb87161d136c53aeea022cd5d6f26acd283f7fbdf71b715f85f14ef0",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-memory.cpp",
+    "local": "engine/derived/elements/logic/e-memory.cpp",
+    "originalSha256": "35a177b32043462f439954790358b7deb3c56c265f637286d37bbb04e86ed0d4",
+    "modifiedSha256": "f5b62457f0c30dbae9883cacd880d71103bc1c835725d22d8bd1298a5226fdbb",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-memory.h",
+    "local": "engine/derived/elements/logic/e-memory.h",
+    "originalSha256": "ff152feca4d7069711d4b36052a6ff5f4b9d3672090a7eb4d6cd4c8540ed44d5",
+    "modifiedSha256": "436e356b549aa0ebb6cd9b36502af357048489c86064f7b1958dac7598e78e95",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-mux.cpp",
+    "local": "engine/derived/elements/logic/e-mux.cpp",
+    "originalSha256": "e41e026ca7afcbe209b26c030f0690b93cf56aeb2a73650e1232147b4714075a",
+    "modifiedSha256": "8a315f5bc2fef69194f33bc2f13fb6b6c2146dda7be1ef2024b247525cc776a5",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-mux.h",
+    "local": "engine/derived/elements/logic/e-mux.h",
+    "originalSha256": "0e626db6aecd9f5e69650163e8452b215632596b4887eb7f8dc94b8963433ed0",
+    "modifiedSha256": "ebf8913136dc0223ce9d2455abada72a19c8708b3e461b0b8b2f71d5f67a18db",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-shiftreg.cpp",
+    "local": "engine/derived/elements/logic/e-shiftreg.cpp",
+    "originalSha256": "40c98cfed1d8f63b40360960ebef95dee917cf2700e68feeaef3a0018832dba5",
+    "modifiedSha256": "322b71fee6cf7b66497d10dd52c8a368cccf07703525dc9e22e21843425c5716",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/logic/e-shiftreg.h",
+    "local": "engine/derived/elements/logic/e-shiftreg.h",
+    "originalSha256": "2b3ca8084c232b1896307a3d19897f0840664d3ebe0199ea5d44caf74a272a4b",
+    "modifiedSha256": "9de7ef10d21689fcf1371040a20374783be39c522bd64fc4e503ed1847a07b87",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/outputs/e-led.cpp",
+    "local": "engine/derived/elements/outputs/e-led.cpp",
+    "originalSha256": "d983181682edaf82e6510962fdfef192e7ee32af3b4452e6ffaf74352cb78bb4",
+    "modifiedSha256": "6c01f5842f0a9dd74538e987478871b144a96505052d45925d98597df423b4b2",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/outputs/e-led.h",
+    "local": "engine/derived/elements/outputs/e-led.h",
+    "originalSha256": "eaf3e097e696612a5cab487bafabc7ae24ba51b733b8cd77ede1a40e309124ee",
+    "modifiedSha256": "a50f94c46b51e3ff39f1b8f3a5972ddaf08bb5cebc42fcd7a57f1cd46fb29b05",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-capacitor.cpp",
+    "local": "engine/derived/elements/passive/e-capacitor.cpp",
+    "originalSha256": "b5d908fd24d88782a8a0cedd635e6a6bda635f94bba028c7a48bbaee4359de4b",
+    "modifiedSha256": "e5d9b45e8bb3c8f08aaac1a628f9d59ff8cc5cfc3421d6b9ddcf1390de043c29",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-capacitor.h",
+    "local": "engine/derived/elements/passive/e-capacitor.h",
+    "originalSha256": "38e111a031630ec330491ff406b56effe2523049b54b6bce7b725105a522addf",
+    "modifiedSha256": "286b19c6a8a595909cc069322718996d7e227b2215f6410a2cc2f640b017797d",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-inductor.cpp",
+    "local": "engine/derived/elements/passive/e-inductor.cpp",
+    "originalSha256": "2cf804bb7ff090768ad995ed5769b6112fa3ae319ddf63fbf61918bd70a59748",
+    "modifiedSha256": "e66a036db4f516cefb13fcd8a6c7c4a655756561852711f292c2df42ef4135b8",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-inductor.h",
+    "local": "engine/derived/elements/passive/e-inductor.h",
+    "originalSha256": "2cd662a62d444b407bafb4e28fd9cc3f9a10b9475895ca8e45e107f7c25687d6",
+    "modifiedSha256": "3243d9f52970bf253c798a2c9af7c22b3abe3c908593c4ea1edba537f420ae1c",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-resistor.cpp",
+    "local": "engine/derived/elements/passive/e-resistor.cpp",
+    "originalSha256": "3b16592ccab332053bc24879fda959fce6a9fbaa79f5343712012bba110a2850",
+    "modifiedSha256": "0554b8509c1c9b6eeff4e7adbea5d6ff522164dd614bf8ac2d8de57d2b1e82c8",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-resistor.h",
+    "local": "engine/derived/elements/passive/e-resistor.h",
+    "originalSha256": "7d8a9c2dda93ab2f42decfd7935a43fa6ad74d25a03654a5309cc3bc8e437c8a",
+    "modifiedSha256": "5ed78ee9eb938b4e8a8956d746730dee39ff45cdd00a7085e434d9e83af44d22",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-resistordip.cpp",
+    "local": "engine/derived/elements/passive/e-resistordip.cpp",
+    "originalSha256": "bcf1866f557dc0db9701717be1cb485d6db9cb597db4c249cac8a57de2ad2ed1",
+    "modifiedSha256": "98a9676a5833f42298ade603b95e28d659f52ecef950514bc2b51cc024231128",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/elements/passive/e-resistordip.h",
+    "local": "engine/derived/elements/passive/e-resistordip.h",
+    "originalSha256": "38e4e1ebdd44e2b5b51bab2e40bdc1d352f191c615f5207afcf8708449d82711",
+    "modifiedSha256": "e27decb918c0f2c7d13ead595b4508afc8b90b873ab068e5b29597ed20bd734e",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/matrixsolver.cpp",
+    "local": "engine/derived/matrixsolver.cpp",
+    "originalSha256": "7ba10c797d8858e92ba9b5f4ba56a1712250969332bf9bb5f56ed2b6713a97a2",
+    "modifiedSha256": "e83014edfb93a81314fb01d10eadc367d795cec20a28a23e190cdbe720f56695",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  },
+  {
+    "upstream": "src/simulator/matrixsolver.h",
+    "local": "engine/derived/matrixsolver.h",
+    "originalSha256": "dac0a33a4d1ef3f907743ad8db28980edf279a1c13d324164b31c28e3b367f8f",
+    "modifiedSha256": "3f7b2b29dbfe77fdc2bce0c4fe6e517436c8ee09d9d1fb7238338fef9e800194",
+    "changes": [
+      "standard-library types",
+      "explicit simulation ownership",
+      "desktop calls removed",
+      "deterministic stepping integration"
+    ]
+  }
+]

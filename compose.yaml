@@ -1,0 +1,10 @@
+services:
+  preview:
+    image: node:22-bookworm-slim@sha256:d649c27dae7ba0137b3cef5dd75baa422c08dc3d9e3fc0c23dfb172dc3cc6436
+    working_dir: /workspace
+    volumes:
+      - ./export/site:/workspace/site:ro
+      - ./tools/static-server.mjs:/workspace/static-server.mjs:ro
+    ports:
+      - "127.0.0.1:4173:4173"
+    command: ["node", "static-server.mjs", "site"]

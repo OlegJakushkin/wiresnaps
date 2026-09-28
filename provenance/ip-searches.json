@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-09-28",
+  "scope": "Preliminary US/UK/EU screening, not legal clearance",
+  "method": "Public registry interfaces inspected with Chromium inside Docker; no security checks bypassed",
+  "searches": [
+    {
+      "source": "USPTO Trademark Search",
+      "url": "https://tmsearch.uspto.gov/",
+      "field": "Wordmark",
+      "query": "WireSnaps",
+      "result": "No results found",
+      "completeSimilarityReview": false
+    },
+    {
+      "source": "USPTO Trademark Search",
+      "url": "https://tmsearch.uspto.gov/search/search-results/75910403",
+      "field": "Wordmark",
+      "query": "WireSnap",
+      "resultCount": 1,
+      "mark": "WIRESNAP",
+      "serialNumber": "75910403",
+      "registrationNumber": null,
+      "filedOn": "2000-01-28",
+      "displayedStatus": "DEAD ABANDONED",
+      "displayedStatusDate": "2001-07-17",
+      "class": "038",
+      "servicesSummary": "Wireless digital messaging and internet broadcasting",
+      "ownerName": "WireSnap Partners",
+      "limitation": "An abandoned application does not establish cessation of use or absence of common-law rights"
+    },
+    {
+      "source": "USPTO Trademark Search",
+      "url": "https://tmsearch.uspto.gov/",
+      "field": "Wordmark",
+      "query": "\"Wire Snaps\"",
+      "resultCount": 2567,
+      "limitation": "Broad token results, not a strict phrase result; not reviewed for clearance"
+    },
+    {
+      "source": "EUIPO-coordinated TMview",
+      "url": "https://www.tmdn.org/tmview/#/tmview/results?page=1&pageSize=30&criteria=C&basicSearch=WireSnaps",
+      "field": "Trade mark name",
+      "matchMode": "Contains",
+      "query": "WireSnaps",
+      "officeAndTerritoryFilters": "Interface defaults",
+      "result": "No rows found",
+      "limitation": "TMview is not an official register and its information has no legal effect; fuzzy and territory-specific searches incomplete"
+    },
+    {
+      "source": "UK IPO",
+      "url": "https://trademarks.ipo.gov.uk/ipo-tmtext/start",
+      "intendedQuery": "WireSnaps",
+      "result": "Not queried: security check blocked automated access",
+      "bypassed": false
+    }
+  ]
+}
